@@ -48,7 +48,7 @@ class Main:
             self.setting.settings()
         print()
         save_bdd(self.collection, self.db)
-        main_menu()
+        self.main_menu()
     
     def load_preset(self, name):
         with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
