@@ -1,33 +1,99 @@
 import random
 import csv
+from settings import *
+from cartes import *
 
+class Main:
+    def __init__(self):
+        self.setting = Settings()
+        self.collection = Collection()
+        self.setting.set_main(self)
+        self.db = ""
+        self.preset_name = ""
+    
+    def start(self):
+        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+            reader = csv.reader(csvfile)
+            if sum(1 for line in csvfile) > 1:
+                menu = input("Would you like to load or create a preset ? (1 or 2)\n")
+                if menu == "1":
+                    with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+                        reader = csv.reader(csvfile)
+                        next(reader)
+                        for row in reader:
+                            print(row[0] + "\n")
+                        return self.load_preset(input("Choose the preset you want to load\n"))
+                else :
+                    self.create_preset()
+            else :
+                print("No existing preset found\n")
+                self.create_preset()
+        self.main_menu()
+    
+    def main_menu(self):
+        bdd = load_bdd(self.db)
+        self.collection.update(bdd)
+        menu = input("Souhaitez-vous tirer une carte ou aller dans les paramètres ? (1 ou 2)\n")
+        if menu == "1":
+            deck = tirage_aleatoire(self.collection, self.setting)
+            deck.affiche()
+            win = int(input("Combien de tour avez vous détruites ? "))
+            loose = int(input("Combien de vos tours ont été détruites ? "))
+            if win - loose < 0:
+                score = win - (loose * (1 - 0.1 * win ))
+            else:
+                score = win - loose
+            deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
+        elif menu == "2" :
+            self.setting.settings()
+        print()
+        save_bdd(self.collection, self.db)
+        main_menu()
+    
+    def load_preset(self, name):
+        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader) 
+            for row in reader:
+                if row[0] == name :
+                    self.preset_name = name
+                    self.db = row[2]
+                    self.setting.m_elixir = float(row[1])
+                    print(f"\"{name}\" Successfully loaded !\n")
+                    return self.main_menu()
+        print(f"\"{name}\" Didn't load")
+        return self.start()
+
+    def create_preset(self):
+        name = input("How would you like to call your new preset ?\n")
+        db_name = "./databases/" + name + ".csv"
+        self.setting.change_avg_elixir()
+        ban = ""
+        with open(db_name, 'w') as f:
+            writer = csv.writer(f)
+        bdd = load_bdd()
+        self.collection.update(bdd)
+        save_bdd(self.collection, db_name)
+        self.db = db_name
+        self.preset_name = name
+        with open("./static/presets.csv", 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow([name, str(self.setting.m_elixir), db_name, ban])
 
 class Collection:
     def __init__(self):
         self.collection = []
-        self.banlist = []
     
     def ajoutecarte(self, nom, ratio, heros, elixir):
         for carte in self.collection:
             if carte.nom == nom:
                 return
-        self.collection.append(Carte(nom,ratio,heros, elixir))
+        self.collection.append(Carte(nom, ratio, heros, elixir))
     
     def update(self, bdd):
         for carte in bdd:
-            self.ajoutecarte(carte[0],carte[1],carte[2], carte[3])
+            self.ajoutecarte(carte[0], carte[1], carte[2], carte[3])
         
-    def exclusion(self):
-        print("choisis la carte à bannir :")
-        for carte in self.collection:
-            if carte not in self.banlist:
-                print(carte.nom)
-        ban = input()
-        for carte in self.collection:
-            if carte.nom == ban:
-                self.banlist.append(carte)
-                return
-
     def total_score(self):
         score = 0
         for carte in self.collection:
@@ -41,11 +107,12 @@ class Deck:
     def __init__(self,banlist=[]):
         self.deck = []
         self.banlist= banlist
+        self.maxi = 0
     
     def plein(self):
         return len(self.deck) == 8
     
-    def ajoute_carte(self,carte):
+    def ajoute_carte(self, carte):
         if self.plein():
             return
         if carte.heros:
@@ -80,11 +147,29 @@ class Deck:
         for carte in self.deck:
             if len(carte.nom) > maxi:
                 maxi = len(carte.nom)
-        return maxi
+        self.maxi = maxi
     
     def affiche(self):
+        string = ""
+        index = 0
+        separator = ["/", "|", "|", "|", "\\\n\\", "|", "|", "|", "/"]
+        self.plus_caractere()
         if self.plein():
-            print(f"/{self.deck[0].nom} | {self.deck[1].nom} | {self.deck[2].nom} | {self.deck[3].nom}\ \n\{self.deck[4].nom} | {self.deck[5].nom} | {self.deck[6].nom} | {self.deck[7].nom}/")
+            for i in range(8):
+                string += separator[i]
+                middle = round((self.maxi + 2 - len(self.deck[index].nom))/2)
+                if len(self.deck[index].nom) < self.maxi :
+                    if (self.maxi - len(self.deck[index].nom)) % 2 == 0:
+                        string += " " * middle + str(self.deck[index].nom) + " " * middle
+                    elif middle > (self.maxi + 2 - len(self.deck[index].nom))/2 :
+                        string += " " * (middle - 1) + str(self.deck[index].nom) + " " * middle
+                    else :
+                        string += " " * middle + str(self.deck[index].nom) + " " * (middle + 1)
+                else :
+                    string += " " + str(self.deck[index].nom) + " "
+                index += 1
+            string += separator[i + 1] + "\n"
+            print(string)
 
     def avg_elixir(self):
         nb = 0
@@ -97,22 +182,9 @@ class Deck:
         else:
             return 0
 
-class Carte:
-    def __init__(self,nom, ratio, heros, elixir):
-        self.nom = nom
-        self.ratio = ratio
-        self.heros = heros
-        self.elixir = elixir
-    
-    def ajoutescore(self,score):
-        if self.ratio+score >= 1:
-            self.ratio += score
-        else :
-            self.ratio = 1
-
-def load_bdd():
+def load_bdd(filename = "static/base_de_donnee.csv"):
     liste = []
-    with open("base_de_donnee.csv", newline='', encoding="utf-8") as csvfile:
+    with open(filename, newline='', encoding="utf-8") as csvfile:
         reader = csv.reader(csvfile)
         next(reader) 
         for row in reader:
@@ -122,15 +194,15 @@ def load_bdd():
                 liste.append([row[0],float(row[1]),True, int(row[3])])
     return liste
 
-def save_bdd(collection, filename="base_de_donnee.csv"):
+def save_bdd(collection, filename="static/base_de_donnee.csv"):
     with open(filename, "w", newline='', encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["nom", "ratio", "heros", "elixir"])
         for carte in collection.collection:
             writer.writerow([carte.nom, carte.ratio, str(carte.heros), carte.elixir])
 
-def tirage_aleatoire(collection):
-    deck = Deck(collection.banlist)
+def tirage_aleatoire(collection, setting):
+    deck = Deck(setting.banlist)
     pool = collection.collection[:]
     while not deck.plein():
         carte = random.choices(pool, weights=[c.ratio for c in pool], k=1)[0]
@@ -139,34 +211,5 @@ def tirage_aleatoire(collection):
     return deck
 
 input("Bonjour bienvenue dans le tirage aléatoire intelligent de deck clash royale ! (appuyez sur entrée)")
-c = Collection()
-m_elixir = 3.5
-while True :
-    bdd = load_bdd()
-    c.update(bdd)
-    menu = input("souhaitez vous tirer, exclure une carte ou aller dans les paramètres ? (1, 2 ou 3)")
-    if menu == "2":
-        c.exclusion()
-    elif menu == "1":
-        deck = tirage_aleatoire(c)
-        deck.affiche()
-        win = int(input("Combien de tour avez vous détruites?"))
-        loose = int(input("Combien de vos tours ont étés détruites ?"))
-        if win - loose < 0:
-            score = win - (loose * (1 - 0.1 * win ))
-        else :
-            score = win - loose
-        deck.gagne(score, c.avg_score(), m_elixir)
-    elif menu == "3" :
-        print("\n Menu des paramètres :\n1 - moyenne elixir\n(sélectionnez le numéro correspondant au paramètre désiré)")
-        param = input()
-        if param == "1":
-            print("\nvers quelle valeur voulez vous que la moyenne du coût d'elixir tende ? \n(de base = 3.5)")
-            m_elixir = float(input())
-            if m_elixir < 0:
-                m_elixir = -m_elixir
-            if m_elixir > 7.1:
-                m_elixir = 7.1
-            print("La moyenne tendra donc vers : ", m_elixir)
-    print()
-    save_bdd(c)
+app = Main()
+app.start()
