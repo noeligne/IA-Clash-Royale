@@ -17,12 +17,7 @@ class Main:
             if sum(1 for line in csvfile) > 1:
                 menu = input("Would you like to load or create a preset ? (1 or 2)\n")
                 if menu == "1":
-                    with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
-                        reader = csv.reader(csvfile)
-                        next(reader)
-                        for row in reader:
-                            print(row[0] + "\n")
-                        return self.load_preset(input("Choose the preset you want to load\n"))
+                    self.load_preset()
                 else :
                     self.create_preset()
             else :
@@ -50,7 +45,13 @@ class Main:
         save_bdd(self.collection, self.db)
         self.main_menu()
     
-    def load_preset(self, name):
+    def load_preset(self):
+        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader)
+            for row in reader:
+                print(row[0] + "\n")
+            name = input("Choose the preset you want to load\n")
         with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
@@ -59,6 +60,10 @@ class Main:
                     self.preset_name = name
                     self.db = row[2]
                     self.setting.m_elixir = float(row[1])
+                    try:
+                        self.setting.heros = float(row[4])
+                    except:
+                        self.setting.heros = 1
                     print(f"\"{name}\" Successfully loaded !\n")
                     return self.main_menu()
         print(f"\"{name}\" Didn't load")
@@ -68,6 +73,7 @@ class Main:
         name = input("How would you like to call your new preset ?\n")
         db_name = "./databases/" + name + ".csv"
         self.setting.change_avg_elixir()
+        self.setting.heros_slot()
         ban = ""
         with open(db_name, 'w') as f:
             writer = csv.writer(f)
@@ -78,7 +84,23 @@ class Main:
         self.preset_name = name
         with open("./static/presets.csv", 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow([name, str(self.setting.m_elixir), db_name, ban])
+            writer.writerow([name, str(self.setting.m_elixir), db_name, ban, self.setting.heros])
+    
+    def save_preset(self):
+        local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, "", self.setting.heros]]
+        with open("./static/presets.csv", "r", newline='', encoding="utf-8") as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader) 
+            for row in reader:
+                if row[0] != local_save[0][0]:
+                    preset = row
+                    local_save.append(preset)
+        with open("./static/presets.csv", "w", newline='', encoding="utf-8") as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(["name", "avg_elixir", "db_name", "banned_cards", "heros_slot"])
+            for preset in local_save:
+                writer.writerow(preset)
+        print(f"{self.preset_name} Successfully saved !\n")
 
 class Collection:
     def __init__(self):
@@ -104,10 +126,12 @@ class Collection:
         return self.total_score() / len(self.collection)
 
 class Deck:
-    def __init__(self,banlist=[]):
+    def __init__(self, setting):
         self.deck = []
-        self.banlist= banlist
+        self.banlist= setting.banlist
         self.maxi = 0
+        self.heros = 0
+        self.setting = setting
     
     def plein(self):
         return len(self.deck) == 8
@@ -116,17 +140,19 @@ class Deck:
         if self.plein():
             return
         if carte.heros:
-            for c in self.deck:
-                if c.heros:
-                    return
+            if self.heros == self.setting.heros:
+                return
         if carte in self.deck:
             return
         if carte in self.banlist:
             return
+        if carte.heros:
+            self.heros += 1
         self.deck.append(carte)
     
     def vide_deck(self):
         self.deck = []
+        self.heros = 0
     
     def gagne(self, score, avg_score, m_elixir):
         coeff = score
@@ -202,7 +228,7 @@ def save_bdd(collection, filename="static/base_de_donnee.csv"):
             writer.writerow([carte.nom, carte.ratio, str(carte.heros), carte.elixir])
 
 def tirage_aleatoire(collection, setting):
-    deck = Deck(setting.banlist)
+    deck = Deck(setting)
     pool = collection.collection[:]
     while not deck.plein():
         carte = random.choices(pool, weights=[c.ratio for c in pool], k=1)[0]
