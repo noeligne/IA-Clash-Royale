@@ -12,7 +12,7 @@ class Main:
         self.preset_name = ""
     
     def start(self):
-        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             if sum(1 for line in csvfile) > 1:
                 menu = input("Would you like to load or create a preset ? (1 or 2)\n")
@@ -46,7 +46,7 @@ class Main:
         self.main_menu()
     
     def load_preset(self):
-        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader)
             for row in reader:
@@ -72,8 +72,8 @@ class Main:
     def create_preset(self):
         name = input("How would you like to call your new preset ?\n")
         db_name = "./databases/" + name + ".csv"
-        self.setting.change_avg_elixir()
-        self.setting.heros_slot()
+        self.setting.change_avg_elixir(True)
+        self.setting.heros_slot(True)
         ban = ""
         with open(db_name, 'w') as f:
             writer = csv.writer(f)

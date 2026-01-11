@@ -8,19 +8,20 @@ class Settings:
     def set_main(self, main):
         self.main = main
     
-    def change_avg_elixir(self):
+    def change_avg_elixir(self, start = False):
         try :
             print(f"\nvers quelle valeur voulez vous que la moyenne du coût d'elixir tende ? \n(de base = 3.5, actuelle: {self.m_elixir})")
             m_elixir = float(input())
         except :
-            return self.change_avg_elixir()
+            return self.change_avg_elixir(start)
         if m_elixir < 0:
             m_elixir = -m_elixir
         if m_elixir > 7.1:
             m_elixir = 7.1
         print(f"La moyenne tendra donc vers: {m_elixir}\n")
         self.m_elixir = m_elixir
-        self.modified_set()
+        if not start :
+            self.modified_set()
     
     def settings(self):
         print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Nombre de cases héros\n4 - Change preset\n5 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
@@ -43,16 +44,17 @@ class Settings:
                 self.banlist.append(carte)
                 return
     
-    def heros_slot(self):
+    def heros_slot(self, start = False):
         try :
             self.heros = int(input(f"How much Hero slot do you have ? (currently: {self.heros})\n"))
         except :
-            print("\nInvalid input")
+            self.heros_slot(start)
         if self.heros > 2 :
             self.heros = 2
         if self.heros < 0:
             self.heros = 0
-        self.modified_set()
+        if not start :
+            self.modified_set()
     
     def modified_set(self):
         s = input("Do you want to save the modified preset ? (y/n)\n")
