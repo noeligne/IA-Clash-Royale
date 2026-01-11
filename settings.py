@@ -33,16 +33,36 @@ class Settings:
             print("Invalid input")
             return self.settings()
     
-    def exclusion(self):
-        print("choisis la carte à bannir :")
-        for carte in self.main.collection.collection:
-            if carte not in self.banlist:
-                print(carte.nom)
-        ban = input()
-        for carte in self.main.collection.collection:
-            if carte.nom == ban:
-                self.banlist.append(carte)
-                return
+    def exclusion(self, start = False):
+        if not start:
+            print("choisis la carte à bannir :")
+            for carte in self.main.collection.collection:
+                if carte not in self.banlist:
+                    print(carte.nom)
+            ban = input()
+            for carte in self.main.collection.collection:
+                if carte.nom == ban:
+                    self.banlist.append(carte)
+                    self.modified_set()
+                    return
+        else :
+            for ban in start:
+                for carte in self.main.collection.collection:
+                    if carte.nom == ban:
+                        self.banlist.append(carte)
+                        print(f"\"{carte.nom}\" card successfully banned")
+            print()
+            return
+            
+    def get_banned_cars_str(self):
+        string = ""
+        for card in range(len(self.banlist)):
+            if card != len(self.banlist) + 1:
+                string += str(self.banlist[card].nom) + " "
+            else :
+                string += str(self.banlist[card].nom)
+        print(string)
+        return string
     
     def heros_slot(self, start = False):
         try :

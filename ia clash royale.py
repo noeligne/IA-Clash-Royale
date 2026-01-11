@@ -52,18 +52,26 @@ class Main:
             for row in reader:
                 print(row[0] + "\n")
             name = input("Choose the preset you want to load\n")
-        with open("static\presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
             for row in reader:
                 if row[0] == name :
                     self.preset_name = name
                     self.db = row[2]
+                    self.collection.update(load_bdd(self.db))
+                    print("Database loaded succesfully\n")
+                    if row[3] != "":
+                        self.setting.exclusion(row[3].split())
+                    else:
+                        self.setting.banlist = row[3]
                     self.setting.m_elixir = float(row[1])
+                    print(f"Average elixir set to {self.setting.m_elixir}")
                     try:
                         self.setting.heros = float(row[4])
                     except:
                         self.setting.heros = 1
+                    print(f"Heros slots set to {self.setting.heros}\n")
                     print(f"\"{name}\" Successfully loaded !\n")
                     return self.main_menu()
         print(f"\"{name}\" Didn't load")
@@ -87,7 +95,7 @@ class Main:
             writer.writerow([name, str(self.setting.m_elixir), db_name, ban, self.setting.heros])
     
     def save_preset(self):
-        local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, "", self.setting.heros]]
+        local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, self.setting.get_banned_cars_str(), self.setting.heros]]
         with open("./static/presets.csv", "r", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
