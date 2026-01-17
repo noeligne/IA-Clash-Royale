@@ -63,7 +63,7 @@ class Main:
                     self.collection.update(load_bdd(self.db))
                     print("Database loaded succesfully\n")
                     if row[3] != "":
-                        self.setting.exclusion(row[3].split())
+                        self.setting.exclusion(row[3].split(";"))
                     else:
                         self.setting.banlist = []
                     self.setting.m_elixir = float(row[1])

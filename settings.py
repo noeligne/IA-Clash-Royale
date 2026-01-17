@@ -51,6 +51,7 @@ class Settings:
                 return self.exclusion()
         else :
             for ban in start:
+                print(ban)
                 for carte in self.main.collection.collection:
                     if carte.nom == ban:
                         self.banlist.append(carte)
@@ -76,7 +77,7 @@ class Settings:
         string = ""
         for card in range(len(self.banlist)):
             if card != len(self.banlist) + 1:
-                string += str(self.banlist[card].nom) + " "
+                string += str(self.banlist[card].nom) + ";"
             else :
                 string += str(self.banlist[card].nom)
         print(string)
