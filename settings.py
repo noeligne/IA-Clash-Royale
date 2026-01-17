@@ -51,7 +51,6 @@ class Settings:
                 return self.exclusion()
         else :
             for ban in start:
-                print(ban)
                 for carte in self.main.collection.collection:
                     if carte.nom == ban:
                         self.banlist.append(carte)

@@ -170,7 +170,10 @@ class Deck:
                 ecart_avg_elixir = m_elixir - self.avg_elixir()
                 if ecart_avg_elixir < 0:
                     ecart_avg_elixir *= -1
-                coeff = score * (1 + ((avg_score - carte.ratio) / avg_score)) * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2)
+                ratio_percentage = (1 + ((avg_score - carte.ratio) / avg_score))
+                if ratio_percentage <= 0:
+                    ratio_percentage = 0.01
+                coeff = score * ratio_percentage * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2) * 1.2
             else :
                 coeff = score * (1 + ((carte.ratio - avg_score) / avg_score))
             carte.ajoutescore(coeff)
