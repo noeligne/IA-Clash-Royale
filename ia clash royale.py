@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import random
 import csv
 from settings import *
@@ -64,7 +65,7 @@ class Main:
                     if row[3] != "":
                         self.setting.exclusion(row[3].split())
                     else:
-                        self.setting.banlist = row[3]
+                        self.setting.banlist = []
                     self.setting.m_elixir = float(row[1])
                     print(f"Average elixir set to {self.setting.m_elixir}")
                     try:

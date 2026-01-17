@@ -24,8 +24,8 @@ class Settings:
             self.modified_set()
     
     def settings(self):
-        print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Nombre de cases héros\n4 - Change preset\n5 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
-        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.heros_slot, 4 : self.main.load_preset, 5 : self.main.main_menu}
+        print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Réinclure une carte\n4 - Nombre de cases héros\n5 - Change preset\n6 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
+        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.main.main_menu}
         try:
             param = int(input())
             menu[param]()
@@ -43,8 +43,12 @@ class Settings:
             for carte in self.main.collection.collection:
                 if carte.nom == ban:
                     self.banlist.append(carte)
+                    if (input("Would you like to ban another card ? (y/n)\n") == "y"):
+                        return self.exclusion()
                     self.modified_set()
                     return
+            if (input("I did not find the card you searched for, do you want to exit ? (y/n)\n") == "n"):
+                return self.exclusion()
         else :
             for ban in start:
                 for carte in self.main.collection.collection:
@@ -53,7 +57,21 @@ class Settings:
                         print(f"\"{carte.nom}\" card successfully banned")
             print()
             return
-            
+    
+    def inclusion(self):
+        if self.banlist == []:
+            print("You don't have any banned cards")
+            return
+        for carte in self.banlist:
+            print(carte.nom)
+        unban = input("Which card do you want to unban ?\n")
+        for carte in range(len(self.banlist)):
+            if unban == self.banlist[carte].nom:
+                del(self.banlist[carte])
+                print(f"{unban} Successfully unbanned")
+                self.modified_set()
+                return
+
     def get_banned_cars_str(self):
         string = ""
         for card in range(len(self.banlist)):
