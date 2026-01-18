@@ -175,7 +175,7 @@ class Deck:
                     ratio_percentage = 0.01
                 coeff = score * ratio_percentage * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2) * 1.2
             else :
-                coeff = score * (1 + ((carte.ratio - avg_score) / avg_score))
+                coeff = score * (1 + ((carte.ratio - avg_score) / avg_score)) * 0.75
             carte.ajoutescore(coeff)
 
     def plus_caractere(self):
