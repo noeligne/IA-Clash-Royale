@@ -115,24 +115,32 @@ class Collection:
     def __init__(self):
         self.collection = []
     
-    def ajoutecarte(self, nom, ratio, heros, elixir):
+    def ajoutecarte(self, nom, ratio, heros, elixir, level):
         for carte in self.collection:
             if carte.nom == nom:
                 return
-        self.collection.append(Carte(nom, ratio, heros, elixir))
+        self.collection.append(Carte(nom, ratio, heros, elixir, level))
     
     def update(self, bdd):
         for carte in bdd:
-            self.ajoutecarte(carte[0], carte[1], carte[2], carte[3])
+            self.ajoutecarte(carte[0], carte[1], carte[2], carte[3], carte[4])
         
     def total_score(self):
         score = 0
         for carte in self.collection:
-            score += carte.ratio
+            if not carte.banned:
+                score += carte.ratio
         return score
     
+    def len_collection(self):
+        c = 0
+        for carte in self.collection:
+            if not carte.banned:
+                c += 1
+        return c
+    
     def avg_score(self):
-        return self.total_score() / len(self.collection)
+        return self.total_score() / self.len_collection()
 
 class Deck:
     def __init__(self, setting):
@@ -173,9 +181,9 @@ class Deck:
                 ratio_percentage = (1 + ((avg_score - carte.ratio) / avg_score))
                 if ratio_percentage <= 0:
                     ratio_percentage = 0.01
-                coeff = score * ratio_percentage * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2) * 1.2
+                coeff = score * ratio_percentage * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2) * 1.2 * (carte.level / 16)
             else :
-                coeff = score * (1 + ((carte.ratio - avg_score) / avg_score)) * 0.75
+                coeff = score * (1 + ((carte.ratio - avg_score) / avg_score)) * 0.75 * (carte.level / 16)
             carte.ajoutescore(coeff)
 
     def plus_caractere(self):
@@ -219,6 +227,12 @@ class Deck:
             return elixir / nb
         else:
             return 0
+def save_bdd(collection, filename="static/base_de_donnee.csv"):
+    with open(filename, "w", newline='', encoding="utf-8") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["nom", "ratio", "heros", "elixir", "level"])
+        for carte in collection.collection:
+            writer.writerow([carte.nom, carte.ratio, str(carte.heros), carte.elixir, carte.level])
 
 def load_bdd(filename = "static/base_de_donnee.csv"):
     liste = []
@@ -227,23 +241,16 @@ def load_bdd(filename = "static/base_de_donnee.csv"):
         next(reader) 
         for row in reader:
             if row[2] == "False":
-                liste.append([row[0],float(row[1]),False, int(row[3])])
+                liste.append([row[0],float(row[1]),False, int(row[3]), int(row[4])])
             else:
-                liste.append([row[0],float(row[1]),True, int(row[3])])
+                liste.append([row[0],float(row[1]),True, int(row[3]), int(row[4])])
     return liste
-
-def save_bdd(collection, filename="static/base_de_donnee.csv"):
-    with open(filename, "w", newline='', encoding="utf-8") as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(["nom", "ratio", "heros", "elixir"])
-        for carte in collection.collection:
-            writer.writerow([carte.nom, carte.ratio, str(carte.heros), carte.elixir])
 
 def tirage_aleatoire(collection, setting):
     deck = Deck(setting)
     pool = collection.collection[:]
     while not deck.plein():
-        carte = random.choices(pool, weights=[c.ratio for c in pool], k=1)[0]
+        carte = random.choices(pool, weights = [c.ratio for c in pool], k=1)[0]
         deck.ajoute_carte(carte)
         pool.remove(carte)
     return deck

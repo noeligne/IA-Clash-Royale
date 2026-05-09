@@ -24,8 +24,8 @@ class Settings:
             self.modified_set()
     
     def settings(self):
-        print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Réinclure une carte\n4 - Nombre de cases héros\n5 - Change preset\n6 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
-        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.main.main_menu}
+        print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Réinclure une carte\n4 - Nombre de cases héros\n5 - Change preset\n6 - Changer le niveau d'une carte\n7 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
+        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.change_level, 7 : self.main.main_menu}
         try:
             param = int(input())
             menu[param]()
@@ -43,6 +43,7 @@ class Settings:
             for carte in self.main.collection.collection:
                 if carte.nom == ban:
                     self.banlist.append(carte)
+                    carte.banned = True
                     if (input("Would you like to ban another card ? (y/n)\n") == "y"):
                         return self.exclusion()
                     self.modified_set()
@@ -54,6 +55,7 @@ class Settings:
                 for carte in self.main.collection.collection:
                     if carte.nom == ban:
                         self.banlist.append(carte)
+                        carte.banned = True
                         print(f"\"{carte.nom}\" card successfully banned")
             print()
             return
@@ -67,6 +69,7 @@ class Settings:
         unban = input("Which card do you want to unban ?\n")
         for carte in range(len(self.banlist)):
             if unban == self.banlist[carte].nom:
+                self.banlist[carte].banned = False
                 del(self.banlist[carte])
                 print(f"{unban} Successfully unbanned")
                 self.modified_set()
@@ -93,6 +96,25 @@ class Settings:
             self.heros = 0
         if not start :
             self.modified_set()
+    
+    def change_level(self):
+        for carte in self.main.collection.collection:
+            if carte not in self.banlist:
+                print(f"{carte.nom} : lvl {carte.level}")
+        change = input("Which card do you what to edit ?\n")
+        for carte in self.main.collection.collection:
+            if carte.nom == change:
+                try :
+                    carte.level = int(input("Which level do you want to set for this card ?\n"))
+                    print(f"{carte.nom} level successfully set to {carte.level}")
+                    if (input("Would you like to change another card ? (y/n)\n") == "y"):
+                        return self.change_level()
+                    return
+                except:
+                    if (input("The input is incorrect, do you want to exit ?\n") == "n"):
+                        return self.change_level()
+        if (input("I did not find the card you searched for, do you want to exit ? (y/n)\n") == "n"):
+            return self.change_level()
     
     def modified_set(self):
         s = input("Do you want to save the modified preset ? (y/n)\n")
