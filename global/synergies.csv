@@ -1,0 +1,243 @@
+card1,card2,win,lose
+chevaucheur de cochon,gobelin a sarbacane,1,1
+chevaucheur de cochon,cabane de barbares,1,0
+chevaucheur de cochon,golem de glace,2,1
+chevaucheur de cochon,mineur,1,0
+chevaucheur de cochon,fut a barbare,3,0
+chevaucheur de cochon,gobelins,1,0
+chevaucheur de cochon,squelette geant,2,0
+gobelin a sarbacane,cabane de barbares,1,0
+gobelin a sarbacane,golem de glace,1,0
+gobelin a sarbacane,mineur,1,0
+gobelin a sarbacane,fut a barbare,1,0
+gobelin a sarbacane,gobelins,1,0
+gobelin a sarbacane,squelette geant,1,0
+cabane de barbares,golem de glace,1,1
+cabane de barbares,mineur,1,0
+cabane de barbares,fut a barbare,1,0
+cabane de barbares,gobelins,1,0
+cabane de barbares,squelette geant,1,0
+golem de glace,mineur,1,0
+golem de glace,fut a barbare,1,0
+golem de glace,gobelins,1,0
+golem de glace,squelette geant,1,0
+mineur,fut a barbare,1,1
+mineur,gobelins,1,1
+mineur,squelette geant,1,1
+fut a barbare,gobelins,1,1
+fut a barbare,squelette geant,2,1
+gobelins,squelette geant,1,1
+belier de combat,cage gobeline,1,1
+belier de combat,esprit de glace,1,0
+belier de combat,squelettes,1,0
+belier de combat,sorciere,1,0
+belier de combat,golem de glace,1,1
+belier de combat,chevaucheur de cochon,1,1
+belier de combat,valkyrie,1,0
+cage gobeline,esprit de glace,1,0
+cage gobeline,squelettes,1,0
+cage gobeline,sorciere,1,0
+cage gobeline,golem de glace,1,1
+cage gobeline,chevaucheur de cochon,1,1
+cage gobeline,valkyrie,1,0
+esprit de glace,squelettes,1,0
+esprit de glace,sorciere,1,0
+esprit de glace,golem de glace,1,0
+esprit de glace,chevaucheur de cochon,1,0
+esprit de glace,valkyrie,1,0
+squelettes,sorciere,1,0
+squelettes,golem de glace,1,0
+squelettes,chevaucheur de cochon,1,0
+squelettes,valkyrie,1,0
+sorciere,golem de glace,1,0
+sorciere,chevaucheur de cochon,1,0
+sorciere,valkyrie,1,0
+golem de glace,valkyrie,1,1
+chevaucheur de cochon,valkyrie,1,0
+valkyrie,fut a gobelin,0,1
+valkyrie,esprit de feu,0,1
+valkyrie,machine volante,0,1
+valkyrie,gargouille,0,1
+valkyrie,gobelin a lance,0,1
+valkyrie,cabane de barbares,0,1
+fut a gobelin,golem de glace,0,1
+fut a gobelin,esprit de feu,0,1
+fut a gobelin,machine volante,0,1
+fut a gobelin,gargouille,0,1
+fut a gobelin,gobelin a lance,0,1
+fut a gobelin,cabane de barbares,0,1
+golem de glace,esprit de feu,0,1
+golem de glace,machine volante,0,1
+golem de glace,gargouille,0,1
+golem de glace,gobelin a lance,0,1
+esprit de feu,machine volante,0,1
+esprit de feu,gargouille,0,1
+esprit de feu,gobelin a lance,0,1
+esprit de feu,cabane de barbares,0,1
+machine volante,gargouille,0,1
+machine volante,gobelin a lance,0,1
+machine volante,cabane de barbares,0,1
+gargouille,gobelin a lance,0,1
+gargouille,cabane de barbares,0,1
+gobelin a lance,cabane de barbares,0,1
+prince tenebreux,electrocution,1,0
+prince tenebreux,dragon squelettes,1,0
+prince tenebreux,fut a gobelin,2,0
+prince tenebreux,mini p.e.k.k.a,2,0
+prince tenebreux,pierre tombale,1,0
+prince tenebreux,tour a bombe,1,0
+prince tenebreux,gobelins,1,0
+electrocution,dragon squelettes,1,0
+electrocution,fut a gobelin,1,0
+electrocution,mini p.e.k.k.a,1,0
+electrocution,pierre tombale,1,0
+electrocution,tour a bombe,1,0
+electrocution,gobelins,1,1
+dragon squelettes,fut a gobelin,1,0
+dragon squelettes,mini p.e.k.k.a,1,0
+dragon squelettes,pierre tombale,1,0
+dragon squelettes,tour a bombe,1,0
+dragon squelettes,gobelins,1,0
+fut a gobelin,mini p.e.k.k.a,2,0
+fut a gobelin,pierre tombale,1,0
+fut a gobelin,tour a bombe,1,0
+fut a gobelin,gobelins,1,0
+mini p.e.k.k.a,pierre tombale,1,0
+mini p.e.k.k.a,tour a bombe,1,0
+mini p.e.k.k.a,gobelins,1,0
+pierre tombale,tour a bombe,1,0
+pierre tombale,gobelins,1,0
+tour a bombe,gobelins,1,0
+archeres,mega gargouille,2,0
+archeres,tour de l'enfer,1,0
+archeres,fut a barbare,2,0
+archeres,prince,1,0
+archeres,cabane de gobelin,2,0
+archeres,chevaucheur de cochon,2,0
+archeres,prince tenebreux,2,0
+mega gargouille,tour de l'enfer,1,0
+mega gargouille,fut a barbare,2,0
+mega gargouille,prince,1,0
+mega gargouille,cabane de gobelin,1,0
+mega gargouille,chevaucheur de cochon,2,0
+mega gargouille,prince tenebreux,1,0
+tour de l'enfer,fut a barbare,1,0
+tour de l'enfer,prince,1,0
+tour de l'enfer,cabane de gobelin,1,0
+tour de l'enfer,chevaucheur de cochon,1,1
+tour de l'enfer,prince tenebreux,1,0
+fut a barbare,prince,1,1
+fut a barbare,cabane de gobelin,1,0
+fut a barbare,prince tenebreux,1,0
+prince,cabane de gobelin,1,0
+prince,chevaucheur de cochon,1,0
+prince,prince tenebreux,1,0
+cabane de gobelin,chevaucheur de cochon,1,0
+cabane de gobelin,prince tenebreux,2,0
+chevaucheur de cochon,prince tenebreux,1,0
+prince,squelette geant,0,1
+prince,fleche,0,1
+prince,guerrisseuse armee,0,1
+prince,electrocution,0,1
+prince,mineur,0,1
+prince,gobelins,0,1
+fut a barbare,fleche,0,1
+fut a barbare,guerrisseuse armee,0,1
+fut a barbare,electrocution,0,1
+squelette geant,fleche,0,1
+squelette geant,guerrisseuse armee,0,1
+squelette geant,electrocution,0,1
+fleche,guerrisseuse armee,0,1
+fleche,electrocution,0,1
+fleche,mineur,0,1
+fleche,gobelins,0,1
+guerrisseuse armee,electrocution,0,1
+guerrisseuse armee,mineur,0,1
+guerrisseuse armee,gobelins,0,1
+electrocution,mineur,0,1
+mega gargouille,gargouille,1,0
+mega gargouille,sorcier,1,0
+mega gargouille,chauves-souris,1,0
+mega gargouille,squelette geant,1,0
+gargouille,sorcier,1,0
+gargouille,chauves-souris,1,0
+gargouille,squelette geant,1,0
+gargouille,fut a barbare,1,0
+gargouille,chevaucheur de cochon,1,0
+gargouille,archeres,1,0
+sorcier,chauves-souris,1,1
+sorcier,squelette geant,1,0
+sorcier,fut a barbare,1,0
+sorcier,chevaucheur de cochon,1,1
+sorcier,archeres,1,0
+chauves-souris,squelette geant,1,0
+chauves-souris,fut a barbare,1,0
+chauves-souris,chevaucheur de cochon,1,2
+chauves-souris,archeres,1,0
+squelette geant,archeres,1,0
+tour de l'enfer,golem de glace,0,1
+tour de l'enfer,foudre,0,1
+tour de l'enfer,cage gobeline,0,1
+tour de l'enfer,belier de combat,0,1
+tour de l'enfer,fleche,0,1
+tour de l'enfer,chauves-souris,0,1
+golem de glace,foudre,0,1
+golem de glace,fleche,0,1
+golem de glace,chauves-souris,0,1
+foudre,cage gobeline,0,1
+foudre,belier de combat,0,1
+foudre,fleche,0,1
+foudre,chevaucheur de cochon,0,1
+foudre,chauves-souris,0,1
+cage gobeline,fleche,0,1
+cage gobeline,chauves-souris,0,1
+belier de combat,fleche,0,1
+belier de combat,chauves-souris,0,1
+fleche,chevaucheur de cochon,0,1
+fleche,chauves-souris,0,1
+guerrisseuse armee,gobelin a sarbacane,0,1
+guerrisseuse armee,berserker,0,1
+guerrisseuse armee,chevaucheur de cochon,0,1
+guerrisseuse armee,fut a gobelin,0,1
+guerrisseuse armee,sorcier,0,1
+guerrisseuse armee,barbares,0,1
+guerrisseuse armee,chauves-souris,0,1
+gobelin a sarbacane,berserker,0,1
+gobelin a sarbacane,fut a gobelin,0,1
+gobelin a sarbacane,sorcier,0,1
+gobelin a sarbacane,barbares,0,1
+gobelin a sarbacane,chauves-souris,0,1
+berserker,chevaucheur de cochon,0,1
+berserker,fut a gobelin,0,1
+berserker,sorcier,0,1
+berserker,barbares,0,1
+berserker,chauves-souris,0,1
+chevaucheur de cochon,fut a gobelin,0,1
+chevaucheur de cochon,barbares,0,1
+fut a gobelin,sorcier,0,1
+fut a gobelin,barbares,0,1
+fut a gobelin,chauves-souris,0,1
+sorcier,barbares,0,1
+barbares,chauves-souris,0,1
+mini p.e.k.k.a,esprit de glace,1,0
+mini p.e.k.k.a,geant royal,1,0
+mini p.e.k.k.a,cabane de gobelin,1,0
+mini p.e.k.k.a,geant,1,0
+mini p.e.k.k.a,archeres,1,0
+esprit de glace,geant royal,1,0
+esprit de glace,cabane de gobelin,1,0
+esprit de glace,geant,1,0
+esprit de glace,archeres,1,0
+esprit de glace,prince tenebreux,1,0
+esprit de glace,fut a gobelin,1,0
+geant royal,cabane de gobelin,1,0
+geant royal,geant,1,0
+geant royal,archeres,1,0
+geant royal,prince tenebreux,1,0
+geant royal,fut a gobelin,1,0
+cabane de gobelin,geant,1,0
+cabane de gobelin,fut a gobelin,1,0
+geant,archeres,1,0
+geant,prince tenebreux,1,0
+geant,fut a gobelin,1,0
+archeres,fut a gobelin,1,0

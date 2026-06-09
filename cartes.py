@@ -83,6 +83,17 @@ class Deck:
             return elixir / nb
         else:
             return 0
+    
+    def is_card_in_deck(self, nom):
+        for carte in self.deck:
+            if (carte.nom == nom):
+                return True
+        return False
+
+    def update_deck_synergy(self, score, synergies):
+        for i in range(len(self.deck)):
+            for j in range(i + 1, len(self.deck), 1):
+                synergies.update_synergy(self.deck[i], self.deck[j], score)
 
 class Carte:
     def __init__(self, nom, ratio, heros, elixir, level=16):

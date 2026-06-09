@@ -5,6 +5,7 @@ from settings import *
 from cartes import *
 from db_management import *
 from pull_deck import *
+from synergy import *
 
 class Main:
     def __init__(self):
@@ -13,9 +14,10 @@ class Main:
         self.setting.set_main(self)
         self.db = ""
         self.preset_name = ""
+        self.synergy = Synergies()
     
     def start(self):
-        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./global/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             if sum(1 for line in csvfile) > 1:
                 menu = input("Would you like to load or create a preset ? (1 or 2)\n")
@@ -29,33 +31,36 @@ class Main:
         self.main_menu()
     
     def main_menu(self):
-        bdd = load_bdd(self.db)
-        self.collection.update(bdd)
-        menu = input("Souhaitez-vous tirer une carte ou aller dans les paramètres ? (1 ou 2)\n")
-        if menu == "1":
-            deck = tirage_aleatoire(self.collection, self.setting)
-            deck.affiche()
-            win = int(input("Combien de tour avez vous détruites ? "))
-            loose = int(input("Combien de vos tours ont été détruites ? "))
-            if win - loose < 0:
-                score = win - (loose * (1 - 0.1 * win ))
-            else:
-                score = win - loose
-            deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
-        elif menu == "2" :
-            self.setting.settings()
-        print()
-        save_bdd(self.collection, self.db)
-        self.main_menu()
+        while True:
+            bdd = load_bdd(self.db)
+            self.collection.update(bdd)
+            load_synergy(self.synergy, self.collection)
+            menu = input("Souhaitez-vous tirer une carte ou aller dans les paramètres ? (1 ou 2)\n")
+            if menu == "1":
+                deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
+                deck.affiche()
+                win = int(input("Combien de tour avez vous détruites ? "))
+                loose = int(input("Combien de vos tours ont été détruites ? "))
+                if win - loose < 0:
+                    score = win - (loose * (1 - 0.1 * win ))
+                else:
+                    score = win - loose
+                deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
+                deck.update_deck_synergy(score, self.synergy)
+            elif menu == "2" :
+                self.setting.settings()
+            print()
+            save_bdd(self.collection, self.db)
+            save_synergy(self.synergy)
     
     def load_preset(self):
-        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./global/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader)
             for row in reader:
                 print(row[0] + "\n")
             name = input("Choose the preset you want to load\n")
-        with open("./static/presets.csv", newline='', encoding="utf-8") as csvfile:
+        with open("./global/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
             for row in reader:
@@ -93,20 +98,20 @@ class Main:
         save_bdd(self.collection, db_name)
         self.db = db_name
         self.preset_name = name
-        with open("./static/presets.csv", 'a', newline='') as csvfile:
+        with open("./global/presets.csv", 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([name, str(self.setting.m_elixir), db_name, ban, self.setting.heros])
     
     def save_preset(self):
         local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, self.setting.get_banned_cars_str(), self.setting.heros]]
-        with open("./static/presets.csv", "r", newline='', encoding="utf-8") as csvfile:
+        with open("./global/presets.csv", "r", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
             for row in reader:
                 if row[0] != local_save[0][0]:
                     preset = row
                     local_save.append(preset)
-        with open("./static/presets.csv", "w", newline='', encoding="utf-8") as csvfile:
+        with open("./global/presets.csv", "w", newline='', encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(["name", "avg_elixir", "db_name", "banned_cards", "heros_slot"])
             for preset in local_save:
@@ -145,6 +150,16 @@ class Collection:
     
     def avg_score(self):
         return self.total_score() / self.len_collection()
+    
+    def reset_final_ratio(self):
+        for carte in self.collection:
+            carte.final_ratio = carte.ratio
+    
+    def get_card(self, name):
+        for card in self.collection:
+            if (card.nom == name):
+                return card
+        return None
 
 input("Bonjour bienvenue dans le tirage aléatoire intelligent de deck clash royale ! (appuyez sur entrée)")
 app = Main()
