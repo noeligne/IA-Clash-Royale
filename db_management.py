@@ -18,3 +18,4 @@ def load_bdd(filename = "static/base_de_donnee.csv"):
             else:
                 liste.append([row[0],float(row[1]),True, int(row[3]), int(row[4])])
     return liste
+

@@ -120,6 +120,8 @@ class Collection:
     def ajoutecarte(self, nom, ratio, heros, elixir, level):
         for carte in self.collection:
             if carte.nom == nom:
+                if carte.ratio != ratio:
+                    carte.ratio = ratio
                 return
         self.collection.append(Carte(nom, ratio, heros, elixir, level))
     
