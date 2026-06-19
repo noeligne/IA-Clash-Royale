@@ -1,9 +1,19 @@
+import clash_royale
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+client = clash_royale.Client(api_key = API_KEY)
+
 class Settings:
     def __init__(self, m_elixir = 3.5):
         self.m_elixir = m_elixir
         self.banlist = list()
         self.main = None
         self.heros = 1
+        self.player_tag = ""
+        self.player = None
     
     def set_main(self, main):
         self.main = main
@@ -24,8 +34,8 @@ class Settings:
             self.modified_set()
     
     def settings(self):
-        print("\n Menu des paramètres :\n1 - Moyenne elixir\n2 - Exclure une carte\n3 - Réinclure une carte\n4 - Nombre de cases héros\n5 - Change preset\n6 - Changer le niveau d'une carte\n7 - Exit(sélectionnez le numéro correspondant au paramètre désiré)")
-        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.change_level, 7 : self.main.main_menu}
+        print("\n Settings :\n1 - Average elixir\n2 - Ban a card\n3 - Unban a card\n4 - Change number of Heroes\n5 - Change preset\n6 - Change card level\n7 - Set player id\n8 - Exit (write the number corresponding to the setting you want)")
+        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.change_level, 7 : self.set_player, 8 :self.main.main_menu}
         try:
             param = int(input())
             menu[param]()
@@ -116,6 +126,14 @@ class Settings:
         if (input("I did not find the card you searched for, do you want to exit ? (y/n)\n") == "n"):
             return self.change_level()
     
+    def set_player(self, start = False, tag = None):
+        if (start == True):
+            self.player_tag = tag
+        else:
+            self.player_tag = input("Enter your tag here: ")
+        self.player = client.players.get(self.player_tag)
+        print("Welcome", self.player.name, "\n")
+
     def modified_set(self):
         s = input("Do you want to save the modified preset ? (y/n)\n")
         if (s == "y"):

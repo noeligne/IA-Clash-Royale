@@ -6,6 +6,13 @@ from cartes import *
 from db_management import *
 from pull_deck import *
 from synergy import *
+import clash_royale
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+client = clash_royale.Client(api_key = API_KEY)
 
 class Main:
     def __init__(self):
@@ -81,6 +88,11 @@ class Main:
                         self.setting.heros = 1
                     print(f"Heros slots set to {self.setting.heros}\n")
                     print(f"\"{name}\" Successfully loaded !\n")
+                    try:
+                        if (row[5] != "" and row[5] != None):
+                            self.setting.set_player(True, row[5])
+                    except:
+                        print("No player tag found...")
                     return self.main_menu()
         print(f"\"{name}\" Didn't load")
         return self.start()
@@ -98,12 +110,14 @@ class Main:
         save_bdd(self.collection, db_name)
         self.db = db_name
         self.preset_name = name
+        if (input("would you like to connect the preset to your Clash Royale account ?").startswith("y")):
+            self.setting.set_player()
         with open("./global/presets.csv", 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow([name, str(self.setting.m_elixir), db_name, ban, self.setting.heros])
+            writer.writerow([name, str(self.setting.m_elixir), db_name, ban, self.setting.heros, self.setting.player_tag])
     
     def save_preset(self):
-        local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, self.setting.get_banned_cars_str(), self.setting.heros]]
+        local_save = [[self.preset_name, str(self.setting.m_elixir), self.db, self.setting.get_banned_cars_str(), self.setting.heros, self.setting.player_tag]]
         with open("./global/presets.csv", "r", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
             next(reader) 
@@ -113,7 +127,7 @@ class Main:
                     local_save.append(preset)
         with open("./global/presets.csv", "w", newline='', encoding="utf-8") as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow(["name", "avg_elixir", "db_name", "banned_cards", "heros_slot"])
+            writer.writerow(["name", "avg_elixir", "db_name", "banned_cards", "heros_slot", "player_tag"])
             for preset in local_save:
                 writer.writerow(preset)
         print(f"{self.preset_name} Successfully saved !\n")
