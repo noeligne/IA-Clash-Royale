@@ -22,6 +22,7 @@ class Main:
         self.db = ""
         self.preset_name = ""
         self.synergy = Synergies()
+        self.battlelog = None
     
     def start(self):
         with open("./global/presets.csv", newline='', encoding="utf-8") as csvfile:
@@ -56,10 +57,9 @@ class Main:
                 deck.update_deck_synergy(score, self.synergy)
             elif menu == "2" :
                 self.setting.settings()
-            print()
             save_bdd(self.collection, self.db)
             save_synergy(self.synergy)
-    
+
     def load_preset(self):
         with open("./global/presets.csv", newline='', encoding="utf-8") as csvfile:
             reader = csv.reader(csvfile)
