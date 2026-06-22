@@ -6,19 +6,25 @@ from cartes import *
 from db_management import *
 from pull_deck import *
 from synergy import *
-import clash_royale
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
-client = clash_royale.Client(api_key = API_KEY)
+if (input("Do you wish to enable online mode (y/n)").startswith("y")):
+    import clash_royale
+    from dotenv import load_dotenv
+    import os
+
+    load_dotenv()
+    API_KEY = os.getenv("API_KEY")
+    client = clash_royale.Client(api_key = API_KEY)
+    LOCAL_MODE = False
+else:
+    LOCAL_MODE = True
 
 class Main:
     def __init__(self):
         self.setting = Settings()
         self.collection = Collection()
-        self.setting.set_main(self)
+        self.local = LOCAL_MODE
+        self.setting.set_main(self, self.local)
         self.db = ""
         self.preset_name = ""
         self.synergy = Synergies()
@@ -88,11 +94,12 @@ class Main:
                         self.setting.heros = 1
                     print(f"Heros slots set to {self.setting.heros}\n")
                     print(f"\"{name}\" Successfully loaded !\n")
-                    try:
-                        if (row[5] != "" and row[5] != None):
-                            self.setting.set_player(True, row[5])
-                    except:
-                        print("No player tag found...")
+                    if (not LOCAL_MODE):
+                        try:
+                            if (row[5] != "" and row[5] != None):
+                                self.setting.set_player(True, row[5])
+                        except:
+                            print("No player tag found...")
                     return self.main_menu()
         print(f"\"{name}\" Didn't load")
         return self.start()

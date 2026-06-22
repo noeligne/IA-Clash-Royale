@@ -1,11 +1,3 @@
-import clash_royale
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
-client = clash_royale.Client(api_key = API_KEY)
-
 class Settings:
     def __init__(self, m_elixir = 3.5):
         self.m_elixir = m_elixir
@@ -15,9 +7,16 @@ class Settings:
         self.player_tag = ""
         self.player = None
     
-    def set_main(self, main):
+    def set_main(self, main, local):
         self.main = main
-    
+        if (not local):
+            import clash_royale
+            from dotenv import load_dotenv
+            import os
+            load_dotenv()
+            API_KEY = os.getenv("API_KEY")
+            CLIENT = clash_royale.Client(api_key = API_KEY)
+
     def change_avg_elixir(self, start = False):
         try :
             print(f"\nvers quelle valeur voulez vous que la moyenne du coût d'elixir tende ? \n(de base = 3.5, actuelle: {self.m_elixir})")
@@ -39,9 +38,9 @@ class Settings:
         try:
             param = int(input())
             menu[param]()
-        except:
+        except NameError:
             print("Invalid input")
-            return self.settings()
+            return
     
     def exclusion(self, start = False):
         if not start:
@@ -127,12 +126,23 @@ class Settings:
             return self.change_level()
     
     def set_player(self, start = False, tag = None):
+        if (self.main.local):
+            return
         if (start == True):
             self.player_tag = tag
         else:
             self.player_tag = input("Enter your tag here: ")
-        self.player = client.players.get(self.player_tag)
-        print("Welcome", self.player.name, "\n")
+        try:
+            self.player = client.players.get(self.player_tag)
+            print("Welcome", self.player.name, "\n")
+        except clash_royale.ClashRoyaleNotFoundError:
+            print("Player not found")
+        except clash_royale.UnauthorizedError:
+            print("Invalid API key")
+        except clash_royale.RateLimitError:
+            print("Rate limit exceeded")
+        except clash_royale.ClashRoyaleHTTPError as e:
+            print(f"API error: {e}")
 
     def modified_set(self):
         s = input("Do you want to save the modified preset ? (y/n)\n")
