@@ -2,6 +2,22 @@ import random
 from cartes import *
 from synergy import *
 
+def boost_elixir(deck, setting, collection):
+    total = deck.elixir_sum()
+    total_goal = setting.m_elixir * 8
+    nb_cards = len(deck.deck)
+    left = total_goal - total
+    avg_left = left / 8 - nb_cards
+    if avg_left <= 0:
+        goal = 1
+    else:
+        goal = avg_left
+    if not nb_cards == 0:
+        return
+    for carte in collection.collection:
+        ecart = abs(goal - carte.elixir)
+        carte.final_ratio *= nb_cards / 8 * 2 / (ecart + 1)
+
 def tirage_aleatoire(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
@@ -10,6 +26,7 @@ def tirage_aleatoire(collection, setting, synergies):
         deck.ajoute_carte(carte)
         if (deck.is_card_in_deck(carte.nom)):
             synergies.pull_boost(carte)
+            boost_elixir(deck, setting, collection)
         pool.remove(carte)
     collection.reset_final_ratio()
     return deck
