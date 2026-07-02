@@ -19,7 +19,7 @@ def boost_elixir(deck, setting, collection):
         return
     for carte in collection.collection:
         ecart = abs(goal - carte.elixir)
-        carte.final_ratio *= 1 + ((nb_cards / 8) * 2 / (ecart + 1))
+        carte.final_ratio *= 1 + (((nb_cards + 1) / 8) * (2 / (ecart + 1) - 1))
 
 def tirage_aleatoire(collection, setting, synergies):
     deck = Deck(setting)
