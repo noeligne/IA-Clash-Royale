@@ -34,3 +34,17 @@ def load_synergy(synergies, collection, filename = "global/synergies.csv"):
         next(reader) 
         for row in reader:
             synergies.add_synergy(collection.get_card(row[0]), collection.get_card(row[1]), int(row[2]), int(row[3]))
+
+def sync_preset(main, bdd):
+    l = main.collection.get_cards()
+    with open("./static/base_de_donnee.csv", newline='', encoding="utf-8") as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader)
+        for row in reader:
+            if row[0] not in l:
+                if row[2] == "False":
+                    bdd.append([row[0],float(row[1]),False, int(row[3]), int(row[4])])
+                else:
+                    bdd.append([row[0],float(row[1]),True, int(row[3]), int(row[4])])
+    bdd = sorted(bdd)
+    return bdd

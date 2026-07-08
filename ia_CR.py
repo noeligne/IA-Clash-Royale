@@ -8,14 +8,15 @@ from pull_deck import *
 from synergy import *
 
 if (input("Do you wish to enable online mode (y/n)").startswith("y")):
-    import clash_royale
-    from dotenv import load_dotenv
-    import os
+    print("this option is not yet available...")
+    #import clash_royale
+    #from dotenv import load_dotenv
+    #import os
 
-    load_dotenv()
-    API_KEY = os.getenv("API_KEY")
-    client = clash_royale.Client(api_key = API_KEY)
-    LOCAL_MODE = False
+    #load_dotenv()
+    #API_KEY = os.getenv("API_KEY")
+    #client = clash_royale.Client(api_key = API_KEY)
+    LOCAL_MODE = True
 else:
     LOCAL_MODE = True
 
@@ -47,6 +48,7 @@ class Main:
     def main_menu(self):
         while True:
             bdd = load_bdd(self.db)
+            bdd = sync_preset(self, bdd)
             self.collection.update(bdd)
             load_synergy(self.synergy, self.collection)
             menu = input("Souhaitez-vous tirer une carte ou aller dans les paramètres ? (1 ou 2)\n")
@@ -152,6 +154,7 @@ class Collection:
         self.collection.append(Carte(nom, ratio, heros, elixir, level))
     
     def update(self, bdd):
+        bdd = sorted(bdd)
         for carte in bdd:
             self.ajoutecarte(carte[0], carte[1], carte[2], carte[3], carte[4])
         
@@ -181,6 +184,12 @@ class Collection:
             if (card.nom == name):
                 return card
         return None
+    
+    def get_cards(self):
+        l = []
+        for card in self.collection:
+            l.append(card.nom)
+        return l
 
 input("Bonjour bienvenue dans le tirage aléatoire intelligent de deck clash royale ! (appuyez sur entrée)")
 app = Main()
