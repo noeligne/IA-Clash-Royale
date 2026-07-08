@@ -31,13 +31,10 @@ class Deck:
         coeff = score
         for carte in self.deck:
             if score > 0 :
-                ecart_avg_elixir = m_elixir - self.avg_elixir()
-                if ecart_avg_elixir < 0:
-                    ecart_avg_elixir *= -1
                 ratio_percentage = (1 + ((avg_score - carte.ratio) / avg_score))
                 if ratio_percentage <= 0:
                     ratio_percentage = 0.01
-                coeff = score * ratio_percentage * (1 + (1 / (1 + ecart_avg_elixir)) * 0.2) * 1.2 * (carte.level / 16)
+                coeff = score * ratio_percentage * 1.2 * (carte.level / 16)
             else :
                 coeff = score * (1 + ((carte.ratio - avg_score) / avg_score)) * 0.75 * (carte.level / 16)
             carte.ajoutescore(coeff)
@@ -83,6 +80,12 @@ class Deck:
             return elixir / nb
         else:
             return 0
+    
+    def elixir_sum(self):
+        elixir = 0
+        for carte in self.deck:
+            elixir += carte.elixir
+        return elixir
     
     def is_card_in_deck(self, nom):
         for carte in self.deck:
