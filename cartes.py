@@ -9,15 +9,20 @@ class Deck:
     def plein(self):
         return len(self.deck) == 8
     
-    def ajoute_carte(self, carte):
+    def can_be_added(self, carte):
         if self.plein():
-            return
+            return False
         if carte.heros:
             if self.heros == self.setting.heros:
-                return
+                return False
         if carte in self.deck:
-            return
+            return False
         if carte in self.banlist:
+            return False
+        return True
+
+    def ajoute_carte(self, carte):
+        if not self.can_be_added(carte):
             return
         if carte.heros:
             self.heros += 1
@@ -69,6 +74,11 @@ class Deck:
                 index += 1
             string += separator[i + 1] + "\n"
             print(string)
+        else :
+            print("So far your team is composed of :")
+            for card in self.deck:
+                print(f"- {card.nom}")
+            print()
 
     def avg_elixir(self):
         nb = 0

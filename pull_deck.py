@@ -33,3 +33,33 @@ def tirage_aleatoire(collection, setting, synergies):
         pool.remove(carte)
     collection.reset_final_ratio()
     return deck
+
+def triple_draft_mode(collection, setting, synergies):
+    deck = Deck(setting)
+    pool = collection.collection[:]
+    while not deck.plein():
+        card1 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
+        pool.remove(card1)
+        card2 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
+        pool.remove(card2)
+        card3 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
+        pool.remove(card3)
+        d = {"1" : card1, "2" : card2, "3" : card3}
+        if deck.can_be_added(card1) and deck.can_be_added(card2) and deck.can_be_added(card3):
+            choice = ""
+            while choice not in d.keys():
+                print(f"\nChoose which card do you want to take:\n1 - {card1.nom}: lvl{card1.level}\n2 - {card2.nom}: lvl{card2.level}\n3 - {card3.nom}: lvl{card3.level}\n")
+                choice = input("Enter the number associated with the card: ")
+            carte = d[choice]
+            deck.ajoute_carte(carte)
+            print(f"You took {carte.nom} ! That's an excellent choice !\n")
+            if not deck.plein():
+                deck.affiche()
+            synergies.pull_boost(carte)
+            boost_elixir(deck, setting, collection)
+        for card in d.keys():
+            if deck.can_be_added(d[card]) and d[card] not in deck.deck:
+                pool.append(d[card])
+    print("Here is your deck:")
+    collection.reset_final_ratio()
+    return deck

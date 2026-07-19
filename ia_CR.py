@@ -51,19 +51,22 @@ class Main:
             bdd = sync_preset(self, bdd)
             self.collection.update(bdd)
             load_synergy(self.synergy, self.collection)
-            menu = input("Souhaitez-vous tirer une carte ou aller dans les paramètres ? (1 ou 2)\n")
-            if menu == "1":
-                deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
+            menu = input("Would you like to generate a deck, play triple draft mode or go to the settings ? (1, 2 or 3)\n")
+            if menu == "1" or menu == "2":
+                if menu == "1":
+                    deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
+                else:
+                    deck = triple_draft_mode(self.collection, self.setting, self.synergy)
                 deck.affiche()
-                win = int(input("Combien de tour avez vous détruites ? "))
-                loose = int(input("Combien de vos tours ont été détruites ? "))
+                win = int(input("How many towers did you destroy ? "))
+                loose = int(input("How many of your towers got destroyed ? "))
                 if win - loose < 0:
                     score = win - (loose * (1 - 0.1 * win ))
                 else:
                     score = win - loose
                 deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
                 deck.update_deck_synergy(score, self.synergy)
-            elif menu == "2" :
+            elif menu == "3" :
                 self.setting.settings()
             save_bdd(self.collection, self.db)
             save_synergy(self.synergy)
@@ -191,6 +194,6 @@ class Collection:
             l.append(card.nom)
         return l
 
-input("Bonjour bienvenue dans le tirage aléatoire intelligent de deck clash royale ! (appuyez sur entrée)")
+input("Welcome to the Clash Royale smart deck draw ! (press enter)")
 app = Main()
 app.start()

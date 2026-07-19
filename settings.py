@@ -19,7 +19,7 @@ class Settings:
 
     def change_avg_elixir(self, start = False):
         try :
-            print(f"\nvers quelle valeur voulez vous que la moyenne du coût d'elixir tende ? \n(de base = 3.5, actuelle: {self.m_elixir})")
+            print(f"\nWhat value do you want the average cost of elixir to tend towards?\n(base = 3.5, current: {self.m_elixir})")
             m_elixir = float(input())
         except :
             return self.change_avg_elixir(start)
@@ -27,7 +27,7 @@ class Settings:
             m_elixir = -m_elixir
         if m_elixir > 7.1:
             m_elixir = 7.1
-        print(f"La moyenne tendra donc vers: {m_elixir}\n")
+        print(f"The average cost will tend towrd : {m_elixir}\n")
         self.m_elixir = m_elixir
         if not start :
             self.modified_set()
@@ -44,7 +44,7 @@ class Settings:
     
     def exclusion(self, start = False):
         if not start:
-            print("choisis la carte à bannir :")
+            print("Choose the card to ban :")
             for carte in self.main.collection.collection:
                 if carte not in self.banlist:
                     print(carte.nom)
