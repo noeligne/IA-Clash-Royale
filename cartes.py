@@ -1,3 +1,126 @@
+TRANSLATIONS = {"archer magique" : "Magic Archer",
+                "archeres" : "Archers",
+                "arc-x" : "X-Bow",
+                "armee de squelettes" : "Skeleton Army",
+                "artificiere" : "Firecracker",
+                "ballon" : "Balloon",
+                "barbares d'elite" : "Elite Barbarians",
+                "barbares" : "Barbarians",
+                "bebe dragon" : "Baby Dragon",
+                "belier de combat" : "Battle Ram",
+                "berserker" : "Berserker",
+                "bombardier" : "Bomber",
+                "boule de feu" : "Fireball",
+                "boule de neige" : "Giant Snowball",
+                "bouliste" : "Bowler",
+                "bourreau" : "Executioner",
+                "buche" : "The Log",
+                "bucheron" : "Lumberjack",
+                "buisson suspicieux" : "Suspicious Bush",
+                "cabane de barbares" : "Barbarian Hut",
+                "cabane de gobelin" : "Goblin Hut",
+                "cage gobeline" : "Goblin Cage",
+                "canon" : "Cannon",
+                "cavabeliere" : "Ram Rider",
+                "charrette a canon" : "Cannon Cart",
+                "chasseur" : "Hunter",
+                "chauves-souris" : "Bats",
+                "cheffe des voleuses" : "Boss Bandit",
+                "chevalier d'or" : "Golden Knight",
+                "chevalier" : "Knight",
+                "chevaucheur de cochon" : "Hog Rider",
+                "cimetiere" : "Graveyard",
+                "clonage" : "Clone Spell",
+                "cochon royaux" : "Royal Hogs",
+                "colis royal" : "Royal Delivery",
+                "dragon de l'enfer" : "Inferno Dragon",
+                "dragon squelettes" : "Squeleton Dragons",
+                "electrocuteur" : "Zappies",
+                "electrocution" : "Zap",
+                "electro-dragon" : "Electro Dragon",
+                "electro-esprit" : "Electro Spirit",
+                "electro-geant" : "Electro Giant",
+                "electro-sorcier" : "Electro Wizard",
+                "esprit de feu" : "Fire Spirit",
+                "esprit de glace" : "Ice Spirit",
+                "esprit de guerison" : "Heal Spirit",
+                "extracteur d elixir" : "Elixir Collector",
+                "fantome royal" : "Royal Ghost",
+                "fleche" : "Arrows",
+                "foreuse gobeline" : "Goblin Drill",
+                "foudre" : "Lightning",
+                "fournaise" : "Furnace",
+                "fripons" : "Rascals",
+                "fut a barbare" : "Barbarian Barrel",
+                "fut a gobelin" : "Goblin Barrel",
+                "fut a squelettes" : "Squeleton Barrel",
+                "gang de gobelin" : "Goblin Gang",
+                "gardes" : "Guards",
+                "gargouille" : "Minions",
+                "geant royal" : "Royal Giant",
+                "geant" : "Giant",
+                "geante runique" : "Rune Giant",
+                "gel" : "Freeze",
+                "gobelin a lance" : "Spear Goblin",
+                "gobelin a sarbacane" : "Dart Goblin",
+                "gobelin explosif" : "Goblin Demolisher",
+                "gobelin geant" : "Goblin Giant",
+                "gobelins" : "Goblins",
+                "gobelinstein" : "Goblinstein",
+                "golem de glace" : "Ice Golem",
+                "golem d'elixir" : "Elixir Golem",
+                "golem" : "Golem",
+                "guerrisseuse armee" : "Battle Healer",
+                "horde de gargouille" : "Minion Horde",
+                "imperatrice spirituelle" : "Spirit Empress",
+                "machine gobeline" : "Goblin Machine",
+                "machine volante" : "Flying Machine",
+                "maitre mineur" : "Mighty Miner",
+                "malediction gobeline" : "Goblin Curse",
+                "mamie sorciere" : "Mother Witch",
+                "mega chevalier" : "Mega Knight",
+                "mega gargouille" : "Mega Minion",
+                "mineur" : "Miner",
+                "mini p.e.k.k.a" : "Mini P.E.K.K.A",
+                "miroir" : "Mirror",
+                "moine" : "Monk",
+                "molosse de lave" : "Lava Hound",
+                "mortier" : "Mortar",
+                "mousquetaire" : "Musketeer",
+                "neant" : "Void",
+                "p.e.k.k.a" : "P.E.K.K.A",
+                "pecheur" : "Fisherman",
+                "petit prince" : "Little Prince",
+                "phenix" : "Phoenix",
+                "pierre tombale" : "Tombstone",
+                "poison" : "Poison",
+                "prince tenebreux" : "Dark Prince",
+                "prince" : "Prince",
+                "princesse" : "Princess",
+                "rage" : "Rage",
+                "recrues royales" : "Royal Recruits",
+                "reine des archers" : "Archer Queen",
+                "roi squelette" : "Skeleton King",
+                "ronces" : "Vines",
+                "ronin" : "Ronin",
+                "roquette" : "Rocket",
+                "sapeurs" : "Wall Breakers",
+                "seisme" : "Earthquake",
+                "sorcier de glace" : "Ice Wizard",
+                "sorcier" : "Wizard",
+                "sorciere de la nuit" : "Night Witch",
+                "sorciere" : "Witch",
+                "squelette geant" : "Giant Squeleton",
+                "squelettes" : "Skeletons",
+                "tesla" : "Tesla",
+                "tornade" : "Tornado",
+                "tour a bombe" : "Bomb Tower",
+                "tour de l'enfer" : "Inferno Tower",
+                "trois mousquettaires" : "Three Musketeers",
+                "valkyrie" : "Valkyrie",
+                "voleuse" : "Bandit",
+                "zappy" : "Sparky"}
+
 class Deck:
     def __init__(self, setting):
         self.deck = []
@@ -61,23 +184,23 @@ class Deck:
         if self.plein():
             for i in range(8):
                 string += separator[i]
-                middle = round((self.maxi + 2 - len(self.deck[index].nom))/2)
-                if len(self.deck[index].nom) < self.maxi :
-                    if (self.maxi - len(self.deck[index].nom)) % 2 == 0:
-                        string += " " * middle + str(self.deck[index].nom) + " " * middle
-                    elif middle > (self.maxi + 2 - len(self.deck[index].nom))/2 :
-                        string += " " * (middle - 1) + str(self.deck[index].nom) + " " * middle
+                middle = round((self.maxi + 2 - len(TRANSLATIONS[self.deck[index].nom]))/2)
+                if len(TRANSLATIONS[self.deck[index].nom]) < self.maxi :
+                    if (self.maxi - len(TRANSLATIONS[self.deck[index].nom])) % 2 == 0:
+                        string += " " * middle + str(TRANSLATIONS[self.deck[index].nom]) + " " * middle
+                    elif middle > (self.maxi + 2 - len(TRANSLATIONS[self.deck[index].nom]))/2 :
+                        string += " " * (middle - 1) + str(TRANSLATIONS[self.deck[index].nom]) + " " * middle
                     else :
-                        string += " " * middle + str(self.deck[index].nom) + " " * (middle + 1)
+                        string += " " * middle + str(TRANSLATIONS[self.deck[index].nom]) + " " * (middle + 1)
                 else :
-                    string += " " + str(self.deck[index].nom) + " "
+                    string += " " + str(TRANSLATIONS[self.deck[index].nom]) + " "
                 index += 1
             string += separator[i + 1] + "\n"
             print(string)
         else :
             print("So far your team is composed of :")
             for card in self.deck:
-                print(f"- {card.nom}")
+                print(f"- {TRANSLATIONS[card.nom]}")
             print()
 
     def avg_elixir(self):

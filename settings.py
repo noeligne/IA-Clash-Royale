@@ -1,3 +1,5 @@
+from cartes import TRANSLATIONS
+
 class Settings:
     def __init__(self, m_elixir = 3.5):
         self.m_elixir = m_elixir
@@ -19,7 +21,7 @@ class Settings:
 
     def change_avg_elixir(self, start = False):
         try :
-            print(f"\nWhat value do you want the average cost of elixir to tend towards?\n(base = 3.5, current: {self.m_elixir})")
+            print(f"\nWhat value do you want the average cost of elixir ?\n(base = 3.5, current: {self.m_elixir})")
             m_elixir = float(input())
         except :
             return self.change_avg_elixir(start)
@@ -27,7 +29,7 @@ class Settings:
             m_elixir = -m_elixir
         if m_elixir > 7.1:
             m_elixir = 7.1
-        print(f"The average cost will tend towrd : {m_elixir}\n")
+        print(f"The average cost will be : {m_elixir}\n")
         self.m_elixir = m_elixir
         if not start :
             self.modified_set()
@@ -47,10 +49,10 @@ class Settings:
             print("Choose the card to ban :")
             for carte in self.main.collection.collection:
                 if carte not in self.banlist:
-                    print(carte.nom)
+                    print(TRANSLATIONS[carte.nom])
             ban = input()
             for carte in self.main.collection.collection:
-                if carte.nom == ban:
+                if carte.nom == ban or TRANSLATIONS[carte.nom] == ban:
                     self.banlist.append(carte)
                     carte.banned = True
                     if (input("Would you like to ban another card ? (y/n)\n") == "y"):
@@ -74,10 +76,10 @@ class Settings:
             print("You don't have any banned cards")
             return
         for carte in self.banlist:
-            print(carte.nom)
+            print(TRANSLATIONS[carte.nom])
         unban = input("Which card do you want to unban ?\n")
         for carte in range(len(self.banlist)):
-            if unban == self.banlist[carte].nom:
+            if unban == self.banlist[carte].nom or unban == TRANSLATIONS[self.banlist[carte].nom]:
                 self.banlist[carte].banned = False
                 del(self.banlist[carte])
                 print(f"{unban} Successfully unbanned")
@@ -109,13 +111,13 @@ class Settings:
     def change_level(self):
         for carte in self.main.collection.collection:
             if carte not in self.banlist:
-                print(f"{carte.nom} : lvl {carte.level}")
+                print(f"{TRANSLATIONS[carte.nom]} : lvl {carte.level}")
         change = input("Which card do you what to edit ?\n")
         for carte in self.main.collection.collection:
-            if carte.nom == change:
+            if carte.nom == change or TRANSLATIONS[carte.nom] == change:
                 try :
                     carte.level = int(input("Which level do you want to set for this card ?\n"))
-                    print(f"{carte.nom} level successfully set to {carte.level}")
+                    print(f"{TRANSLATIONS[carte.nom]} level successfully set to {carte.level}")
                     if (input("Would you like to change another card ? (y/n)\n") == "y"):
                         return self.change_level()
                     return

@@ -3,15 +3,15 @@ chevaucheur de cochon,gobelin a sarbacane,3,7
 chevaucheur de cochon,cabane de barbares,5,2
 chevaucheur de cochon,golem de glace,2,4
 chevaucheur de cochon,mineur,7,5
-chevaucheur de cochon,fut a barbare,6,6
+chevaucheur de cochon,fut a barbare,6,7
 chevaucheur de cochon,gobelins,4,1
-chevaucheur de cochon,squelette geant,5,2
+chevaucheur de cochon,squelette geant,5,3
 gobelin a sarbacane,cabane de barbares,11,7
 gobelin a sarbacane,golem de glace,2,2
-gobelin a sarbacane,mineur,4,7
+gobelin a sarbacane,mineur,5,8
 gobelin a sarbacane,fut a barbare,3,4
 gobelin a sarbacane,gobelins,3,7
-gobelin a sarbacane,squelette geant,14,5
+gobelin a sarbacane,squelette geant,15,5
 cabane de barbares,golem de glace,1,2
 cabane de barbares,mineur,4,3
 cabane de barbares,fut a barbare,3,3
@@ -25,12 +25,12 @@ mineur,fut a barbare,4,2
 mineur,gobelins,2,4
 mineur,squelette geant,5,4
 fut a barbare,gobelins,5,4
-fut a barbare,squelette geant,7,3
+fut a barbare,squelette geant,7,4
 gobelins,squelette geant,5,3
 belier de combat,cage gobeline,1,4
-belier de combat,esprit de glace,10,2
+belier de combat,esprit de glace,10,3
 belier de combat,squelettes,9,2
-belier de combat,sorciere,7,4
+belier de combat,sorciere,7,5
 belier de combat,golem de glace,1,2
 belier de combat,chevaucheur de cochon,6,3
 belier de combat,valkyrie,1,3
@@ -40,8 +40,8 @@ cage gobeline,sorciere,6,5
 cage gobeline,golem de glace,1,5
 cage gobeline,chevaucheur de cochon,1,3
 cage gobeline,valkyrie,1,1
-esprit de glace,squelettes,8,1
-esprit de glace,sorciere,19,6
+esprit de glace,squelettes,9,1
+esprit de glace,sorciere,19,7
 esprit de glace,golem de glace,2,1
 esprit de glace,chevaucheur de cochon,5,3
 esprit de glace,valkyrie,4,2
@@ -60,7 +60,7 @@ valkyrie,machine volante,0,1
 valkyrie,gargouille,0,2
 valkyrie,gobelin a lance,0,1
 valkyrie,cabane de barbares,3,1
-fut a gobelin,golem de glace,0,1
+fut a gobelin,golem de glace,0,2
 fut a gobelin,esprit de feu,0,3
 fut a gobelin,machine volante,1,2
 fut a gobelin,gargouille,1,2
@@ -80,48 +80,48 @@ machine volante,cabane de barbares,0,3
 gargouille,gobelin a lance,1,4
 gargouille,cabane de barbares,1,2
 gobelin a lance,cabane de barbares,1,1
-prince tenebreux,electrocution,13,6
-prince tenebreux,dragon squelettes,29,7
+prince tenebreux,electrocution,13,8
+prince tenebreux,dragon squelettes,30,8
 prince tenebreux,fut a gobelin,11,2
-prince tenebreux,mini p.e.k.k.a,45,10
-prince tenebreux,pierre tombale,16,8
-prince tenebreux,tour a bombe,8,5
+prince tenebreux,mini p.e.k.k.a,46,12
+prince tenebreux,pierre tombale,16,9
+prince tenebreux,tour a bombe,9,5
 prince tenebreux,gobelins,11,4
-electrocution,dragon squelettes,9,3
+electrocution,dragon squelettes,9,4
 electrocution,fut a gobelin,1,2
-electrocution,mini p.e.k.k.a,12,5
-electrocution,pierre tombale,4,3
+electrocution,mini p.e.k.k.a,12,6
+electrocution,pierre tombale,5,4
 electrocution,tour a bombe,1,1
 electrocution,gobelins,3,5
 dragon squelettes,fut a gobelin,5,3
-dragon squelettes,mini p.e.k.k.a,19,9
+dragon squelettes,mini p.e.k.k.a,19,10
 dragon squelettes,pierre tombale,9,3
-dragon squelettes,tour a bombe,6,3
+dragon squelettes,tour a bombe,7,3
 dragon squelettes,gobelins,7,4
 fut a gobelin,mini p.e.k.k.a,5,4
-fut a gobelin,pierre tombale,3,5
-fut a gobelin,tour a bombe,2,4
+fut a gobelin,pierre tombale,3,7
+fut a gobelin,tour a bombe,2,5
 fut a gobelin,gobelins,4,5
-mini p.e.k.k.a,pierre tombale,17,10
-mini p.e.k.k.a,tour a bombe,8,1
+mini p.e.k.k.a,pierre tombale,19,10
+mini p.e.k.k.a,tour a bombe,10,1
 mini p.e.k.k.a,gobelins,7,3
-pierre tombale,tour a bombe,6,6
+pierre tombale,tour a bombe,7,7
 pierre tombale,gobelins,6,2
 tour a bombe,gobelins,2,2
 archeres,mega gargouille,2,4
 archeres,tour de l'enfer,1,5
-archeres,fut a barbare,5,3
+archeres,fut a barbare,5,4
 archeres,prince,2,3
 archeres,cabane de gobelin,3,6
-archeres,chevaucheur de cochon,5,3
-archeres,prince tenebreux,6,4
+archeres,chevaucheur de cochon,5,4
+archeres,prince tenebreux,7,5
 mega gargouille,tour de l'enfer,2,5
 mega gargouille,fut a barbare,5,2
 mega gargouille,prince,3,4
 mega gargouille,cabane de gobelin,5,3
 mega gargouille,chevaucheur de cochon,8,5
-mega gargouille,prince tenebreux,17,6
-tour de l'enfer,fut a barbare,2,3
+mega gargouille,prince tenebreux,18,6
+tour de l'enfer,fut a barbare,2,4
 tour de l'enfer,prince,6,3
 tour de l'enfer,cabane de gobelin,7,7
 tour de l'enfer,chevaucheur de cochon,4,4
@@ -129,32 +129,32 @@ tour de l'enfer,prince tenebreux,11,5
 fut a barbare,prince,4,4
 fut a barbare,cabane de gobelin,4,3
 fut a barbare,prince tenebreux,8,6
-prince,cabane de gobelin,8,3
+prince,cabane de gobelin,8,4
 prince,chevaucheur de cochon,4,4
-prince,prince tenebreux,12,2
+prince,prince tenebreux,13,2
 cabane de gobelin,chevaucheur de cochon,4,3
 cabane de gobelin,prince tenebreux,16,4
 chevaucheur de cochon,prince tenebreux,13,3
 prince,squelette geant,0,2
 prince,fleche,0,1
-prince,guerrisseuse armee,2,3
+prince,guerrisseuse armee,3,4
 prince,electrocution,1,2
 prince,mineur,0,1
 prince,gobelins,5,2
 fut a barbare,fleche,0,3
-fut a barbare,guerrisseuse armee,1,1
+fut a barbare,guerrisseuse armee,1,2
 fut a barbare,electrocution,2,1
-squelette geant,fleche,3,2
+squelette geant,fleche,3,3
 squelette geant,guerrisseuse armee,4,2
 squelette geant,electrocution,9,5
 fleche,guerrisseuse armee,2,1
-fleche,electrocution,1,2
-fleche,mineur,3,2
+fleche,electrocution,1,3
+fleche,mineur,4,3
 fleche,gobelins,1,3
 guerrisseuse armee,electrocution,2,2
-guerrisseuse armee,mineur,0,3
+guerrisseuse armee,mineur,1,3
 guerrisseuse armee,gobelins,2,4
-electrocution,mineur,6,7
+electrocution,mineur,7,8
 mega gargouille,gargouille,5,3
 mega gargouille,sorcier,2,1
 mega gargouille,chauves-souris,7,3
@@ -173,12 +173,12 @@ sorcier,archeres,1,1
 chauves-souris,squelette geant,6,1
 chauves-souris,fut a barbare,3,3
 chauves-souris,chevaucheur de cochon,3,5
-chauves-souris,archeres,1,4
-squelette geant,archeres,1,2
+chauves-souris,archeres,1,5
+squelette geant,archeres,1,3
 tour de l'enfer,golem de glace,0,1
 tour de l'enfer,foudre,3,1
 tour de l'enfer,cage gobeline,0,1
-tour de l'enfer,belier de combat,3,1
+tour de l'enfer,belier de combat,3,2
 tour de l'enfer,fleche,0,4
 tour de l'enfer,chauves-souris,0,1
 golem de glace,foudre,0,1
@@ -186,22 +186,22 @@ golem de glace,fleche,0,1
 golem de glace,chauves-souris,0,1
 foudre,cage gobeline,3,2
 foudre,belier de combat,0,3
-foudre,fleche,0,1
+foudre,fleche,0,2
 foudre,chevaucheur de cochon,2,4
 foudre,chauves-souris,1,2
 cage gobeline,fleche,0,1
 cage gobeline,chauves-souris,0,2
 belier de combat,fleche,0,2
-belier de combat,chauves-souris,3,4
+belier de combat,chauves-souris,3,5
 fleche,chevaucheur de cochon,2,4
 fleche,chauves-souris,2,2
 guerrisseuse armee,gobelin a sarbacane,8,6
 guerrisseuse armee,berserker,5,3
 guerrisseuse armee,chevaucheur de cochon,3,4
-guerrisseuse armee,fut a gobelin,3,3
+guerrisseuse armee,fut a gobelin,3,4
 guerrisseuse armee,sorcier,0,2
 guerrisseuse armee,barbares,0,1
-guerrisseuse armee,chauves-souris,2,2
+guerrisseuse armee,chauves-souris,2,3
 gobelin a sarbacane,berserker,6,5
 gobelin a sarbacane,fut a gobelin,4,6
 gobelin a sarbacane,sorcier,0,2
@@ -219,11 +219,11 @@ fut a gobelin,barbares,0,1
 fut a gobelin,chauves-souris,1,2
 sorcier,barbares,0,1
 barbares,chauves-souris,0,1
-mini p.e.k.k.a,esprit de glace,19,4
-mini p.e.k.k.a,geant royal,4,3
+mini p.e.k.k.a,esprit de glace,21,4
+mini p.e.k.k.a,geant royal,4,4
 mini p.e.k.k.a,cabane de gobelin,11,3
 mini p.e.k.k.a,geant,15,6
-mini p.e.k.k.a,archeres,6,6
+mini p.e.k.k.a,archeres,6,7
 esprit de glace,geant royal,6,3
 esprit de glace,cabane de gobelin,5,4
 esprit de glace,geant,11,3
@@ -232,11 +232,11 @@ esprit de glace,prince tenebreux,25,8
 esprit de glace,fut a gobelin,3,3
 geant royal,cabane de gobelin,5,4
 geant royal,geant,4,2
-geant royal,archeres,2,1
-geant royal,prince tenebreux,9,5
+geant royal,archeres,2,2
+geant royal,prince tenebreux,9,6
 geant royal,fut a gobelin,4,2
 cabane de gobelin,geant,7,1
-cabane de gobelin,fut a gobelin,5,5
+cabane de gobelin,fut a gobelin,5,6
 geant,archeres,3,2
 geant,prince tenebreux,18,8
 geant,fut a gobelin,3,1
@@ -246,27 +246,27 @@ prince,armee de squelettes,5,2
 prince,dragon squelettes,6,2
 prince,tour a bombe,5,3
 prince,gobelin a sarbacane,7,4
-prince,mini p.e.k.k.a,7,2
+prince,mini p.e.k.k.a,8,2
 geant,armee de squelettes,8,5
 geant,dragon squelettes,10,4
 geant,tour a bombe,8,3
 geant,gobelin a sarbacane,5,3
-armee de squelettes,dragon squelettes,7,6
-armee de squelettes,tour a bombe,3,2
+armee de squelettes,dragon squelettes,7,7
+armee de squelettes,tour a bombe,3,3
 armee de squelettes,gobelin a sarbacane,17,6
-armee de squelettes,prince tenebreux,10,4
-armee de squelettes,mini p.e.k.k.a,14,7
+armee de squelettes,prince tenebreux,10,5
+armee de squelettes,mini p.e.k.k.a,14,8
 dragon squelettes,gobelin a sarbacane,11,9
-tour a bombe,gobelin a sarbacane,4,3
-gobelin a sarbacane,prince tenebreux,20,11
-gobelin a sarbacane,mini p.e.k.k.a,21,11
+tour a bombe,gobelin a sarbacane,5,3
+gobelin a sarbacane,prince tenebreux,20,12
+gobelin a sarbacane,mini p.e.k.k.a,22,11
 esprit de glace,prince,5,2
 esprit de glace,p.e.k.k.a,9,4
 esprit de glace,gobelins,4,4
 esprit de glace,armee de squelettes,11,2
 prince,geant royal,3,0
 prince,p.e.k.k.a,1,1
-prince,fut a gobelin,5,2
+prince,fut a gobelin,5,3
 geant royal,p.e.k.k.a,3,1
 geant royal,gobelins,1,2
 geant royal,armee de squelettes,2,1
@@ -275,7 +275,7 @@ p.e.k.k.a,armee de squelettes,5,2
 p.e.k.k.a,fut a gobelin,3,4
 p.e.k.k.a,prince tenebreux,13,7
 gobelins,armee de squelettes,3,4
-armee de squelettes,fut a gobelin,3,4
+armee de squelettes,fut a gobelin,3,6
 mini p.e.k.k.a,tour de l'enfer,11,5
 tour de l'enfer,fut a gobelin,4,4
 tour de l'enfer,geant royal,3,2
@@ -284,44 +284,44 @@ tour de l'enfer,gobelin a sarbacane,4,6
 geant royal,dragon squelettes,3,3
 geant royal,gobelin a sarbacane,2,4
 mini p.e.k.k.a,gardes,5,4
-mini p.e.k.k.a,squelettes,16,3
-mini p.e.k.k.a,sorciere,25,6
-mini p.e.k.k.a,gobelin a lance,5,2
+mini p.e.k.k.a,squelettes,17,3
+mini p.e.k.k.a,sorciere,26,6
+mini p.e.k.k.a,gobelin a lance,5,3
 mini p.e.k.k.a,mineur,9,7
-prince tenebreux,gardes,6,4
+prince tenebreux,gardes,7,4
 prince tenebreux,squelettes,10,2
-prince tenebreux,sorciere,33,6
-prince tenebreux,gobelin a lance,18,5
-prince tenebreux,mineur,11,5
+prince tenebreux,sorciere,34,7
+prince tenebreux,gobelin a lance,18,6
+prince tenebreux,mineur,11,7
 gardes,squelettes,4,0
-gardes,sorciere,3,2
+gardes,sorciere,4,2
 gardes,gobelin a lance,5,3
-gardes,mineur,5,3
-gardes,esprit de glace,4,0
+gardes,mineur,6,4
+gardes,esprit de glace,4,1
 squelettes,gobelin a lance,3,0
 squelettes,mineur,4,3
 sorciere,gobelin a lance,7,4
-sorciere,mineur,12,5
+sorciere,mineur,12,6
 gobelin a lance,mineur,5,2
 gobelin a lance,esprit de glace,6,2
-mineur,esprit de glace,14,5
-fut a squelettes,guerrisseuse armee,7,4
-fut a squelettes,chevalier,7,5
+mineur,esprit de glace,14,6
+fut a squelettes,guerrisseuse armee,8,4
+fut a squelettes,chevalier,7,7
 fut a squelettes,mega gargouille,6,2
-fut a squelettes,mini p.e.k.k.a,14,8
+fut a squelettes,mini p.e.k.k.a,16,8
 fut a squelettes,esprit de feu,8,2
-fut a squelettes,gobelin a sarbacane,11,7
-fut a squelettes,bebe dragon,11,6
-guerrisseuse armee,chevalier,8,2
+fut a squelettes,gobelin a sarbacane,12,9
+fut a squelettes,bebe dragon,11,7
+guerrisseuse armee,chevalier,9,3
 guerrisseuse armee,mega gargouille,2,4
-guerrisseuse armee,mini p.e.k.k.a,10,7
+guerrisseuse armee,mini p.e.k.k.a,10,8
 guerrisseuse armee,esprit de feu,3,3
-guerrisseuse armee,bebe dragon,2,2
+guerrisseuse armee,bebe dragon,3,2
 chevalier,mega gargouille,4,8
-chevalier,mini p.e.k.k.a,17,7
+chevalier,mini p.e.k.k.a,18,7
 chevalier,esprit de feu,3,4
-chevalier,gobelin a sarbacane,9,5
-chevalier,bebe dragon,3,7
+chevalier,gobelin a sarbacane,10,6
+chevalier,bebe dragon,5,8
 mega gargouille,mini p.e.k.k.a,14,10
 mega gargouille,esprit de feu,4,2
 mega gargouille,gobelin a sarbacane,9,5
@@ -330,7 +330,7 @@ mini p.e.k.k.a,esprit de feu,11,5
 mini p.e.k.k.a,bebe dragon,13,6
 esprit de feu,gobelin a sarbacane,6,4
 esprit de feu,bebe dragon,6,4
-gobelin a sarbacane,bebe dragon,11,6
+gobelin a sarbacane,bebe dragon,12,7
 cabane de gobelin,tour a bombe,4,3
 cabane de gobelin,sorcier,1,1
 fut a barbare,tour a bombe,1,3
@@ -358,20 +358,20 @@ sorcier,geant royal,0,1
 geant royal,chevaucheur de cochon,0,2
 mega gargouille,belier de combat,6,5
 mega gargouille,armee de squelettes,2,4
-squelette geant,belier de combat,7,1
+squelette geant,belier de combat,8,1
 squelette geant,esprit de feu,4,2
-squelette geant,armee de squelettes,7,2
-squelette geant,fut a squelettes,10,3
-squelette geant,mini p.e.k.k.a,16,4
-belier de combat,gobelin a sarbacane,8,3
-belier de combat,esprit de feu,6,2
-belier de combat,armee de squelettes,3,4
-belier de combat,fut a squelettes,10,2
-belier de combat,mini p.e.k.k.a,16,6
+squelette geant,armee de squelettes,7,4
+squelette geant,fut a squelettes,11,3
+squelette geant,mini p.e.k.k.a,18,4
+belier de combat,gobelin a sarbacane,9,3
+belier de combat,esprit de feu,6,3
+belier de combat,armee de squelettes,3,5
+belier de combat,fut a squelettes,11,2
+belier de combat,mini p.e.k.k.a,17,7
 esprit de feu,armee de squelettes,6,4
-armee de squelettes,fut a squelettes,8,2
+armee de squelettes,fut a squelettes,8,3
 ballon,dragon squelettes,6,3
-ballon,electrocution,5,3
+ballon,electrocution,6,3
 ballon,barbares,1,2
 ballon,gobelin a lance,2,4
 ballon,gardes,1,3
@@ -379,7 +379,7 @@ ballon,mini p.e.k.k.a,7,5
 ballon,prince tenebreux,7,2
 dragon squelettes,barbares,1,0
 dragon squelettes,gobelin a lance,10,3
-dragon squelettes,gardes,5,1
+dragon squelettes,gardes,7,1
 electrocution,barbares,1,2
 electrocution,gobelin a lance,2,2
 electrocution,gardes,2,2
@@ -387,8 +387,8 @@ barbares,gobelin a lance,2,3
 barbares,gardes,1,2
 barbares,mini p.e.k.k.a,1,1
 barbares,prince tenebreux,2,2
-esprit de glace,tour a bombe,6,2
-esprit de glace,pierre tombale,10,5
+esprit de glace,tour a bombe,7,2
+esprit de glace,pierre tombale,12,5
 esprit de glace,tour de l'enfer,5,2
 geant royal,tour a bombe,4,3
 geant royal,pierre tombale,4,2
@@ -398,7 +398,7 @@ pierre tombale,tour de l'enfer,3,3
 ballon,recrues royales,0,1
 ballon,archeres,0,3
 ballon,squelette geant,1,1
-ballon,armee de squelettes,4,2
+ballon,armee de squelettes,4,3
 ballon,tour a bombe,3,3
 sorcier,recrues royales,0,1
 sorcier,armee de squelettes,0,1
@@ -412,24 +412,24 @@ archeres,armee de squelettes,0,2
 archeres,dragon squelettes,0,4
 archeres,tour a bombe,0,1
 squelette geant,dragon squelettes,9,4
-squelette geant,tour a bombe,1,1
-prince,sorciere,4,2
+squelette geant,tour a bombe,2,2
+prince,sorciere,5,2
 prince,gardes,0,2
-prince,fut a squelettes,1,2
+prince,fut a squelettes,2,2
 prince,esprit de feu,0,3
 sorciere,fut a gobelin,0,1
 sorciere,squelette geant,7,6
 sorciere,fut a squelettes,8,4
-sorciere,esprit de feu,1,4
+sorciere,esprit de feu,1,5
 fut a gobelin,gardes,2,3
-fut a gobelin,squelette geant,1,1
+fut a gobelin,squelette geant,1,3
 fut a gobelin,fut a squelettes,0,1
 gardes,squelette geant,0,1
-gardes,fut a squelettes,4,1
+gardes,fut a squelettes,4,3
 gardes,esprit de feu,0,1
 bebe dragon,mortier,2,3
-bebe dragon,prince tenebreux,13,4
-bebe dragon,tour a bombe,2,2
+bebe dragon,prince tenebreux,15,4
+bebe dragon,tour a bombe,3,2
 bebe dragon,squelettes,6,3
 bebe dragon,pierre tombale,6,4
 bebe dragon,electrocution,3,4
@@ -442,7 +442,7 @@ mortier,electrocution,0,3
 mortier,barbares,0,1
 tour a bombe,squelettes,0,3
 tour a bombe,barbares,0,1
-squelettes,pierre tombale,8,2
+squelettes,pierre tombale,9,2
 squelettes,electrocution,1,3
 squelettes,barbares,1,1
 pierre tombale,barbares,0,1
@@ -466,21 +466,21 @@ armee de squelettes,golem de glace,0,2
 armee de squelettes,squelettes,7,2
 archeres,golem de glace,0,1
 archeres,squelettes,4,2
-golem de glace,prince,1,1
+golem de glace,prince,1,2
 squelettes,prince,0,1
-gobelin a sarbacane,gargouille,10,6
+gobelin a sarbacane,gargouille,10,7
 gobelins,gargouille,1,2
 gobelins,chauves-souris,3,2
 gobelins,bebe dragon,1,2
 gargouille,mini p.e.k.k.a,11,7
 gargouille,dragon squelettes,2,3
-gargouille,bebe dragon,5,5
+gargouille,bebe dragon,5,6
 gargouille,armee de squelettes,6,4
-mini p.e.k.k.a,chauves-souris,8,4
+mini p.e.k.k.a,chauves-souris,9,5
 chauves-souris,dragon squelettes,4,3
 chauves-souris,bebe dragon,7,2
 chauves-souris,armee de squelettes,4,3
-dragon squelettes,bebe dragon,8,4
+dragon squelettes,bebe dragon,10,4
 bebe dragon,armee de squelettes,10,4
 machine volante,pierre tombale,2,3
 machine volante,esprit de glace,2,1
@@ -488,7 +488,7 @@ machine volante,geant,2,2
 machine volante,chevaucheur de cochon,2,2
 machine volante,tour a bombe,2,1
 machine volante,mini p.e.k.k.a,5,6
-pierre tombale,armee de squelettes,11,4
+pierre tombale,armee de squelettes,12,6
 pierre tombale,geant,7,9
 pierre tombale,chevaucheur de cochon,6,4
 armee de squelettes,chevaucheur de cochon,5,2
@@ -504,15 +504,15 @@ esprit de glace,gobelin a sarbacane,14,9
 esprit de glace,fut a barbare,0,2
 pierre tombale,gobelin a sarbacane,7,6
 pierre tombale,fut a barbare,0,2
-pierre tombale,prince,3,3
-bebe dragon,horde de gargouille,8,1
+pierre tombale,prince,4,3
+bebe dragon,horde de gargouille,8,2
 bebe dragon,squelette geant,1,3
-bebe dragon,sorciere,6,4
+bebe dragon,sorciere,7,4
 bebe dragon,fleche,4,3
 horde de gargouille,mega gargouille,4,5
-horde de gargouille,squelette geant,8,1
-horde de gargouille,gobelin a sarbacane,4,4
-horde de gargouille,sorciere,10,3
+horde de gargouille,squelette geant,8,2
+horde de gargouille,gobelin a sarbacane,4,5
+horde de gargouille,sorciere,10,4
 horde de gargouille,fleche,2,2
 horde de gargouille,prince tenebreux,12,2
 mega gargouille,sorciere,10,4
@@ -520,8 +520,8 @@ mega gargouille,fleche,3,3
 squelette geant,prince tenebreux,15,3
 gobelin a sarbacane,sorciere,12,5
 gobelin a sarbacane,fleche,2,4
-sorciere,fleche,4,4
-fleche,prince tenebreux,8,4
+sorciere,fleche,4,5
+fleche,prince tenebreux,8,5
 prince,boule de feu,3,3
 prince,cabane de barbares,5,2
 gobelins,boule de feu,1,4
@@ -545,28 +545,28 @@ gobelins,canon,0,3
 canon,cabane de gobelin,0,3
 canon,squelette geant,0,1
 cabane de gobelin,squelette geant,1,2
-tour a bombe,gardes,1,4
+tour a bombe,gardes,2,4
 tour a bombe,sorciere,2,3
-tour a bombe,chevalier,2,4
-tour a bombe,belier de combat,3,3
-gardes,chevalier,4,3
+tour a bombe,chevalier,2,5
+tour a bombe,belier de combat,4,3
+gardes,chevalier,5,4
 gardes,belier de combat,2,3
 gardes,geant,1,1
 sorciere,chevalier,10,5
 sorciere,geant,13,4
-chevalier,belier de combat,6,5
-chevalier,prince tenebreux,15,8
+chevalier,belier de combat,6,6
+chevalier,prince tenebreux,16,8
 chevalier,geant,4,4
-belier de combat,prince tenebreux,20,1
+belier de combat,prince tenebreux,20,2
 belier de combat,geant,4,1
 electrocution,geant,1,2
 electrocution,horde de gargouille,8,5
 electrocution,mega gargouille,6,5
-electrocution,sorciere,9,8
-electrocution,belier de combat,7,1
+electrocution,sorciere,9,9
+electrocution,belier de combat,7,2
 geant,horde de gargouille,2,3
 geant,mega gargouille,4,3
-horde de gargouille,belier de combat,5,2
+horde de gargouille,belier de combat,5,3
 horde de gargouille,mini p.e.k.k.a,8,7
 gobelin geant,bebe dragon,0,2
 gobelin geant,p.e.k.k.a,0,2
@@ -576,9 +576,9 @@ gobelin geant,geant,0,1
 gobelin geant,archeres,0,1
 gobelin geant,mini p.e.k.k.a,0,1
 bebe dragon,p.e.k.k.a,4,2
-bebe dragon,machine volante,0,3
+bebe dragon,machine volante,1,3
 bebe dragon,geant,4,2
-bebe dragon,archeres,0,1
+bebe dragon,archeres,1,1
 p.e.k.k.a,horde de gargouille,3,2
 p.e.k.k.a,machine volante,0,1
 p.e.k.k.a,geant,0,2
@@ -604,8 +604,8 @@ roquette,geant,0,4
 fut a barbare,geant,3,4
 mineur,barbares,0,1
 mineur,belier de combat,0,2
-mineur,armee de squelettes,4,3
-mineur,ballon,3,6
+mineur,armee de squelettes,5,4
+mineur,ballon,4,7
 gobelin a lance,belier de combat,3,1
 gobelin a lance,armee de squelettes,0,2
 barbares,belier de combat,0,1
@@ -622,13 +622,13 @@ gang de gobelin,gobelin a lance,7,4
 gang de gobelin,geant,10,3
 gang de gobelin,tour de l'enfer,4,4
 gang de gobelin,dragon squelettes,16,5
-gang de gobelin,sorciere,15,9
-gang de gobelin,prince tenebreux,22,3
+gang de gobelin,sorciere,16,9
+gang de gobelin,prince tenebreux,23,4
 gobelins,gobelin a lance,1,2
 gobelins,geant,3,2
 gobelins,sorciere,4,3
 tour de l'enfer,sorciere,7,3
-dragon squelettes,sorciere,13,3
+dragon squelettes,sorciere,14,3
 sorciere,electro-esprit,7,4
 sorciere,ballon,4,5
 fleche,electro-esprit,1,2
@@ -637,14 +637,14 @@ fleche,esprit de glace,6,2
 fleche,ballon,3,0
 electro-esprit,horde de gargouille,4,0
 electro-esprit,gang de gobelin,9,5
-electro-esprit,prince tenebreux,10,4
+electro-esprit,prince tenebreux,12,4
 electro-esprit,esprit de glace,6,3
 electro-esprit,ballon,1,0
 horde de gargouille,gang de gobelin,7,6
-horde de gargouille,esprit de glace,11,2
+horde de gargouille,esprit de glace,11,3
 horde de gargouille,ballon,3,4
-gang de gobelin,esprit de glace,14,6
-gang de gobelin,ballon,5,6
+gang de gobelin,esprit de glace,15,7
+gang de gobelin,ballon,6,6
 esprit de glace,ballon,7,4
 mortier,gobelins,1,2
 mortier,roquette,3,1
@@ -653,27 +653,27 @@ mortier,p.e.k.k.a,3,2
 mortier,guerrisseuse armee,2,1
 mortier,fut a gobelin,3,0
 gobelins,roquette,4,3
-roquette,prince tenebreux,8,5
+roquette,prince tenebreux,9,5
 roquette,cabane de gobelin,4,1
 roquette,p.e.k.k.a,5,3
 roquette,guerrisseuse armee,2,2
 roquette,fut a gobelin,2,2
-prince tenebreux,guerrisseuse armee,16,4
+prince tenebreux,guerrisseuse armee,17,5
 cabane de gobelin,p.e.k.k.a,4,4
-cabane de gobelin,guerrisseuse armee,5,3
+cabane de gobelin,guerrisseuse armee,5,4
 p.e.k.k.a,guerrisseuse armee,1,0
 gargouille,chasseur,2,1
 gargouille,sorciere,4,4
 gargouille,fournaise,2,1
 gargouille,trois mousquettaires,1,2
-gargouille,gardes,0,1
-gargouille,chevalier,6,3
+gargouille,gardes,0,2
+gargouille,chevalier,6,4
 chasseur,sorciere,0,2
 chasseur,fournaise,1,1
 chasseur,trois mousquettaires,0,1
-chasseur,gobelin a lance,1,1
+chasseur,gobelin a lance,1,2
 chasseur,gardes,2,1
-chasseur,chevalier,3,3
+chasseur,chevalier,4,3
 sorciere,fournaise,1,3
 sorciere,trois mousquettaires,3,5
 fournaise,trois mousquettaires,0,2
@@ -690,15 +690,15 @@ esprit de feu,geant royal,2,2
 esprit de feu,geant,6,6
 esprit de feu,tour a bombe,3,2
 esprit de feu,pierre tombale,5,3
-guerrisseuse armee,geant royal,1,0
+guerrisseuse armee,geant royal,1,1
 guerrisseuse armee,geant,3,2
 guerrisseuse armee,tour a bombe,1,3
-guerrisseuse armee,pierre tombale,6,4
+guerrisseuse armee,pierre tombale,8,4
 geant,mineur,7,5
 geant,mortier,1,1
 mineur,dragon squelettes,9,4
 mineur,mortier,4,2
-mineur,gang de gobelin,10,7
+mineur,gang de gobelin,13,9
 esprit de glace,dragon squelettes,17,2
 esprit de glace,mortier,4,4
 dragon squelettes,mortier,4,1
@@ -709,7 +709,7 @@ cage gobeline,guerrisseuse armee,1,1
 cage gobeline,mega gargouille,2,2
 cage gobeline,tour a bombe,1,3
 belier de combat,mortier,0,2
-belier de combat,guerrisseuse armee,9,3
+belier de combat,guerrisseuse armee,9,4
 mortier,mega gargouille,0,1
 mortier,valkyrie,0,1
 guerrisseuse armee,sorciere,0,1
@@ -719,7 +719,7 @@ tour a bombe,valkyrie,0,1
 mega gargouille,gobelins,0,4
 mega gargouille,esprit de glace,4,6
 esprit de feu,gobelins,1,3
-esprit de feu,esprit de glace,6,4
+esprit de feu,esprit de glace,6,5
 cabane de barbares,chevalier,3,7
 cabane de barbares,p.e.k.k.a,5,9
 cabane de barbares,sorciere,13,4
@@ -727,13 +727,13 @@ cabane de barbares,esprit de glace,8,5
 cabane de barbares,electrocution,3,3
 gobelin a sarbacane,p.e.k.k.a,7,4
 gobelin a sarbacane,electrocution,7,9
-boule de feu,chevalier,7,3
+boule de feu,chevalier,7,4
 boule de feu,p.e.k.k.a,3,3
-boule de feu,sorciere,15,3
-boule de feu,esprit de glace,11,2
-boule de feu,electrocution,6,5
+boule de feu,sorciere,15,4
+boule de feu,esprit de glace,11,3
+boule de feu,electrocution,6,6
 chevalier,p.e.k.k.a,1,3
-chevalier,esprit de glace,8,7
+chevalier,esprit de glace,9,7
 chevalier,electrocution,4,5
 p.e.k.k.a,sorciere,8,4
 p.e.k.k.a,electrocution,4,1
@@ -747,8 +747,8 @@ squelettes,gargouille,4,3
 squelettes,chauves-souris,6,2
 squelettes,esprit de feu,3,3
 belier de combat,gargouille,6,2
-chauves-souris,esprit de feu,4,3
-belier de combat,dragon squelettes,3,3
+chauves-souris,esprit de feu,4,4
+belier de combat,dragon squelettes,3,4
 dragon squelettes,chevalier,5,2
 geant royal,gardes,2,1
 geant royal,fleche,1,3
@@ -756,16 +756,16 @@ gardes,p.e.k.k.a,2,3
 gardes,fleche,2,2
 gardes,archeres,1,2
 p.e.k.k.a,fleche,3,4
-fleche,fut a gobelin,3,0
-fleche,archeres,1,2
+fleche,fut a gobelin,3,1
+fleche,archeres,2,2
 electrocution,cabane de gobelin,4,2
 electrocution,archeres,0,2
 electrocution,tour de l'enfer,3,4
-gobelin a lance,archeres,1,2
+gobelin a lance,archeres,1,3
 pierre tombale,archeres,1,3
 dragon squelettes,horde de gargouille,6,4
 cabane de gobelin,horde de gargouille,4,3
-gargouille,horde de gargouille,4,4
+gargouille,horde de gargouille,4,5
 gargouille,electrocution,7,2
 gargouille,tour de l'enfer,2,7
 horde de gargouille,tour de l'enfer,1,4
@@ -792,32 +792,32 @@ geant,berserker,2,3
 geant,barbares,0,1
 berserker,roquette,0,3
 barbares,roquette,0,2
-archeres,gang de gobelin,2,1
+archeres,gang de gobelin,2,2
 archeres,sorciere,3,4
-gang de gobelin,fut a barbare,2,3
+gang de gobelin,fut a barbare,2,4
 gang de gobelin,squelettes,6,0
-gang de gobelin,mini p.e.k.k.a,14,8
-gang de gobelin,chevaucheur de cochon,8,5
+gang de gobelin,mini p.e.k.k.a,16,8
+gang de gobelin,chevaucheur de cochon,8,6
 geant,squelettes,6,0
 sorciere,fut a barbare,9,3
 fut a barbare,squelettes,2,2
 fut a barbare,mini p.e.k.k.a,8,3
-esprit de feu,horde de gargouille,3,1
+esprit de feu,horde de gargouille,3,2
 esprit de feu,gang de gobelin,4,4
 esprit de feu,ballon,4,2
-pierre tombale,horde de gargouille,6,2
-pierre tombale,gang de gobelin,13,5
-pierre tombale,ballon,3,6
+pierre tombale,horde de gargouille,6,3
+pierre tombale,gang de gobelin,17,5
+pierre tombale,ballon,4,6
 geant,ballon,1,3
-horde de gargouille,tour a bombe,2,2
-gang de gobelin,tour a bombe,4,2
-fut a squelettes,electrocution,7,3
-fut a squelettes,prince tenebreux,15,5
+horde de gargouille,tour a bombe,2,3
+gang de gobelin,tour a bombe,5,2
+fut a squelettes,electrocution,8,3
+fut a squelettes,prince tenebreux,15,6
 esprit de feu,electrocution,6,3
 chauves-souris,mortier,0,1
 chauves-souris,geant,0,1
-chauves-souris,sorciere,4,2
-chauves-souris,prince tenebreux,2,3
+chauves-souris,sorciere,5,3
+chauves-souris,prince tenebreux,3,4
 chauves-souris,electrocution,3,2
 chauves-souris,poison,0,1
 mortier,poison,1,1
@@ -833,17 +833,17 @@ bebe dragon,cabane de barbares,4,2
 bebe dragon,esprit de glace,11,3
 cabane de barbares,mini p.e.k.k.a,13,5
 cabane de barbares,prince tenebreux,12,4
-gang de gobelin,gobelin a sarbacane,7,7
+gang de gobelin,gobelin a sarbacane,8,8
 ballon,gobelin a sarbacane,2,3
 belier de combat,prince,3,2
 belier de combat,gang de gobelin,5,4
 belier de combat,roquette,2,2
 belier de combat,machine volante,0,1
 belier de combat,gobelins,1,2
-prince,gang de gobelin,4,2
+prince,gang de gobelin,6,2
 prince,ballon,0,3
 gang de gobelin,roquette,5,5
-gang de gobelin,machine volante,0,1
+gang de gobelin,machine volante,1,1
 roquette,machine volante,0,2
 roquette,ballon,0,2
 roquette,sorciere,0,1
@@ -853,26 +853,26 @@ machine volante,gobelins,0,2
 ballon,gobelins,2,5
 mega gargouille,gardes,0,3
 mega gargouille,pierre tombale,4,3
-horde de gargouille,gardes,0,2
+horde de gargouille,gardes,0,3
 horde de gargouille,guerrisseuse armee,0,1
 gardes,guerrisseuse armee,0,1
 gardes,pierre tombale,0,1
 belier de combat,pierre tombale,1,2
 guerrisseuse armee,machine volante,1,3
 guerrisseuse armee,boule de neige,6,1
-gobelin a sarbacane,machine volante,1,2
+gobelin a sarbacane,machine volante,2,2
 gobelin a sarbacane,boule de neige,9,5
 machine volante,squelette geant,1,4
 machine volante,dragon squelettes,3,2
 machine volante,boule de neige,1,2
 machine volante,mega gargouille,2,3
-squelette geant,boule de neige,7,4
+squelette geant,boule de neige,7,5
 dragon squelettes,boule de neige,7,3
 dragon squelettes,mega gargouille,7,3
-boule de neige,mini p.e.k.k.a,13,5
+boule de neige,mini p.e.k.k.a,14,5
 boule de neige,mega gargouille,7,3
-boule de feu,horde de gargouille,2,3
-boule de feu,dragon squelettes,9,2
+boule de feu,horde de gargouille,2,4
+boule de feu,dragon squelettes,9,3
 boule de feu,tour a bombe,1,3
 boule de feu,mega gargouille,5,5
 boule de feu,gargouille,4,4
@@ -884,12 +884,12 @@ mega gargouille,gang de gobelin,3,2
 mega gargouille,mineur,3,5
 golem de glace,gang de gobelin,2,2
 golem de glace,chevalier,1,3
-gang de gobelin,chevalier,4,2
-chevalier,mineur,11,2
-gargouille,fut a squelettes,5,4
+gang de gobelin,chevalier,5,2
+chevalier,mineur,13,3
+gargouille,fut a squelettes,5,5
 gargouille,prince tenebreux,13,5
 esprit de feu,dragon squelettes,4,2
-ballon,chevalier,5,3
+ballon,chevalier,5,4
 ballon,bebe dragon,4,1
 roquette,mini p.e.k.k.a,8,3
 fut a barbare,p.e.k.k.a,1,4
@@ -900,17 +900,17 @@ p.e.k.k.a,mega gargouille,2,4
 machine volante,prince tenebreux,2,2
 geant royal,sorciere,0,1
 geant royal,cabane de barbares,0,1
-chauves-souris,horde de gargouille,4,3
-sorciere,pierre tombale,10,4
+chauves-souris,horde de gargouille,4,4
+sorciere,pierre tombale,10,5
 cabane de barbares,pierre tombale,5,4
 cabane de barbares,horde de gargouille,1,2
 cabane de barbares,cage gobeline,4,1
 pierre tombale,cage gobeline,3,4
-pierre tombale,mineur,8,6
-gobelin a sarbacane,cage gobeline,6,3
+pierre tombale,mineur,10,7
+gobelin a sarbacane,cage gobeline,6,4
 horde de gargouille,cage gobeline,1,2
 horde de gargouille,mineur,9,2
-cage gobeline,mineur,2,3
+cage gobeline,mineur,2,4
 dragon squelettes,barbares d'elite,0,1
 roquette,barbares d'elite,0,1
 roquette,gobelin a sarbacane,2,3
@@ -924,11 +924,11 @@ mortier,gobelin a sarbacane,3,2
 tour de l'enfer,roquette,3,2
 esprit de feu,fut a barbare,2,2
 squelettes,geant royal,0,1
-squelettes,squelette geant,5,2
+squelettes,squelette geant,6,2
 squelettes,dragon squelettes,1,1
 geant royal,squelette geant,0,1
-geant royal,chauves-souris,1,2
-squelettes,chevalier,6,2
+geant royal,chauves-souris,1,3
+squelettes,chevalier,7,2
 squelettes,cabane de barbares,7,2
 chevalier,chevaucheur de cochon,5,2
 mega gargouille,cabane de barbares,5,4
@@ -946,21 +946,21 @@ electrocuteur,boule de feu,3,4
 electrocuteur,chauves-souris,2,2
 electrocuteur,mini p.e.k.k.a,3,3
 electrocuteur,gargouille,1,5
-electrocuteur,bebe dragon,5,4
+electrocuteur,bebe dragon,6,4
 electrocuteur,electrocution,0,1
-electrocuteur,esprit de glace,5,4
-boule de feu,chauves-souris,6,4
-boule de feu,mini p.e.k.k.a,17,9
+electrocuteur,esprit de glace,5,5
+boule de feu,chauves-souris,6,5
+boule de feu,mini p.e.k.k.a,17,10
 boule de feu,bebe dragon,1,1
-chauves-souris,esprit de glace,0,1
+chauves-souris,esprit de glace,0,2
 gargouille,esprit de glace,6,1
-mineur,machine volante,2,2
+mineur,machine volante,3,2
 machine volante,electrocution,1,3
-machine volante,chevalier,2,2
+machine volante,chevalier,3,2
 electrocution,chevaucheur de cochon,5,2
 geant,cabane de barbares,6,2
 archeres,cabane de barbares,1,3
-archeres,mineur,1,2
+archeres,mineur,2,2
 boule de feu,machine volante,2,1
 machine volante,fut a barbare,1,1
 machine volante,chauves-souris,1,1
@@ -971,21 +971,21 @@ geant royal,chevalier,0,1
 geant royal,belier de combat,2,1
 chevalier,cabane de gobelin,0,1
 gargouille,gang de gobelin,2,3
-archeres,valkyrie,0,1
+archeres,valkyrie,1,1
 gang de gobelin,cabane de gobelin,3,4
 gang de gobelin,valkyrie,0,3
 sorciere,cabane de gobelin,2,3
 tour de l'enfer,valkyrie,0,1
 cabane de gobelin,valkyrie,1,1
-armee de squelettes,gang de gobelin,10,4
+armee de squelettes,gang de gobelin,11,4
 gang de gobelin,p.e.k.k.a,5,3
-gang de gobelin,fut a squelettes,11,6
-gang de gobelin,squelette geant,8,4
+gang de gobelin,fut a squelettes,14,8
+gang de gobelin,squelette geant,8,5
 p.e.k.k.a,fut a squelettes,8,3
 p.e.k.k.a,pierre tombale,1,2
 dragon squelettes,fut a squelettes,12,5
-fut a squelettes,pierre tombale,9,3
-pierre tombale,squelette geant,8,1
+fut a squelettes,pierre tombale,12,3
+pierre tombale,squelette geant,9,3
 gardes,cabane de barbares,0,4
 gardes,berserker,0,1
 gardes,gobelins,0,2
@@ -996,8 +996,8 @@ cabane de barbares,berserker,0,1
 berserker,gobelins,1,3
 gobelins,chevalier,1,3
 fut a squelettes,cabane de gobelin,3,3
-fut a squelettes,esprit de glace,17,3
-fut a squelettes,horde de gargouille,7,4
+fut a squelettes,esprit de glace,18,4
+fut a squelettes,horde de gargouille,7,5
 p.e.k.k.a,belier de combat,4,1
 recrues royales,fut a barbare,0,2
 recrues royales,chauves-souris,2,1
@@ -1011,10 +1011,10 @@ gobelins,electrocuteur,2,2
 ballon,electrocuteur,1,3
 ballon,berserker,3,3
 ballon,tour de l'enfer,1,2
-gang de gobelin,electrocuteur,6,4
+gang de gobelin,electrocuteur,7,5
 gang de gobelin,berserker,6,3
 electrocuteur,berserker,4,3
-electrocuteur,tour de l'enfer,3,1
+electrocuteur,tour de l'enfer,3,2
 electrocuteur,tour a bombe,1,2
 esprit de glace,berserker,4,3
 berserker,tour de l'enfer,2,0
@@ -1022,7 +1022,7 @@ berserker,tour a bombe,1,1
 mortier,gobelin a lance,2,1
 mortier,gardes,1,1
 mortier,geant royal,1,0
-gobelin a lance,geant royal,4,1
+gobelin a lance,geant royal,4,2
 gobelin a lance,roquette,2,1
 gobelin a lance,p.e.k.k.a,3,2
 gardes,roquette,2,3
@@ -1037,13 +1037,13 @@ electrocuteur,gobelin a sarbacane,5,2
 squelettes,boule de neige,2,2
 squelettes,gobelin a sarbacane,7,4
 cabane de barbares,boule de neige,7,4
-boule de neige,sorciere,14,5
+boule de neige,sorciere,15,5
 boule de neige,esprit de glace,17,3
 squelettes,gobelins,2,2
 squelettes,p.e.k.k.a,1,3
 squelettes,canon,0,1
 fut a barbare,canon,0,1
-fut a barbare,boule de neige,2,4
+fut a barbare,boule de neige,2,5
 cabane de gobelin,boule de neige,2,2
 tour a bombe,p.e.k.k.a,0,2
 tour a bombe,canon,0,1
@@ -1055,10 +1055,10 @@ canon,boule de neige,1,1
 esprit de glace,trois mousquettaires,6,4
 boule de neige,trois mousquettaires,5,2
 boule de neige,ballon,8,5
-boule de neige,prince tenebreux,18,3
+boule de neige,prince tenebreux,19,3
 boule de neige,fut a squelettes,19,4
 trois mousquettaires,dragon squelettes,6,2
-ballon,fut a squelettes,4,6
+ballon,fut a squelettes,5,7
 chevaucheur de cochon,p.e.k.k.a,4,2
 tour de l'enfer,p.e.k.k.a,3,2
 gargouille,p.e.k.k.a,0,1
@@ -1073,38 +1073,38 @@ barbares,tour de l'enfer,0,1
 barbares,squelette geant,0,1
 pierre tombale,trois mousquettaires,6,2
 trois mousquettaires,squelette geant,4,1
-squelette geant,esprit de glace,7,2
+squelette geant,esprit de glace,8,2
 chauves-souris,trois mousquettaires,3,1
 chauves-souris,fut a squelettes,8,4
 trois mousquettaires,horde de gargouille,0,1
 tour a bombe,mineur,0,2
 fut a barbare,horde de gargouille,3,1
 gobelins,horde de gargouille,1,2
-pierre tombale,foudre,3,2
-pierre tombale,boule de feu,5,5
-pierre tombale,chevalier,6,5
+pierre tombale,foudre,4,3
+pierre tombale,boule de feu,6,5
+pierre tombale,chevalier,7,6
 machine volante,foudre,1,1
 foudre,sorciere,8,0
-foudre,mini p.e.k.k.a,7,3
+foudre,mini p.e.k.k.a,8,3
 foudre,boule de feu,4,1
 foudre,chevalier,4,2
 foudre,prince tenebreux,13,0
-boule de feu,prince tenebreux,18,6
+boule de feu,prince tenebreux,18,7
 geant,boule de neige,5,3
 boule de neige,pierre tombale,9,3
 archeres,gobelins,0,2
-boule de feu,mineur,3,4
+boule de feu,mineur,4,5
 boule de feu,fut a gobelin,0,1
 mineur,fut a gobelin,2,1
 mineur,p.e.k.k.a,4,4
 fut a gobelin,fut a barbare,0,1
-chevalier,archeres,3,2
+chevalier,archeres,5,2
 chevalier,chauves-souris,0,2
-chevalier,horde de gargouille,3,3
-chevalier,fut a barbare,1,2
+chevalier,horde de gargouille,3,5
+chevalier,fut a barbare,1,3
 archeres,belier de combat,4,3
-belier de combat,fut a barbare,1,1
-boule de feu,valkyrie,3,2
+belier de combat,fut a barbare,1,2
+boule de feu,valkyrie,3,3
 valkyrie,prince tenebreux,2,1
 valkyrie,mini p.e.k.k.a,2,3
 valkyrie,gobelin a sarbacane,2,3
@@ -1134,7 +1134,7 @@ fleche,sorcier,0,1
 electrocuteur,chevaucheur de cochon,0,3
 electrocuteur,squelette geant,0,1
 electrocuteur,sorcier,0,1
-boule de neige,gang de gobelin,7,2
+boule de neige,gang de gobelin,8,3
 gargouille,boule de neige,8,1
 gargouille,pierre tombale,4,2
 armee de squelettes,boule de neige,7,4
@@ -1144,7 +1144,7 @@ mega gargouille,fut a gobelin,2,1
 fut a gobelin,ballon,1,0
 armee de squelettes,electrocuteur,5,2
 armee de squelettes,tour de l'enfer,2,1
-prince tenebreux,electrocuteur,11,4
+prince tenebreux,electrocuteur,13,4
 electrocuteur,dragon squelettes,5,2
 electrocuteur,geant,2,3
 p.e.k.k.a,trois mousquettaires,4,1
@@ -1155,14 +1155,14 @@ trois mousquettaires,tour de l'enfer,3,0
 trois mousquettaires,electrocution,4,3
 cabane de barbares,gang de gobelin,3,3
 cabane de barbares,dragon squelettes,3,3
-gang de gobelin,boule de feu,14,6
+gang de gobelin,boule de feu,15,6
 boule de neige,boule de feu,11,5
 boule de neige,bebe dragon,4,1
-gang de gobelin,bebe dragon,9,3
-electrocution,gang de gobelin,1,3
+gang de gobelin,bebe dragon,10,3
+electrocution,gang de gobelin,2,3
 fournaise,armee de squelettes,5,2
 fournaise,gobelin a sarbacane,4,3
-fournaise,esprit de glace,5,0
+fournaise,esprit de glace,6,0
 fournaise,p.e.k.k.a,1,3
 fournaise,squelettes,4,2
 fournaise,chevaucheur de cochon,2,3
@@ -1176,8 +1176,8 @@ mousquetaire,cabane de barbares,0,1
 mousquetaire,archeres,0,2
 mousquetaire,electrocuteur,0,2
 mousquetaire,p.e.k.k.a,0,3
-mousquetaire,boule de feu,1,1
-archeres,electrocuteur,0,2
+mousquetaire,boule de feu,1,2
+archeres,electrocuteur,1,2
 electrocuteur,p.e.k.k.a,0,3
 tour a bombe,roquette,0,1
 tour a bombe,cabane de barbares,0,2
@@ -1190,7 +1190,7 @@ golem de glace,fut a squelettes,0,1
 golem de glace,electrocution,0,1
 electrocution,boule de neige,6,4
 mineur,boule de neige,8,2
-mineur,fut a squelettes,10,6
+mineur,fut a squelettes,11,9
 cabane de barbares,recrues royales,2,1
 cabane de barbares,fut a squelettes,4,1
 belier de combat,recrues royales,3,0
@@ -1199,20 +1199,20 @@ recrues royales,prince tenebreux,3,4
 recrues royales,gobelin a sarbacane,2,3
 recrues royales,p.e.k.k.a,1,1
 trois mousquettaires,gobelins,1,1
-gang de gobelin,chauves-souris,6,2
+gang de gobelin,chauves-souris,7,2
 gang de gobelin,trois mousquettaires,1,2
-chauves-souris,boule de neige,3,1
+chauves-souris,boule de neige,4,1
 chauves-souris,pierre tombale,8,2
-boule de feu,ballon,6,3
+boule de feu,ballon,6,4
 mineur,electro-esprit,5,2
 mineur,fournaise,5,7
 mortier,electro-esprit,4,0
 mortier,fournaise,2,3
 electro-esprit,dragon squelettes,6,5
-electro-esprit,gobelin a sarbacane,3,3
+electro-esprit,gobelin a sarbacane,4,3
 electro-esprit,fournaise,5,0
 dragon squelettes,fournaise,2,2
-fournaise,gang de gobelin,10,2
+fournaise,gang de gobelin,11,2
 sorciere,geante runique,2,2
 chevalier,geante runique,1,2
 chevalier,cage gobeline,1,3
@@ -1234,17 +1234,17 @@ horde de gargouille,gobelin a lance,2,1
 fleche,gobelin a lance,0,1
 fleche,cabane de gobelin,0,1
 electrocuteur,trois mousquettaires,1,2
-boule de neige,chevaucheur de cochon,1,1
+boule de neige,chevaucheur de cochon,1,2
 gargouille,geant,2,1
 boule de neige,esprit de feu,5,1
 tour de l'enfer,boule de neige,7,2
 gardes,boule de feu,4,5
-gardes,gobelin a sarbacane,1,4
+gardes,gobelin a sarbacane,2,5
 roquette,armee de squelettes,2,2
 roquette,squelettes,2,0
-boule de feu,armee de squelettes,3,3
-chevalier,armee de squelettes,5,5
-prince,boule de neige,3,2
+boule de feu,armee de squelettes,4,5
+chevalier,armee de squelettes,5,7
+prince,boule de neige,4,2
 boule de feu,geant,3,7
 trois mousquettaires,cabane de barbares,1,1
 trois mousquettaires,valkyrie,1,2
@@ -1257,27 +1257,27 @@ fournaise,cabane de barbares,3,0
 fournaise,boule de neige,3,1
 cabane de barbares,armee de squelettes,4,1
 mega gargouille,electro-esprit,1,1
-squelette geant,electro-esprit,6,3
+squelette geant,electro-esprit,7,3
 fut a barbare,electro-esprit,3,1
-electro-esprit,mini p.e.k.k.a,7,5
+electro-esprit,mini p.e.k.k.a,8,5
 dragon squelettes,berserker,6,1
 berserker,armee de squelettes,4,2
 berserker,boule de feu,6,5
-boule de feu,esprit de feu,6,3
-fut a squelettes,fournaise,5,4
+boule de feu,esprit de feu,6,4
+fut a squelettes,fournaise,6,4
 chauves-souris,mineur,3,4
 chauves-souris,fournaise,4,0
 ballon,fournaise,1,0
-mineur,bebe dragon,10,2
+mineur,bebe dragon,11,2
 bebe dragon,fournaise,8,3
 machine volante,fut a squelettes,0,1
 mineur,esprit de feu,2,2
 gobelin a lance,fut a squelettes,5,2
 gobelin a lance,boule de feu,5,0
 gobelin a lance,boule de neige,5,1
-fut a squelettes,boule de feu,7,3
+fut a squelettes,boule de feu,7,4
 belier de combat,boule de neige,6,3
-belier de combat,boule de feu,7,2
+belier de combat,boule de feu,7,4
 boule de neige,gardes,2,2
 esprit de feu,p.e.k.k.a,0,1
 gang de gobelin,fut a gobelin,0,2
@@ -1289,21 +1289,21 @@ boule de neige,fleche,2,1
 mortier,fleche,1,1
 trois mousquettaires,mineur,2,1
 trois mousquettaires,fleche,1,0
-electrocution,armee de squelettes,2,4
+electrocution,armee de squelettes,2,5
 ballon,chasseur,1,0
-ballon,valkyrie,1,1
+ballon,valkyrie,1,2
 chasseur,boule de neige,1,1
-chasseur,valkyrie,1,1
-chasseur,mineur,4,0
-chasseur,fut a squelettes,1,1
+chasseur,valkyrie,2,1
+chasseur,mineur,5,1
+chasseur,fut a squelettes,1,2
 chasseur,boule de feu,3,0
 chevalier,boule de neige,9,1
-chevalier,valkyrie,2,3
+chevalier,valkyrie,3,4
 boule de neige,valkyrie,2,2
-valkyrie,mineur,2,4
-valkyrie,fut a squelettes,3,1
+valkyrie,mineur,3,5
+valkyrie,fut a squelettes,3,2
 horde de gargouille,boule de neige,4,4
-fournaise,mini p.e.k.k.a,6,3
+fournaise,mini p.e.k.k.a,7,3
 fournaise,esprit de feu,3,1
 fournaise,geant,3,1
 fut a squelettes,geant,2,2
@@ -1316,7 +1316,7 @@ fut a barbare,gardes,0,2
 gobelins,fournaise,2,2
 fournaise,prince tenebreux,1,4
 fournaise,boule de feu,2,1
-pierre tombale,fleche,1,1
+pierre tombale,fleche,1,3
 pierre tombale,electro-esprit,0,1
 machine volante,fleche,1,1
 machine volante,electro-esprit,0,1
@@ -1324,14 +1324,14 @@ machine volante,geant royal,0,1
 fleche,geant,0,1
 electro-esprit,geant royal,0,1
 electro-esprit,geant,0,1
-squelette geant,chevalier,3,1
-fut a squelettes,foudre,3,4
+squelette geant,chevalier,4,2
+fut a squelettes,foudre,4,4
 fut a squelettes,tour de l'enfer,4,5
 chevalier,mortier,4,1
-chevalier,tour de l'enfer,3,4
+chevalier,tour de l'enfer,3,5
 mortier,foudre,3,2
 foudre,boule de neige,4,2
-foudre,esprit de glace,5,1
+foudre,esprit de glace,6,1
 cochon royaux,mini p.e.k.k.a,0,1
 cochon royaux,boule de feu,0,1
 cochon royaux,electro-dragon,0,2
@@ -1339,31 +1339,31 @@ cochon royaux,gobelin a sarbacane,0,1
 cochon royaux,armee de squelettes,0,1
 cochon royaux,geant,0,1
 mini p.e.k.k.a,electro-dragon,2,1
-boule de feu,electro-dragon,0,1
+boule de feu,electro-dragon,1,1
 electro-dragon,gobelin a sarbacane,0,1
 electro-dragon,chevalier,2,1
-electro-dragon,armee de squelettes,1,1
+electro-dragon,armee de squelettes,2,1
 electro-dragon,geant,0,1
 chevaucheur de cochon,horde de gargouille,0,1
-fut a gobelin,horde de gargouille,1,1
+fut a gobelin,horde de gargouille,1,2
 bombardier,tour de l'enfer,1,1
-bombardier,mineur,2,1
+bombardier,mineur,2,2
 bombardier,buche,1,1
 bombardier,foudre,1,1
-bombardier,sorciere,1,0
+bombardier,sorciere,1,1
 bombardier,chevaucheur de cochon,1,2
-bombardier,electrocution,1,0
+bombardier,electrocution,1,1
 tour de l'enfer,mineur,2,2
 tour de l'enfer,buche,2,2
-mineur,buche,4,1
+mineur,buche,5,1
 mineur,foudre,3,4
-buche,foudre,1,1
-buche,sorciere,2,0
+buche,foudre,1,2
+buche,sorciere,3,0
 buche,chevaucheur de cochon,1,0
-buche,electrocution,1,0
+buche,electrocution,2,0
 foudre,electrocution,1,2
-electrocuteur,mineur,4,2
-electrocuteur,fut a squelettes,5,3
+electrocuteur,mineur,4,3
+electrocuteur,fut a squelettes,6,4
 gobelins,fut a squelettes,0,4
 geant royal,bebe dragon,4,2
 geant royal,boule de neige,1,0
@@ -1371,19 +1371,19 @@ bebe dragon,tour de l'enfer,2,1
 roquette,boule de neige,2,3
 berserker,electrocution,0,1
 berserker,mineur,2,2
-electrocution,mousquetaire,1,0
+electrocution,mousquetaire,1,1
 horde de gargouille,mousquetaire,1,1
 horde de gargouille,roquette,1,1
-mini p.e.k.k.a,mousquetaire,4,0
+mini p.e.k.k.a,mousquetaire,4,1
 mousquetaire,boule de neige,2,2
 mousquetaire,roquette,1,0
-mousquetaire,prince tenebreux,2,1
+mousquetaire,prince tenebreux,2,2
 mousquetaire,squelette geant,1,1
 geante runique,geant,1,1
 geante runique,cabane de gobelin,2,2
 geante runique,cabane de barbares,1,0
 geante runique,fut a squelettes,2,3
-geante runique,prince tenebreux,6,3
+geante runique,prince tenebreux,8,3
 geante runique,esprit de glace,3,1
 ballon,mortier,0,1
 mortier,boule de feu,0,1
@@ -1391,31 +1391,31 @@ p.e.k.k.a,buche,0,1
 cabane de gobelin,buche,0,1
 cabane de gobelin,fournaise,1,5
 cabane de gobelin,armee de squelettes,0,1
-buche,dragon squelettes,1,1
+buche,dragon squelettes,2,1
 buche,gobelin a lance,0,1
 buche,fournaise,0,1
-buche,armee de squelettes,0,1
+buche,armee de squelettes,0,2
 buche,prince tenebreux,2,1
 electrocuteur,recrues royales,3,2
 electrocuteur,esprit de feu,3,1
-electrocuteur,belier de combat,1,2
+electrocuteur,belier de combat,1,3
 recrues royales,esprit de feu,1,1
 recrues royales,trois mousquettaires,3,0
 esprit de feu,trois mousquettaires,3,3
 fut a barbare,fut a squelettes,0,1
-mineur,mega chevalier,3,0
+mineur,mega chevalier,4,1
 mega chevalier,p.e.k.k.a,1,1
 mega chevalier,valkyrie,1,0
-mega chevalier,fut a squelettes,2,1
-mega chevalier,electrocution,1,0
-mega chevalier,horde de gargouille,2,0
-mega chevalier,esprit de glace,3,0
+mega chevalier,fut a squelettes,3,2
+mega chevalier,electrocution,2,0
+mega chevalier,horde de gargouille,2,1
+mega chevalier,esprit de glace,4,2
 valkyrie,electrocution,1,4
 valkyrie,horde de gargouille,1,1
 mega chevalier,barbares,1,1
 mega chevalier,bombardier,0,1
 mega chevalier,recrues royales,0,1
-mega chevalier,gang de gobelin,0,1
+mega chevalier,gang de gobelin,1,2
 mega chevalier,fleche,0,1
 barbares,bombardier,0,1
 barbares,p.e.k.k.a,0,1
@@ -1427,7 +1427,7 @@ bombardier,p.e.k.k.a,0,1
 bombardier,fut a squelettes,0,1
 bombardier,recrues royales,0,1
 bombardier,gang de gobelin,0,2
-bombardier,fleche,0,1
+bombardier,fleche,0,2
 recrues royales,gang de gobelin,4,3
 recrues royales,fleche,0,1
 tour de l'enfer,squelettes,2,1
@@ -1439,7 +1439,7 @@ squelettes,foudre,5,2
 valkyrie,foudre,1,2
 bebe dragon,sapeurs,3,2
 bebe dragon,bouliste,1,0
-tour a bombe,fournaise,2,0
+tour a bombe,fournaise,3,0
 tour a bombe,sapeurs,2,2
 tour a bombe,bouliste,1,0
 fournaise,geant royal,2,0
@@ -1484,7 +1484,7 @@ cimetiere,electro-esprit,0,1
 cimetiere,geante runique,0,1
 cimetiere,esprit de glace,0,2
 gobelin a sarbacane,geante runique,1,2
-electro-esprit,geante runique,1,2
+electro-esprit,geante runique,2,2
 armee de squelettes,ronces,1,0
 squelettes,ronces,1,1
 mini p.e.k.k.a,ronces,1,3
@@ -1502,9 +1502,9 @@ imperatrice spirituelle,mini p.e.k.k.a,1,0
 gobelin a sarbacane,fantome royal,3,3
 trois mousquettaires,tour a bombe,1,1
 trois mousquettaires,fantome royal,1,0
-tour a bombe,fantome royal,1,1
-belier de combat,fantome royal,2,2
-squelette geant,fantome royal,3,1
+tour a bombe,fantome royal,2,1
+belier de combat,fantome royal,2,3
+squelette geant,fantome royal,3,2
 fantome royal,mini p.e.k.k.a,5,4
 squelettes,fut a squelettes,3,4
 mousquetaire,fournaise,0,1
@@ -1513,7 +1513,7 @@ mousquetaire,mineur,0,1
 mousquetaire,fut a squelettes,1,1
 fournaise,mega gargouille,0,1
 p.e.k.k.a,foudre,2,2
-gang de gobelin,foudre,8,2
+gang de gobelin,foudre,9,2
 berserker,cage gobeline,5,3
 berserker,boule de neige,5,3
 berserker,gobelin a lance,8,2
@@ -1525,8 +1525,8 @@ gobelin a lance,foudre,7,2
 ballon,foudre,2,1
 chevaucheur de cochon,fut a squelettes,0,1
 archeres,fut a squelettes,0,2
-squelette geant,foudre,4,0
-gang de gobelin,guerrisseuse armee,9,2
+squelette geant,foudre,4,1
+gang de gobelin,guerrisseuse armee,11,2
 pierre tombale,recrues royales,5,2
 recrues royales,foudre,1,1
 recrues royales,guerrisseuse armee,3,2
@@ -1534,9 +1534,9 @@ foudre,guerrisseuse armee,2,1
 horde de gargouille,geante runique,3,2
 chevalier,canon,1,1
 canon,dragon squelettes,1,1
-canon,geante runique,1,0
+canon,geante runique,2,0
 canon,fut a squelettes,1,1
-canon,prince tenebreux,1,2
+canon,prince tenebreux,2,2
 dragon squelettes,geante runique,2,2
 geante runique,boule de neige,2,2
 cabane de gobelin,mousquetaire,0,2
@@ -1553,9 +1553,9 @@ recrues royales,squelettes,2,1
 recrues royales,bebe dragon,2,1
 squelette geant,gobelin a lance,2,1
 gobelin a lance,electro-esprit,4,2
-roquette,electro-esprit,2,0
+roquette,electro-esprit,3,0
 roquette,fut a squelettes,1,2
-electro-esprit,fut a squelettes,2,1
+electro-esprit,fut a squelettes,3,1
 tour de l'enfer,recrues royales,3,0
 gargouille,geant royal,0,1
 gargouille,recrues royales,0,1
@@ -1572,7 +1572,7 @@ electro-dragon,cabane de barbares,1,0
 electro-dragon,cage gobeline,1,0
 electro-dragon,bebe dragon,2,1
 electro-dragon,esprit de glace,2,0
-prince tenebreux,cage gobeline,5,4
+prince tenebreux,cage gobeline,5,5
 gobelin a lance,bebe dragon,5,1
 cage gobeline,bebe dragon,3,2
 electro-esprit,valkyrie,0,2
@@ -1580,14 +1580,14 @@ electro-esprit,chevaucheur de cochon,0,1
 electro-esprit,electrocution,0,1
 sorciere,armee de squelettes,6,1
 valkyrie,squelette geant,1,2
-armee de squelettes,horde de gargouille,2,2
-bebe dragon,electro-esprit,3,2
+armee de squelettes,horde de gargouille,2,3
+bebe dragon,electro-esprit,4,2
 bebe dragon,foudre,5,2
 roquette,foudre,1,1
 roquette,fournaise,1,0
-foudre,fournaise,1,1
+foudre,fournaise,2,1
 gobelin a lance,electrocuteur,3,3
-electro-esprit,electrocuteur,2,1
+electro-esprit,electrocuteur,4,1
 electrocuteur,mortier,1,3
 electrocuteur,fut a gobelin,2,2
 mortier,berserker,3,1
@@ -1596,7 +1596,7 @@ berserker,recrues royales,2,2
 fut a gobelin,recrues royales,1,0
 gobelin a lance,recrues royales,1,2
 electrocuteur,foudre,0,2
-electrocuteur,pierre tombale,7,5
+electrocuteur,pierre tombale,8,5
 cabane de barbares,mortier,0,1
 cabane de barbares,foudre,0,1
 recrues royales,esprit de glace,0,2
@@ -1604,20 +1604,20 @@ dragon squelettes,golem de glace,0,1
 dragon squelettes,cage gobeline,2,2
 golem de glace,bebe dragon,1,2
 horde de gargouille,electrocuteur,6,0
-sapeurs,pierre tombale,3,2
-sapeurs,electrocuteur,6,2
+sapeurs,pierre tombale,4,2
+sapeurs,electrocuteur,7,2
 sapeurs,boule de feu,4,1
 sapeurs,esprit de feu,2,0
-sapeurs,fut a squelettes,3,1
+sapeurs,fut a squelettes,4,1
 electro-esprit,recrues royales,0,1
-electro-esprit,chevalier,4,1
+electro-esprit,chevalier,5,1
 electro-esprit,squelettes,0,2
 recrues royales,chevalier,1,1
 recrues royales,valkyrie,0,1
 pierre tombale,berserker,1,2
-sorciere,sapeurs,4,2
+sorciere,sapeurs,5,2
 sorciere,berserker,4,3
-prince tenebreux,sapeurs,6,2
+prince tenebreux,sapeurs,8,2
 sapeurs,berserker,1,1
 sapeurs,armee de squelettes,1,1
 sapeurs,cage gobeline,2,4
@@ -1626,10 +1626,10 @@ electro-esprit,gargouille,2,1
 geante runique,esprit de feu,0,1
 geante runique,tour de l'enfer,0,1
 esprit de feu,tour de l'enfer,0,1
-guerrisseuse armee,gobelin a lance,2,1
+guerrisseuse armee,gobelin a lance,2,2
 berserker,fut a squelettes,2,3
 gargouille,guerrisseuse armee,7,2
-guerrisseuse armee,archeres,5,0
+guerrisseuse armee,archeres,6,1
 guerrisseuse armee,squelettes,3,3
 electro-esprit,p.e.k.k.a,2,0
 barbares,fut a barbare,0,1
@@ -1638,7 +1638,7 @@ barbares,geante runique,1,1
 fut a barbare,geante runique,0,1
 gobelin a lance,geante runique,2,1
 geante runique,gardes,0,1
-geante runique,roquette,0,1
+geante runique,roquette,1,1
 prince tenebreux,arc-x,1,1
 arc-x,berserker,1,0
 arc-x,mortier,1,0
@@ -1647,7 +1647,7 @@ arc-x,dragon squelettes,1,0
 arc-x,foudre,1,0
 arc-x,electro-esprit,2,1
 armee de squelettes,electro-esprit,2,1
-armee de squelettes,foudre,3,3
+armee de squelettes,foudre,3,4
 cage gobeline,p.e.k.k.a,1,1
 seisme,chevalier,0,1
 seisme,ronces,0,1
@@ -1663,8 +1663,8 @@ foudre,trois mousquettaires,0,1
 geant,foudre,2,0
 trois mousquettaires,guerrisseuse armee,1,0
 recrues royales,boule de neige,2,1
-tour de l'enfer,guerrisseuse armee,1,1
-chevalier,mega chevalier,1,1
+tour de l'enfer,guerrisseuse armee,1,2
+chevalier,mega chevalier,2,1
 cabane de barbares,mega chevalier,0,1
 archeres,mega chevalier,0,1
 fut a barbare,mega chevalier,0,1
@@ -1675,15 +1675,15 @@ fleche,berserker,0,1
 barbares,boule de feu,1,0
 barbares,foudre,1,0
 boule de neige,electro-esprit,1,2
-belier de combat,electro-esprit,3,2
+belier de combat,electro-esprit,4,2
 electrocuteur,geant royal,1,1
 electrocuteur,buche,1,1
 geant royal,mineur,2,2
 geant royal,buche,1,0
 mineur,sapeurs,3,2
-buche,bebe dragon,2,1
+buche,bebe dragon,3,1
 buche,horde de gargouille,1,1
-buche,pierre tombale,1,0
+buche,pierre tombale,2,1
 buche,sapeurs,2,0
 prince,golem,1,0
 mini p.e.k.k.a,golem,1,0
@@ -1703,11 +1703,11 @@ cage gobeline,mousquetaire,0,1
 prince tenebreux,golem de glace,0,2
 golem de glace,mousquetaire,0,1
 golem de glace,boule de neige,0,1
-mousquetaire,armee de squelettes,1,1
+mousquetaire,armee de squelettes,1,2
 geant,sapeurs,1,0
 gobelin a lance,sapeurs,2,3
 geant royal,gang de gobelin,2,1
-sapeurs,gang de gobelin,3,1
+sapeurs,gang de gobelin,5,1
 geante runique,p.e.k.k.a,0,1
 geante runique,foudre,0,1
 geante runique,mineur,0,1
@@ -1716,17 +1716,17 @@ geante runique,mortier,0,1
 geante runique,fournaise,0,1
 mineur,ronces,0,1
 ronces,mortier,0,1
-fleche,buche,2,1
+fleche,buche,2,2
 roquette,buche,0,1
 boule de neige,buche,1,1
 buche,mega gargouille,0,1
-buche,fut a squelettes,2,1
+buche,fut a squelettes,3,1
 fournaise,valkyrie,1,0
-fournaise,pierre tombale,3,4
+fournaise,pierre tombale,4,4
 valkyrie,chauves-souris,1,1
 valkyrie,gobelins,1,0
 valkyrie,pierre tombale,1,1
-mega gargouille,sapeurs,0,1
+mega gargouille,sapeurs,1,1
 gargouille,foudre,1,3
 gargouille,sapeurs,1,1
 belier de combat,sapeurs,0,1
@@ -1803,15 +1803,15 @@ barbares d'elite,fantome royal,1,1
 barbares d'elite,chevalier,1,0
 barbares d'elite,electro-esprit,1,1
 mineur,artificiere,4,3
-mineur,fantome royal,5,3
+mineur,fantome royal,7,4
 artificiere,fantome royal,2,3
 artificiere,mortier,1,2
 artificiere,chevalier,3,2
 artificiere,electro-esprit,3,1
 fantome royal,mortier,3,2
-fantome royal,chevalier,8,1
+fantome royal,chevalier,9,3
 fantome royal,electro-esprit,1,1
-chauves-souris,prince,2,1
+chauves-souris,prince,3,1
 chauves-souris,artificiere,2,1
 gobelins,artificiere,1,2
 prince,artificiere,2,0
@@ -1823,11 +1823,11 @@ gobelins,foudre,1,0
 gobelins,fantome royal,2,2
 gobelins,pecheur,1,1
 squelette geant,pecheur,1,0
-foudre,fantome royal,1,2
+foudre,fantome royal,1,3
 foudre,pecheur,1,0
 chauves-souris,fantome royal,2,2
 chauves-souris,pecheur,1,0
-fantome royal,pierre tombale,4,3
+fantome royal,pierre tombale,5,4
 fantome royal,pecheur,2,1
 fantome royal,squelettes,1,1
 pierre tombale,pecheur,1,0
@@ -1835,12 +1835,12 @@ pecheur,squelettes,1,0
 electro-dragon,chasseur,2,0
 electro-dragon,pecheur,2,0
 electro-dragon,miroir,1,0
-electro-dragon,mineur,1,0
-electro-dragon,fantome royal,1,1
+electro-dragon,mineur,2,0
+electro-dragon,fantome royal,2,1
 electro-dragon,bombardier,1,0
 chasseur,pecheur,1,0
 chasseur,miroir,1,0
-chasseur,fantome royal,2,0
+chasseur,fantome royal,3,1
 chasseur,bombardier,1,1
 pecheur,miroir,1,0
 pecheur,chevalier,2,0
@@ -1868,11 +1868,11 @@ artificiere,esprit de glace,0,1
 esprit de glace,dragon de l'enfer,0,1
 esprit de glace,pecheur,0,1
 esprit de glace,sorcier de glace,0,2
-bebe dragon,dragon de l'enfer,1,2
+bebe dragon,dragon de l'enfer,3,2
 bebe dragon,pecheur,0,1
 bebe dragon,sorcier de glace,0,1
 dragon de l'enfer,gobelin a sarbacane,0,1
-dragon de l'enfer,gang de gobelin,0,1
+dragon de l'enfer,gang de gobelin,0,2
 dragon de l'enfer,pecheur,0,1
 dragon de l'enfer,mineur,1,1
 dragon de l'enfer,sorcier de glace,0,1
@@ -1882,7 +1882,7 @@ gang de gobelin,pecheur,0,1
 gang de gobelin,sorcier de glace,0,1
 pecheur,sorcier de glace,0,1
 mineur,sorcier de glace,0,1
-canon,electrocuteur,0,1
+canon,electrocuteur,1,1
 canon,pierre tombale,0,1
 canon,mineur,0,1
 canon,archeres,0,1
@@ -1893,64 +1893,64 @@ archeres,fournaise,1,1
 bouliste,bombardier,0,1
 bouliste,tour de l'enfer,0,1
 bouliste,chevalier,0,1
-bouliste,chevaucheur de cochon,0,1
+bouliste,chevaucheur de cochon,0,2
 bouliste,boule de feu,0,1
 bouliste,geant,0,1
 bouliste,pierre tombale,0,1
 bombardier,boule de feu,0,1
 bombardier,geant,0,1
-bombardier,pierre tombale,0,1
+bombardier,pierre tombale,0,2
 belier de combat,chasseur,2,1
 belier de combat,gobelin explosif,2,0
 chasseur,gobelins,1,1
 chasseur,gobelin explosif,2,1
-chasseur,guerrisseuse armee,2,1
-chasseur,gobelin a sarbacane,2,1
-chasseur,prince tenebreux,3,1
+chasseur,guerrisseuse armee,2,3
+chasseur,gobelin a sarbacane,2,2
+chasseur,prince tenebreux,3,3
 gobelins,gobelin explosif,1,0
 gobelin explosif,chevalier,1,1
 gobelin explosif,guerrisseuse armee,1,0
 gobelin explosif,gobelin a sarbacane,3,1
-gobelin explosif,prince tenebreux,3,2
-electrocuteur,guerrisseuse armee,2,1
-electro-esprit,archeres,2,2
-electro-esprit,guerrisseuse armee,3,1
-arc-x,archeres,1,0
+gobelin explosif,prince tenebreux,3,3
+electrocuteur,guerrisseuse armee,4,2
+electro-esprit,archeres,3,2
+electro-esprit,guerrisseuse armee,4,1
+arc-x,archeres,2,0
 arc-x,esprit de glace,1,1
 arc-x,mini p.e.k.k.a,1,0
 arc-x,guerrisseuse armee,1,0
 arc-x,fournaise,1,0
 arc-x,belier de combat,1,0
 guerrisseuse armee,fournaise,5,2
-electrocution,gobelin explosif,1,1
+electrocution,gobelin explosif,1,2
 electrocution,chasseur,1,2
 gargouille,gobelin explosif,1,0
 gobelin explosif,bebe dragon,2,2
 chasseur,bebe dragon,3,3
 electrocuteur,zappy,1,0
-electrocuteur,chevalier,1,2
-zappy,fut a gobelin,1,1
+electrocuteur,chevalier,2,3
+zappy,fut a gobelin,1,2
 zappy,guerrisseuse armee,1,1
-zappy,pierre tombale,1,0
-zappy,armee de squelettes,1,0
-zappy,chevalier,1,0
+zappy,pierre tombale,1,1
+zappy,armee de squelettes,1,1
+zappy,chevalier,1,1
 zappy,gobelin a sarbacane,1,2
-fut a gobelin,chevalier,4,2
-guerrisseuse armee,armee de squelettes,3,1
+fut a gobelin,chevalier,4,3
+guerrisseuse armee,armee de squelettes,4,1
 mineur,poison,0,1
 machine volante,poison,0,1
 poison,bebe dragon,1,1
 poison,pierre tombale,0,1
 poison,mega gargouille,0,1
-poison,mini p.e.k.k.a,0,1
-poison,squelette geant,0,1
+poison,mini p.e.k.k.a,1,1
+poison,squelette geant,1,1
 boule de feu,artificiere,2,4
 sorciere,artificiere,2,1
 prince tenebreux,artificiere,1,3
 berserker,belier de combat,1,1
 berserker,gargouille,4,1
 berserker,cabane de gobelin,2,1
-guerrisseuse armee,fantome royal,6,3
+guerrisseuse armee,fantome royal,7,5
 berserker,fantome royal,2,0
 gargouille,fantome royal,2,2
 bombardier,barbares d'elite,0,1
@@ -1960,7 +1960,7 @@ mineur,extracteur d elixir,0,1
 barbares d'elite,buche,0,1
 barbares d'elite,foudre,0,1
 barbares d'elite,extracteur d elixir,0,1
-buche,fantome royal,0,1
+buche,fantome royal,1,2
 buche,extracteur d elixir,0,1
 buche,electro-esprit,0,1
 fantome royal,extracteur d elixir,0,1
@@ -1976,14 +1976,14 @@ rage,pierre tombale,0,1
 gobelins,maitre mineur,0,1
 gobelins,foreuse gobeline,0,1
 chevalier,maitre mineur,0,1
-chevalier,foreuse gobeline,0,1
+chevalier,foreuse gobeline,1,1
 maitre mineur,armee de squelettes,0,1
 maitre mineur,foreuse gobeline,0,1
 maitre mineur,fut a gobelin,0,1
 maitre mineur,pierre tombale,0,1
 armee de squelettes,foreuse gobeline,0,1
 foreuse gobeline,fut a gobelin,0,1
-foreuse gobeline,pierre tombale,0,1
+foreuse gobeline,pierre tombale,2,1
 buisson suspicieux,squelettes,1,0
 buisson suspicieux,trois mousquettaires,1,0
 buisson suspicieux,gobelin a sarbacane,1,1
@@ -2028,11 +2028,11 @@ buisson suspicieux,phenix,0,1
 chevalier,phenix,0,1
 mega gargouille,phenix,0,1
 chevaucheur de cochon,fantome royal,4,4
-dragon squelettes,fantome royal,4,1
-gang de gobelin,fantome royal,5,3
-armee de squelettes,fantome royal,2,2
+dragon squelettes,fantome royal,6,1
+gang de gobelin,fantome royal,6,3
+armee de squelettes,fantome royal,3,4
 electro-esprit,fut a gobelin,0,1
-boule de feu,guerrisseuse armee,6,2
+boule de feu,guerrisseuse armee,7,2
 archeres,artificiere,0,3
 tour de l'enfer,artificiere,0,1
 gargouille,artificiere,0,1
@@ -2045,32 +2045,32 @@ geant,artificiere,0,1
 berserker,artificiere,0,2
 boule de neige,artificiere,0,1
 boule de neige,fut a gobelin,1,1
-fleche,armee de squelettes,0,1
-fleche,chasseur,0,1
+fleche,armee de squelettes,0,2
+fleche,chasseur,1,1
 armee de squelettes,chasseur,0,1
 artificiere,machine volante,1,1
 artificiere,fleche,1,0
 artificiere,dragon de l'enfer,1,0
 artificiere,gardes,1,1
 machine volante,dragon de l'enfer,1,0
-machine volante,gardes,1,1
+machine volante,gardes,2,1
 machine volante,fantome royal,1,1
 fleche,dragon de l'enfer,1,0
-fleche,fantome royal,3,3
+fleche,fantome royal,4,4
 dragon de l'enfer,fut a gobelin,1,0
-dragon de l'enfer,gardes,2,0
-dragon de l'enfer,fantome royal,1,1
-fut a gobelin,fantome royal,3,1
-gardes,fantome royal,4,2
+dragon de l'enfer,gardes,3,0
+dragon de l'enfer,fantome royal,2,1
+fut a gobelin,fantome royal,3,3
+gardes,fantome royal,6,2
 cage gobeline,gargouille,2,2
 cage gobeline,fantome royal,0,1
-prince tenebreux,fantome royal,3,2
+prince tenebreux,fantome royal,4,2
 cage gobeline,cabane de gobelin,1,2
 cage gobeline,fut a gobelin,0,1
 fournaise,fut a gobelin,0,2
 esprit de feu,chevaucheur de cochon,0,1
 esprit de feu,fantome royal,0,1
-bebe dragon,fantome royal,0,1
+bebe dragon,fantome royal,2,1
 fournaise,fantome royal,3,2
 electro-esprit,golem de glace,0,1
 electro-esprit,esprit de feu,0,2
@@ -2079,11 +2079,11 @@ golem de glace,electro-dragon,0,1
 esprit de feu,electro-dragon,0,1
 fut a barbare,bebe dragon,0,1
 fut a barbare,electro-dragon,0,1
-gang de gobelin,electro-dragon,0,1
+gang de gobelin,electro-dragon,1,1
 electro-dragon,sorciere,0,1
 berserker,geante runique,2,0
 geante runique,boule de feu,3,2
-prince,fantome royal,3,0
+prince,fantome royal,3,1
 fut a barbare,artificiere,1,0
 squelette geant,artificiere,1,0
 bebe dragon,canon,0,1
@@ -2094,13 +2094,13 @@ chasseur,artificiere,0,1
 chasseur,dragon squelettes,1,1
 artificiere,dragon squelettes,0,1
 ronin,esprit de feu,2,0
-ronin,sapeurs,2,1
+ronin,sapeurs,3,1
 ronin,fournaise,2,0
 ronin,tour a bombe,1,0
-ronin,gang de gobelin,3,1
+ronin,gang de gobelin,4,1
 ronin,cage gobeline,2,0
 ronin,boule de feu,4,0
-gang de gobelin,cage gobeline,2,1
+gang de gobelin,cage gobeline,2,2
 cage gobeline,boule de feu,2,2
 fournaise,artificiere,1,3
 electro-esprit,boule de feu,1,1
@@ -2118,33 +2118,33 @@ zappy,gobelin explosif,0,1
 zappy,mineur,0,2
 fut a gobelin,gobelin explosif,0,1
 gardes,gobelin explosif,0,1
-gobelin explosif,mineur,0,1
-chauves-souris,sapeurs,1,0
+gobelin explosif,mineur,0,2
+chauves-souris,sapeurs,2,0
 chauves-souris,fripons,2,1
-electrocuteur,fripons,3,1
-mineur,fripons,1,1
-sapeurs,fripons,3,0
+electrocuteur,fripons,3,2
+mineur,fripons,1,2
+sapeurs,fripons,4,0
 horde de gargouille,fripons,2,0
-fripons,prince tenebreux,6,0
-fripons,fut a squelettes,2,1
+fripons,prince tenebreux,7,1
+fripons,fut a squelettes,2,2
 berserker,ronin,1,1
 gargouille,ronin,3,0
 gargouille,geante runique,1,1
-ronin,geante runique,1,0
-ronin,prince tenebreux,5,1
+ronin,geante runique,2,0
+ronin,prince tenebreux,6,1
 ronin,boule de neige,2,0
 ronin,guerrisseuse armee,4,0
 geante runique,guerrisseuse armee,1,1
 fut a barbare,ronin,1,1
-fut a barbare,fripons,1,0
-guerrisseuse armee,fripons,1,0
+fut a barbare,fripons,1,1
+guerrisseuse armee,fripons,1,1
 electro-esprit,ronin,1,1
 electro-esprit,fripons,1,1
 ronin,archeres,1,2
-ronin,fripons,1,0
+ronin,fripons,2,0
 ronin,belier de combat,1,0
 archeres,fripons,1,1
-fripons,belier de combat,3,0
+fripons,belier de combat,3,1
 ronin,barbares,0,1
 ronin,recrues royales,0,1
 ronin,buisson suspicieux,0,1
@@ -2158,12 +2158,12 @@ buisson suspicieux,gobelin a lance,0,1
 buisson suspicieux,sapeurs,0,1
 archeres,sapeurs,0,1
 recrues royales,fantome royal,1,0
-fantome royal,fut a squelettes,4,2
+fantome royal,fut a squelettes,4,3
 berserker,fournaise,1,0
 squelettes,chasseur,2,0
-gang de gobelin,chasseur,1,0
+gang de gobelin,chasseur,1,1
 geant,chasseur,1,0
-cabane de gobelin,chasseur,1,0
+cabane de gobelin,chasseur,1,1
 gobelin explosif,fournaise,0,1
 gobelin explosif,artificiere,0,1
 gobelin explosif,mortier,0,1
@@ -2181,14 +2181,14 @@ esprit de glace,chasseur,2,1
 horde de gargouille,electro-dragon,1,0
 horde de gargouille,chasseur,1,0
 electro-dragon,gargouille,1,0
-chasseur,mini p.e.k.k.a,2,0
+chasseur,mini p.e.k.k.a,2,1
 cage gobeline,electro-esprit,0,1
 gargouille,mineur,0,1
-gardes,electrocuteur,2,1
-gardes,fripons,1,1
+gardes,electrocuteur,2,2
+gardes,fripons,2,1
 gardes,sapeurs,1,1
-electrocuteur,fantome royal,1,2
-fripons,fantome royal,1,0
+electrocuteur,fantome royal,1,3
+fripons,fantome royal,2,1
 fantome royal,sapeurs,1,1
 fantome royal,gobelin a lance,2,0
 buche,cage gobeline,1,1
@@ -2196,18 +2196,18 @@ buche,ronin,2,0
 buche,guerrisseuse armee,1,0
 buche,gargouille,1,0
 buche,boule de feu,3,0
-buche,gang de gobelin,2,0
-geante runique,fripons,2,0
+buche,gang de gobelin,3,0
+geante runique,fripons,3,0
 geante runique,geant royal,1,0
 geante runique,belier de combat,1,1
 fripons,esprit de glace,1,0
 ronin,sorciere,1,0
 ronin,fleche,2,1
 sapeurs,fleche,1,0
-sorciere,fantome royal,1,0
-boule de feu,fantome royal,3,2
-gang de gobelin,gardes,1,1
-ronin,mega gargouille,0,1
+sorciere,fantome royal,2,0
+boule de feu,fantome royal,4,3
+gang de gobelin,gardes,2,2
+ronin,mega gargouille,1,1
 ronin,mini p.e.k.k.a,0,1
 ronin,dragon squelettes,0,1
 electrocuteur,cabane de gobelin,1,0
@@ -2221,7 +2221,7 @@ miroir,gardes,0,1
 cage gobeline,gardes,1,1
 roquette,archeres,1,0
 roquette,fantome royal,1,1
-archeres,fantome royal,2,1
+archeres,fantome royal,3,1
 horde de gargouille,bombardier,0,1
 horde de gargouille,fantome royal,0,1
 squelette geant,bombardier,0,1
@@ -2236,7 +2236,7 @@ cavabeliere,electrocuteur,0,1
 cavabeliere,artificiere,0,1
 cavabeliere,fripons,0,1
 cavabeliere,fut a squelettes,0,1
-gang de gobelin,fripons,0,1
+gang de gobelin,fripons,0,2
 gobelins,princesse,0,1
 gobelins,cochon royaux,0,1
 gobelins,electro-dragon,0,1
@@ -2285,8 +2285,8 @@ esprit de guerison,gobelin a lance,0,1
 esprit de guerison,golem d'elixir,0,1
 geant royal,gel,0,1
 geant royal,golem d'elixir,0,1
-gel,electrocuteur,1,1
-gel,gobelin a sarbacane,1,1
+gel,electrocuteur,2,1
+gel,gobelin a sarbacane,1,2
 gel,gobelin a lance,0,1
 gel,golem d'elixir,0,1
 electrocuteur,golem d'elixir,0,1
@@ -2303,7 +2303,7 @@ mortier,sapeurs,0,1
 mortier,sorcier de glace,0,1
 sapeurs,bucheron,0,1
 sapeurs,sorcier de glace,0,1
-sapeurs,boule de neige,0,1
+sapeurs,boule de neige,1,1
 bucheron,esprit de glace,0,1
 bucheron,electrocuteur,0,1
 bucheron,sorcier de glace,0,1
@@ -2326,7 +2326,7 @@ rage,mini p.e.k.k.a,0,1
 rage,mega gargouille,0,1
 rage,boule de neige,0,1
 machine gobeline,mini p.e.k.k.a,0,1
-machine gobeline,mega gargouille,0,1
+machine gobeline,mega gargouille,1,1
 machine gobeline,boule de neige,0,1
 machine gobeline,armee de squelettes,0,1
 guerrisseuse armee,ronces,0,1
@@ -2336,9 +2336,9 @@ chevaucheur de cochon,chasseur,0,1
 chevaucheur de cochon,ronces,0,1
 chevaucheur de cochon,electro-sorcier,0,1
 chasseur,ronces,0,1
-chasseur,prince,0,1
+chasseur,prince,0,2
 chasseur,electro-sorcier,0,1
-chasseur,chauves-souris,0,1
+chasseur,chauves-souris,0,2
 ronces,prince,0,1
 ronces,chauves-souris,0,1
 ronces,bombardier,0,1
@@ -2347,16 +2347,16 @@ prince,bombardier,0,1
 electro-sorcier,chauves-souris,0,1
 electro-sorcier,bombardier,0,1
 chauves-souris,bombardier,0,1
-fripons,sorciere,2,0
-fripons,gobelin a sarbacane,1,0
+fripons,sorciere,3,0
+fripons,gobelin a sarbacane,1,1
 fripons,boule de feu,2,1
-sapeurs,geante runique,1,0
-electrocuteur,geante runique,1,0
+sapeurs,geante runique,2,0
+electrocuteur,geante runique,2,0
 chevaucheur de cochon,gardes,0,1
 electro-esprit,sapeurs,1,0
 electro-esprit,prince,2,0
-sapeurs,mini p.e.k.k.a,1,0
-sapeurs,prince,1,0
+sapeurs,mini p.e.k.k.a,2,0
+sapeurs,prince,3,0
 geant,gobelin explosif,1,0
 gobelin explosif,esprit de feu,1,0
 gobelin explosif,electrocuteur,1,1
@@ -2386,7 +2386,7 @@ imperatrice spirituelle,foreuse gobeline,0,1
 imperatrice spirituelle,gardes,0,1
 imperatrice spirituelle,chauves-souris,0,1
 imperatrice spirituelle,boule de feu,0,1
-foreuse gobeline,gardes,0,1
+foreuse gobeline,gardes,0,2
 foreuse gobeline,chauves-souris,0,1
 foreuse gobeline,boule de feu,0,1
 valkyrie,roi squelette,1,0
@@ -2400,8 +2400,8 @@ roi squelette,esprit de glace,1,0
 boule de neige,foreuse gobeline,1,0
 cabane de gobelin,foreuse gobeline,1,0
 sorciere,foreuse gobeline,2,0
-foreuse gobeline,fut a squelettes,1,0
-foreuse gobeline,esprit de glace,2,0
+foreuse gobeline,fut a squelettes,2,1
+foreuse gobeline,esprit de glace,3,1
 petit prince,roi squelette,0,1
 petit prince,fut a barbare,0,1
 petit prince,malediction gobeline,0,1
@@ -2473,11 +2473,11 @@ moine,fut a squelettes,0,1
 moine,gobelin a lance,0,1
 moine,sapeurs,0,1
 cabane de gobelin,sapeurs,0,1
-cage gobeline,fut a squelettes,0,1
+cage gobeline,fut a squelettes,0,2
 geante runique,electrocution,0,1
 tour a bombe,fleche,0,1
 geant royal,fantome royal,0,1
-fut a barbare,fantome royal,0,1
+fut a barbare,fantome royal,0,2
 fantome royal,zappy,0,1
 mortier,zappy,0,1
 belier de combat,zappy,0,1
@@ -2488,23 +2488,23 @@ golem de glace,pierre tombale,0,1
 golem de glace,mini p.e.k.k.a,0,1
 golem de glace,fournaise,0,1
 gel,golem de glace,1,0
-gel,tour a bombe,1,1
+gel,tour a bombe,2,1
 gel,poison,1,0
 gel,prince,1,0
-gel,bebe dragon,2,0
+gel,bebe dragon,3,1
 gel,gang de gobelin,1,0
 golem de glace,tour a bombe,1,0
-golem de glace,poison,1,0
-tour a bombe,poison,1,0
-poison,prince,1,0
+golem de glace,poison,1,1
+tour a bombe,poison,2,0
+poison,prince,1,1
 poison,gang de gobelin,1,0
-poison,gobelin a sarbacane,1,0
-geante runique,dragon de l'enfer,0,1
+poison,gobelin a sarbacane,2,0
+geante runique,dragon de l'enfer,1,1
 geante runique,fantome royal,0,1
 fut a squelettes,dragon de l'enfer,0,1
 boule de feu,dragon de l'enfer,0,1
-guerrisseuse armee,dragon de l'enfer,0,1
-dragon de l'enfer,chevalier,0,1
+guerrisseuse armee,dragon de l'enfer,1,1
+dragon de l'enfer,chevalier,1,1
 dragon de l'enfer,mini p.e.k.k.a,0,1
 gobelin a lance,mousquetaire,0,1
 recrues royales,cabane de gobelin,0,1
@@ -2516,22 +2516,22 @@ guerrisseuse armee,mousquetaire,0,1
 chasseur,mega chevalier,1,0
 chasseur,buche,1,1
 mega chevalier,bebe dragon,1,0
-mega chevalier,buche,2,0
-mega chevalier,squelettes,1,0
-mega chevalier,gardes,2,0
-bebe dragon,gardes,2,0
+mega chevalier,buche,3,0
+mega chevalier,squelettes,2,0
+mega chevalier,gardes,2,1
+bebe dragon,gardes,5,1
 buche,squelettes,1,0
 buche,esprit de glace,2,0
-buche,gardes,2,1
-gardes,gel,1,1
+buche,gardes,3,1
+gardes,gel,2,2
 cage gobeline,dragon de l'enfer,1,1
 cage gobeline,gel,1,0
 squelettes,dragon de l'enfer,1,0
 squelettes,gel,1,0
-dragon de l'enfer,electrocuteur,1,1
-dragon de l'enfer,gel,1,0
-dragon de l'enfer,dragon squelettes,1,0
-gel,dragon squelettes,1,0
+dragon de l'enfer,electrocuteur,3,1
+dragon de l'enfer,gel,3,0
+dragon de l'enfer,dragon squelettes,2,0
+gel,dragon squelettes,2,0
 mega chevalier,boule de neige,1,0
 buche,chevalier,1,1
 tour de l'enfer,gardes,1,1
@@ -2541,13 +2541,13 @@ cabane de barbares,gel,0,1
 cabane de barbares,buche,0,1
 machine volante,gel,0,1
 machine volante,buche,0,1
-gel,chevalier,0,1
+gel,chevalier,0,2
 gel,tour de l'enfer,0,1
 gel,buche,0,1
 buche,tour a bombe,0,1
 electrocution,fripons,1,0
 squelettes,fripons,2,0
-bebe dragon,fripons,1,0
+bebe dragon,fripons,2,0
 recrues royales,horde de gargouille,1,0
 berserker,dragon de l'enfer,0,1
 berserker,buche,0,1
@@ -2557,12 +2557,12 @@ dragon de l'enfer,buche,0,1
 dragon de l'enfer,gobelin explosif,0,1
 dragon de l'enfer,chasseur,0,1
 cage gobeline,gobelin explosif,0,1
-cage gobeline,chasseur,0,1
+cage gobeline,chasseur,0,2
 buche,gobelin explosif,0,1
 electrocuteur,chasseur,0,1
 mega chevalier,geante runique,1,0
-mega chevalier,sorciere,1,0
-mega chevalier,foreuse gobeline,1,0
+mega chevalier,sorciere,1,1
+mega chevalier,foreuse gobeline,2,1
 mega chevalier,electro-esprit,1,0
 geante runique,foreuse gobeline,1,0
 horde de gargouille,barbares,1,0
@@ -2573,23 +2573,23 @@ barbares,esprit de glace,1,0
 foreuse gobeline,electro-esprit,1,0
 chevaucheur de cochon,poison,1,0
 chevaucheur de cochon,mortier,1,0
-poison,fut a gobelin,1,0
+poison,fut a gobelin,1,1
 poison,archeres,1,0
 poison,chevalier,1,0
 poison,gargouille,1,0
-poison,fantome royal,1,0
-fleche,chevalier,2,0
+poison,fantome royal,1,1
+fleche,chevalier,3,0
 electrocution,fantome royal,1,0
-ronin,bebe dragon,1,0
+ronin,bebe dragon,2,0
 ronin,chauves-souris,1,0
 ronin,fut a squelettes,1,0
 fleche,fournaise,1,0
 electro-esprit,cabane de gobelin,0,1
 geante runique,archeres,0,1
 ronin,cavabeliere,1,0
-ronin,mineur,1,0
+ronin,mineur,2,0
 ronin,pierre tombale,1,0
-ronin,chevalier,1,0
+ronin,chevalier,2,0
 cavabeliere,esprit de feu,1,0
 cavabeliere,prince tenebreux,1,0
 cavabeliere,mineur,1,0
@@ -2599,10 +2599,131 @@ cavabeliere,chevalier,1,0
 geant,fripons,1,0
 squelettes,fut a gobelin,1,0
 fripons,foudre,1,0
-fripons,mega gargouille,1,0
+fripons,mega gargouille,2,0
 fripons,mini p.e.k.k.a,1,0
 fripons,fut a gobelin,1,0
-foudre,fut a gobelin,1,0
+foudre,fut a gobelin,1,1
 mini p.e.k.k.a,buche,1,0
 buche,mousquetaire,1,0
-dragon squelettes,mousquetaire,1,0
+dragon squelettes,mousquetaire,1,1
+squelette geant,zappy,0,1
+horde de gargouille,zappy,0,1
+tour a bombe,zappy,0,1
+electro-dragon,pierre tombale,1,0
+electro-dragon,guerrisseuse armee,1,0
+fut a barbare,electrocuteur,0,1
+fantome royal,tour de l'enfer,0,1
+tour de l'enfer,fripons,0,1
+fripons,chevalier,0,1
+belier de combat,mega chevalier,0,1
+mega chevalier,boule de feu,0,1
+mega chevalier,chauves-souris,0,1
+mega chevalier,esprit de feu,0,1
+squelette geant,buche,0,1
+buche,fut a gobelin,0,1
+electro-esprit,dragon de l'enfer,2,0
+dragon de l'enfer,archeres,1,1
+dragon de l'enfer,prince tenebreux,3,0
+foudre,tour a bombe,1,0
+tour a bombe,fut a squelettes,2,0
+ronin,machine volante,1,0
+ronin,gardes,1,0
+ronin,gobelin a sarbacane,1,0
+buche,ballon,1,0
+mega chevalier,pierre tombale,2,0
+mega chevalier,ballon,1,0
+electro-esprit,poison,1,0
+electro-esprit,tour a bombe,1,0
+poison,fut a squelettes,1,0
+poison,belier de combat,1,0
+sorciere,gobelin explosif,0,1
+bombardier,gobelin explosif,0,1
+bombardier,prince tenebreux,1,1
+gobelin explosif,pierre tombale,0,1
+gobelin explosif,fleche,0,1
+chevaucheur de cochon,dragon de l'enfer,0,1
+bouliste,squelette geant,0,1
+bouliste,dragon de l'enfer,0,1
+bouliste,gang de gobelin,0,1
+bouliste,archeres,0,1
+bouliste,boule de neige,0,1
+bouliste,fut a barbare,0,1
+squelette geant,dragon de l'enfer,0,1
+dragon de l'enfer,boule de neige,0,1
+dragon de l'enfer,fut a barbare,0,1
+archeres,boule de neige,0,1
+fantome royal,arc-x,1,0
+fantome royal,valkyrie,1,1
+fleche,arc-x,1,0
+fleche,valkyrie,1,0
+arc-x,chevalier,1,0
+arc-x,mineur,1,0
+arc-x,valkyrie,1,0
+arc-x,chasseur,1,0
+archeres,chasseur,1,1
+bombardier,machine gobeline,1,0
+bombardier,sapeurs,1,0
+bombardier,ronin,1,0
+bombardier,fripons,1,0
+bombardier,geante runique,1,0
+bombardier,mega gargouille,1,0
+machine gobeline,sapeurs,1,0
+machine gobeline,ronin,1,0
+machine gobeline,fripons,1,0
+machine gobeline,geante runique,1,0
+machine gobeline,prince tenebreux,1,0
+geante runique,mega gargouille,1,0
+mega chevalier,electrocuteur,0,1
+mineur,foreuse gobeline,0,1
+electrocuteur,foreuse gobeline,1,1
+foreuse gobeline,gang de gobelin,1,1
+chasseur,fripons,0,1
+cage gobeline,fripons,0,1
+fantome royal,ballon,0,1
+valkyrie,armee de squelettes,0,1
+poison,cabane de gobelin,0,1
+poison,chasseur,0,1
+poison,guerrisseuse armee,0,1
+fantome royal,cabane de gobelin,0,1
+fantome royal,golem de glace,0,1
+fut a gobelin,chasseur,0,1
+cabane de gobelin,golem de glace,0,1
+golem de glace,chasseur,0,1
+golem de glace,guerrisseuse armee,0,1
+gel,electro-esprit,1,0
+gel,canon,1,0
+gel,prince tenebreux,2,0
+gel,roquette,1,0
+gel,geante runique,1,0
+electro-esprit,canon,1,0
+dragon de l'enfer,canon,1,0
+dragon de l'enfer,roquette,1,0
+canon,roquette,1,0
+electrocuteur,roquette,1,0
+dragon de l'enfer,tour a bombe,1,0
+fantome royal,gel,1,0
+horde de gargouille,gel,0,1
+gel,fut a squelettes,0,1
+gel,gargouille,0,1
+colis royal,fripons,1,0
+colis royal,sorciere,1,0
+colis royal,dragon squelettes,1,0
+colis royal,gardes,1,0
+colis royal,bebe dragon,1,0
+colis royal,buche,1,0
+colis royal,fantome royal,1,0
+fripons,dragon squelettes,1,0
+fripons,buche,1,0
+gobelin a lance,chauves-souris,0,1
+chasseur,geant royal,0,1
+mega chevalier,squelette geant,1,0
+mega chevalier,mini p.e.k.k.a,1,0
+foreuse gobeline,squelette geant,1,0
+foreuse gobeline,squelettes,1,0
+foreuse gobeline,mini p.e.k.k.a,1,0
+mousquetaire,belier de combat,0,1
+prince,foreuse gobeline,1,0
+prince,electrocuteur,1,0
+foreuse gobeline,guerrisseuse armee,1,0
+foreuse gobeline,sapeurs,1,0
+guerrisseuse armee,sapeurs,1,0
