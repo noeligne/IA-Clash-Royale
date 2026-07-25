@@ -43,7 +43,8 @@ class Synergy:
     def get_bonus(self):
         if (self.win == 0 and self.lose == 0):
             return 0
-        return (self.win - (self.lose / 2)) / (self.win + self.lose)
+        bonus = (self.win - (self.lose * 0.75)) / (self.win + self.lose) * log(self.win + self.lose + 1)
+        return max(-0.9, min(2, bonus))
     
     def is_card_in(self, card):
         if (card.nom == self.first.nom or card.nom == self.second.nom):
