@@ -1,4 +1,5 @@
 from cartes import *
+import math
 
 class Synergies:
     def __init__(self):
@@ -43,7 +44,7 @@ class Synergy:
     def get_bonus(self):
         if (self.win == 0 and self.lose == 0):
             return 0
-        bonus = (self.win - (self.lose * 0.75)) / (self.win + self.lose) * log(self.win + self.lose + 1)
+        bonus = (self.win - (self.lose * 0.75)) / (self.win + self.lose) * math.log(self.win + self.lose + 1)
         return max(-0.9, min(2, bonus))
     
     def is_card_in(self, card):
