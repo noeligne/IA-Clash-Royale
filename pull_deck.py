@@ -33,7 +33,7 @@ def apply_elixir_boost(collection, elixir_dict):
 def delete_elixir_boost(collection, elixir_dict):
     if not elixir_dict == {}:
         for carte in collection.collection:
-            carte.final_ratio = cart.final_ratio / elixir_dict[carte.nom]
+            carte.final_ratio = carte.final_ratio / elixir_dict[carte.nom]
     return
 
 def tirage_aleatoire(collection, setting, synergies):
