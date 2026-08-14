@@ -10,18 +10,17 @@ def boost_elixir(deck, setting, collection):
     left = total_goal - total
     remaining = (8 - nb_cards)
     if remaining == 0:
-        return
+        return {}
     avg_left = left / remaining
     if avg_left <= 0:
         goal = 1
     else:
         goal = avg_left
     if nb_cards == 0:
-        return
+        return {}
     for carte in collection.collection:
         ecart = abs(goal - carte.elixir)
-        elixir_dict[carte.nom] = 1 + (((nb_cards + 1) / 8) * (2 / (ecart + 1) - 1))
-        carte.final_ratio *= 1 + (((nb_cards + 1) / 8) * (2 / (ecart + 1) - 1))
+        elixir_dict[carte.nom] = 1 + (((nb_cards + 2) / 8) * (2 / (ecart + 1) - 1))
     return elixir_dict
 
 def apply_elixir_boost(collection, elixir_dict):
@@ -45,14 +44,17 @@ def tirage_aleatoire(collection, setting, synergies):
         deck.ajoute_carte(carte)
         if (deck.is_card_in_deck(carte.nom)):
             synergies.pull_boost(carte)
+            delete_elixir_boost(collection, elixir_dict)
             elixir_dict = boost_elixir(deck, setting, collection)
+            apply_elixir_boost(collection, elixir_dict)
         pool.remove(carte)
-    collection.reset_final_ratio()
+    #collection.reset_final_ratio()
     return deck
 
 def triple_draft_mode(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
+    elixir_dict = {}
     while not deck.plein():
         card1 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
         pool.remove(card1)
@@ -72,10 +74,12 @@ def triple_draft_mode(collection, setting, synergies):
             if not deck.plein():
                 deck.affiche()
             synergies.pull_boost(carte)
-            boost_elixir(deck, setting, collection)
+            delete_elixir_boost(collection, elixir_dict)
+            elixir_dict = boost_elixir(deck, setting, collection)
+            apply_elixir_boost(collection, elixir_dict)
         for card in d.keys():
             if deck.can_be_added(d[card]) and d[card] not in deck.deck:
                 pool.append(d[card])
     print("Here is your deck:")
-    collection.reset_final_ratio()
+    #collection.reset_final_ratio()
     return deck

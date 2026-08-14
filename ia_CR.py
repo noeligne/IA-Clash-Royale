@@ -56,13 +56,15 @@ class Main:
                     deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
                 else:
                     deck = triple_draft_mode(self.collection, self.setting, self.synergy)
+                self.collection.reset_final_ratio()
                 deck.affiche()
                 win = -1
-                while win < 0:
+                loose = -1
+                while win < 0 and loose < 0:
                     try :
                         win = int(input("How many towers did you destroy ? "))
                         loose = int(input("How many of your towers got destroyed ? "))
-                    except :
+                    except ValueError:
                         print("Please enter a number")
                 if win - loose < 0:
                     score = win - (loose * (1 - 0.1 * win ))
