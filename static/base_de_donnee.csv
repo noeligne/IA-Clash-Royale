@@ -1,123 +1,123 @@
-nom,ratio,heros,elixir,level
-archer magique,1.0,False,4,16
-archeres,1.0,False,3,16
-arc-x,1.0,False,6,16
-armee de squelettes,1.0,False,3,16
-artificiere,1.0,False,3,16
-ballon,1.0,False,5,16
-barbares d'elite,1.0,False,6,16
-barbares,1.0,False,5,16
-bebe dragon,1.0,False,4,16
-belier de combat,1.0,False,4,16
-berserker,1.0,False,2,16
-bombardier,1.0,False,2,16
-boule de feu,1.0,False,4,16
-boule de neige,1.0,False,2,16
-bouliste,1.0,False,5,16
-bourreau,1.0,False,5,16
-buche,1.0,False,2,16
-bucheron,1.0,False,4,16
-buisson suspicieux,1.0,False,2,16
-cabane de barbares,1.0,False,6,16
-cabane de gobelin,1.0,False,4,16
-cage gobeline,1.0,False,4,16
-canon,1.0,False,3,16
-cavabeliere,1.0,False,5,16
-charrette a canon,1,False,5,16
-chasseur,1.0,False,4,16
-chauves-souris,1.0,False,2,16
-cheffe des voleuses,1.0,True,6,16
-chevalier d'or,1.0,True,4,16
-chevalier,1.0,False,3,16
-chevaucheur de cochon,1.0,False,4,16
-cimetiere,1,False,5,16
-clonage,1.0,False,3,16
-cochon royaux,1.0,False,5,16
-colis royal,1.0,False,3,16
-dragon de l'enfer,1.0,False,4,16
-dragon squelettes,1.0,False,4,16
-electrocuteur,1.0,False,4,16
-electrocution,1.0,False,2,16
-electro-dragon,1.0,False,5,16
-electro-esprit,1.0,False,1,16
-electro-geant,1,False,7,16
-electro-sorcier,1.0,False,4,16
-esprit de feu,1.0,False,1,16
-esprit de glace,1.0,False,1,16
-esprit de guerison,1.0,False,1,16
-extracteur d elixir,1.0,False,6,16
-fantome royal,1.0,False,3,16
-fleche,1.0,False,3,16
-foreuse gobeline,1.0,False,4,16
-foudre,1.0,False,6,16
-fournaise,1.0,False,4,16
-fripons,1.0,False,5,16
-fut a barbare,1.0,False,2,16
-fut a gobelin,1.0,False,3,16
-fut a squelettes,1.0,False,3,16
-gang de gobelin,1.0,False,3,16
-gardes,1.0,False,3,16
-gargouille,1.0,False,3,16
-geant royal,1.0,False,6,16
-geant,1.0,False,5,16
-geante runique,1.0,False,4,16
-gel,1.0,False,4,16
-gobelin a lance,1.0,False,2,16
-gobelin a sarbacane,1.0,False,3,16
-gobelin explosif,1.0,False,4,16
-gobelin geant,1.0,False,6,16
-gobelins,1.0,False,2,16
-gobelinstein,1.0,True,5,16
-golem de glace,1.0,False,2,16
-golem d'elixir,1.0,False,3,16
-golem,1.0,False,8,16
-guerrisseuse armee,1.0,False,4,16
-horde de gargouille,1.0,False,5,16
-imperatrice spirituelle,1,False,6,16
-machine gobeline,1.0,False,4,16
-machine volante,1.0,False,4,16
-maitre mineur,1.0,True,4,16
-malediction gobeline,1.0,False,2,16
-mamie sorciere,1.0,False,4,16
-mega chevalier,1.0,False,7,16
-mega gargouille,1.0,False,3,16
-mineur,1.0,False,3,16
-mini p.e.k.k.a,1.0,False,4,16
-miroir,1.0,False,1,16
-moine,1.0,True,5,16
-molosse de lave,1.0,False,7,16
-mortier,1.0,False,4,16
-mousquetaire,1.0,False,4,16
-neant,1.0,False,3,16
-p.e.k.k.a,1.0,False,7,16
-pecheur,1,False,3,16
-petit prince,1.0,True,3,16
-phenix,1.0,False,4,16
-pierre tombale,1.0,False,3,16
-poison,1.0,False,4,16
-prince tenebreux,1.0,False,4,16
-prince,1.0,False,5,16
-princesse,1.0,False,3,16
-rage,1,False,2,16
-recrues royales,1.0,False,7,16
-reine des archers,1.0,True,5,16
-roi squelette,1.0,True,4,16
-ronces,1.0,False,3,16
-ronin,1.0,False,5,16
-roquette,1.0,False,6,16
-sapeurs,1.0,False,2,16
-seisme,1.0,False,3,16
-sorcier de glace,1.0,False,3,16
-sorcier,1.0,False,5,16
-sorciere de la nuit,1.0,False,4,16
-sorciere,1.0,False,5,16
-squelette geant,1.0,False,6,16
-squelettes,1.0,False,1,16
-tesla,1.0,False,4,16
-tornade,1.0,False,3,16
-tour a bombe,1.0,False,4,16
-tour de l'enfer,1.0,False,5,16
-trois mousquettaires,1.0,False,9,16
-valkyrie,1.0,False,4,16
-voleuse,1.0,False,3,16
-zappy,1.0,False,6,16
+nom,ratio,level
+arc-x,1,16
+archer magique,1,16
+archeres,1,16
+armee de squelettes,1,16
+artificiere,1,16
+ballon,1,16
+barbares,1,16
+barbares d'elite,1,16
+bebe dragon,1,16
+belier de combat,1,16
+berserker,1,16
+bombardier,1,16
+boule de feu,1,16
+boule de neige,1,16
+bouliste,1,16
+bourreau,1,16
+buche,1,16
+bucheron,1,16
+buisson suspicieux,1,16
+cabane de barbares,1,16
+cabane de gobelin,1,16
+cage gobeline,1,16
+canon,1,16
+cavabeliere,1,16
+charrette a canon,1,16
+chasseur,1,16
+chauves-souris,1,16
+cheffe des voleuses,1,16
+chevalier,1,16
+chevalier d'or,1,16
+chevaucheur de cochon,1,16
+cimetiere,1,16
+clonage,1,16
+cochon royaux,1,16
+colis royal,1,16
+dragon de l'enfer,1,16
+dragon squelettes,1,16
+electro-dragon,1,16
+electro-esprit,1,16
+electro-geant,1,16
+electro-sorcier,1,16
+electrocuteur,1,16
+electrocution,1,16
+esprit de feu,1,16
+esprit de glace,1,16
+esprit de guerison,1,16
+extracteur d elixir,1,16
+fantome royal,1,16
+fleche,1,16
+foreuse gobeline,1,16
+foudre,1,16
+fournaise,1,16
+fripons,1,16
+fut a barbare,1,16
+fut a gobelin,1,16
+fut a squelettes,1,16
+gang de gobelin,1,16
+gardes,1,16
+gargouille,1,16
+geant,1,16
+geant royal,1,16
+geante runique,1,16
+gel,1,16
+gobelin a lance,1,16
+gobelin a sarbacane,1,16
+gobelin explosif,1,16
+gobelin geant,1,16
+gobelins,1,16
+gobelinstein,1,16
+golem,1,16
+golem d'elixir,1,16
+golem de glace,1,16
+guerrisseuse armee,1,16
+horde de gargouille,1,16
+imperatrice spirituelle,1,16
+machine gobeline,1,16
+machine volante,1,16
+maitre mineur,1,16
+malediction gobeline,1,16
+mamie sorciere,1,16
+mega chevalier,1,16
+mega gargouille,1,16
+mineur,1,16
+mini p.e.k.k.a,1,16
+miroir,1,16
+moine,1,16
+molosse de lave,1,16
+mortier,1,16
+mousquetaire,1,16
+neant,1,16
+p.e.k.k.a,1,16
+pecheur,1,16
+petit prince,1,16
+phenix,1,16
+pierre tombale,1,16
+poison,1,16
+prince,1,16
+prince tenebreux,1,16
+princesse,1,16
+rage,1,16
+recrues royales,1,16
+reine des archers,1,16
+roi squelette,1,16
+ronces,1,16
+ronin,1,16
+roquette,1,16
+sapeurs,1,16
+seisme,1,16
+sorcier,1,16
+sorcier de glace,1,16
+sorciere,1,16
+sorciere de la nuit,1,16
+squelette geant,1,16
+squelettes,1,16
+tesla,1,16
+tornade,1,16
+tour a bombe,1,16
+tour de l'enfer,1,16
+trois mousquettaires,1,16
+valkyrie,1,16
+voleuse,1,16
+zappy,1,16

@@ -43,7 +43,7 @@ class Main:
             print("No existing preset found\n")
             self.create_preset()
         self.main_menu()
-    
+
     def main_menu(self):
         while True:
             bdd = load_bdd(self.db)
@@ -94,6 +94,9 @@ class Main:
         print(f"Average elixir set to {self.setting.m_elixir}")
         self.setting.heros = self.preset.data[name]["heros_slots"]
         print(f"Heros slots set to {self.setting.heros}\n")
+        if "language" in self.preset.data[name].keys():
+            self.setting.lang = self.preset.data[name]["language"]
+        print(f"Card language set to {self.setting.lang}")
         print(f"\"{name}\" Successfully loaded !\n")
         if (not LOCAL_MODE):
             try:
@@ -108,6 +111,7 @@ class Main:
         db_name = "./databases/" + name + ".csv"
         self.setting.change_avg_elixir(True)
         self.setting.heros_slot(True)
+        self.setting.set_lang(True)
         bdd = load_bdd()
         self.collection.update(bdd)
         save_bdd(self.collection, db_name)
@@ -119,7 +123,8 @@ class Main:
                              "db_name" : db_name,
                              "ban" : [],
                              "heros_slots" : self.setting.heros,
-                             "player_tag" : self.setting.player_tag}
+                             "player_tag" : self.setting.player_tag,
+                             "language" : self.setting.lang}
         self.preset.save()
     
     def save_preset(self):
@@ -127,6 +132,7 @@ class Main:
         self.preset.data[self.preset_name]["ban"] = [card.nom for card in self.setting.banlist]
         self.preset.data[self.preset_name]["heros_slots"] = self.setting.heros
         self.preset.data[self.preset_name]["player_tag"] = self.setting.player_tag
+        self.preset.data[self.preset_name]["language"] = self.setting.lang
         self.preset.save()
         print(f"{self.preset_name} Successfully saved !\n")
 
@@ -134,18 +140,18 @@ class Collection:
     def __init__(self):
         self.collection = []
     
-    def ajoutecarte(self, nom, ratio, heros, elixir, level):
+    def ajoutecarte(self, nom, ratio, level):
         for carte in self.collection:
             if carte.nom == nom:
                 if carte.ratio != ratio:
                     carte.ratio = ratio
                 return
-        self.collection.append(Carte(nom, ratio, heros, elixir, level))
+        self.collection.append(Carte(nom, ratio, CARDS_STATIC.data[nom]["champion"], CARDS_STATIC.data[nom]["elixir"], level))
     
     def update(self, bdd):
         bdd = sorted(bdd)
         for carte in bdd:
-            self.ajoutecarte(carte[0], carte[1], carte[2], carte[3], carte[4])
+            self.ajoutecarte(carte[0], carte[1], carte[2])
         
     def total_score(self):
         score = 0
@@ -179,6 +185,15 @@ class Collection:
         for card in self.collection:
             l.append(card.nom)
         return l
+
+def format_original_db(main):
+    db = load_bdd(main.db)
+    co = Collection()
+    for card in db:
+        card[1] = 1
+        card[2] = 16
+    co.update(db)
+    save_bdd(co)
 
 input("Welcome to the Clash Royale smart deck draw ! (press enter)")
 app = Main()

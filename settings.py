@@ -1,13 +1,14 @@
-from cartes import TRANSLATIONS
+from cartes import CARDS_STATIC
 
 class Settings:
-    def __init__(self, m_elixir = 3.5):
+    def __init__(self, m_elixir = 3.5, lang = "en"):
         self.m_elixir = m_elixir
         self.banlist = list()
         self.main = None
         self.heros = 1
         self.player_tag = ""
         self.player = None
+        self.lang = lang
     
     def set_main(self, main, local):
         self.main = main
@@ -35,8 +36,8 @@ class Settings:
             self.modified_set()
     
     def settings(self):
-        print("\n Settings :\n1 - Average elixir\n2 - Ban a card\n3 - Unban a card\n4 - Change number of Heroes\n5 - Change preset\n6 - Change card level\n7 - Set player id\n8 - Exit (write the number corresponding to the setting you want)")
-        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.change_level, 7 : self.set_player, 8 :self.main.main_menu}
+        print("\n Settings :\n1 - Average elixir\n2 - Ban a card\n3 - Unban a card\n4 - Change number of Heroes\n5 - Change preset\n6 - Change card level\n7 - Set player id\n8 - Change language\n9 - Exit (write the number corresponding to the setting you want)")
+        menu = {1 : self.change_avg_elixir, 2 : self.exclusion, 3 : self.inclusion, 4 : self.heros_slot, 5 : self.main.load_preset, 6 : self.change_level, 7 : self.set_player, 8 : self.set_lang, 9 : self.main.main_menu}
         try:
             param = int(input())
             menu[param]()
@@ -49,10 +50,10 @@ class Settings:
             print("Choose the card to ban :")
             for carte in self.main.collection.collection:
                 if carte not in self.banlist:
-                    print(TRANSLATIONS[carte.nom])
+                    print(CARDS_STATIC.data[carte.nom]["name"][self.lang])
             ban = input()
             for carte in self.main.collection.collection:
-                if carte.nom == ban or TRANSLATIONS[carte.nom] == ban:
+                if carte.nom == ban or CARDS_STATIC.data[carte.nom]["name"][self.lang] == ban:
                     self.banlist.append(carte)
                     carte.banned = True
                     if (input("Would you like to ban another card ? (y/n)\n") == "y"):
@@ -76,10 +77,10 @@ class Settings:
             print("You don't have any banned cards")
             return
         for carte in self.banlist:
-            print(TRANSLATIONS[carte.nom])
+            print(CARDS_STATIC.data[carte.nom]["name"][self.lang])
         unban = input("Which card do you want to unban ?\n")
         for carte in range(len(self.banlist)):
-            if unban == self.banlist[carte].nom or unban == TRANSLATIONS[self.banlist[carte].nom]:
+            if unban == self.banlist[carte].nom or unban == CARDS_STATIC.data[carte.nom]["name"][self.lang]:
                 self.banlist[carte].banned = False
                 del(self.banlist[carte])
                 print(f"{unban} Successfully unbanned")
@@ -111,13 +112,13 @@ class Settings:
     def change_level(self):
         for carte in self.main.collection.collection:
             if carte not in self.banlist:
-                print(f"{TRANSLATIONS[carte.nom]} : lvl {carte.level}")
+                print(f"{CARDS_STATIC.data[carte.nom]["name"][self.lang]} : lvl {carte.level}")
         change = input("Which card do you what to edit ?\n")
         for carte in self.main.collection.collection:
-            if carte.nom == change or TRANSLATIONS[carte.nom] == change:
+            if carte.nom == change or CARDS_STATIC.data[carte.nom]["name"][self.lang] == change:
                 try :
                     carte.level = int(input("Which level do you want to set for this card ?\n"))
-                    print(f"{TRANSLATIONS[carte.nom]} level successfully set to {carte.level}")
+                    print(f"{CARDS_STATIC.data[carte.nom]["name"][self.lang]} level successfully set to {carte.level}")
                     if (input("Would you like to change another card ? (y/n)\n") == "y"):
                         return self.change_level()
                     return
@@ -145,6 +146,20 @@ class Settings:
             print("Rate limit exceeded")
         except clash_royale.ClashRoyaleHTTPError as e:
             print(f"API error: {e}")
+
+    def set_lang(self, start = False):
+        choice = ""
+        print()
+        while choice != "1" and choice != "2":
+            print("Choose your card language :\n1 - en\n2 - fr\n(enter one or two)")
+            choice = input()
+        if choice == "1":
+            self.lang = "en"
+        else:
+            self.lang = "fr"
+        print(f"\nLanguage succesfully set to {self.lang}\n")
+        if not start:
+            self.modified_set()
 
     def modified_set(self):
         s = input("Do you want to save the modified preset ? (y/n)\n")

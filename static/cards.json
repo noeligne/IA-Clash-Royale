@@ -1,0 +1,1344 @@
+{
+    "archer magique": {
+        "name": {
+            "fr": "Archer Magique",
+            "en": "Magic Archer"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "archeres": {
+        "name": {
+            "fr": "Archères",
+            "en": "Archers"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "arc-x": {
+        "name": {
+            "fr": "Arc-X",
+            "en": "X-Bow"
+        },
+        "elixir": 6,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "armee de squelettes": {
+        "name": {
+            "fr": "Armée de Squelettes",
+            "en": "Skeleton Army"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "artificiere": {
+        "name": {
+            "fr": "Artificière",
+            "en": "Firecracker"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "ballon": {
+        "name": {
+            "fr": "Ballon",
+            "en": "Balloon"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "barbares d'elite": {
+        "name": {
+            "fr": "Barbares d'élite",
+            "en": "Elite Barbarians"
+        },
+        "elixir": 6,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "barbares": {
+        "name": {
+            "fr": "Barbares",
+            "en": "Barbarians"
+        },
+        "elixir": 5,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "bebe dragon": {
+        "name": {
+            "fr": "Bébé Dragon",
+            "en": "Baby Dragon"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "belier de combat": {
+        "name": {
+            "fr": "Bélier de Combat",
+            "en": "Battle Ram"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "berserker": {
+        "name": {
+            "fr": "Berserker",
+            "en": "Berserker"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "bombardier": {
+        "name": {
+            "fr": "Bombardier",
+            "en": "Bomber"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "boule de feu": {
+        "name": {
+            "fr": "Boule de Feu",
+            "en": "Fireball"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "boule de neige": {
+        "name": {
+            "fr": "Méga Boule de Neige",
+            "en": "Giant Snowball"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "bouliste": {
+        "name": {
+            "fr": "Bouliste",
+            "en": "Bowler"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "bourreau": {
+        "name": {
+            "fr": "Bourreau",
+            "en": "Executioner"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "buche": {
+        "name": {
+            "fr": "La Bûche",
+            "en": "The Log"
+        },
+        "elixir": 2,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "bucheron": {
+        "name": {
+            "fr": "Bûcheron",
+            "en": "Lumberjack"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "buisson suspicieux": {
+        "name": {
+            "fr": "Buisson Suspicieux",
+            "en": "Suspicious Bush"
+        },
+        "elixir": 2,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "cabane de barbares": {
+        "name": {
+            "fr": "Cabane de Barbares",
+            "en": "Barbarian Hut"
+        },
+        "elixir": 6,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "cabane de gobelin": {
+        "name": {
+            "fr": "Cabane de Gobelin",
+            "en": "Goblin Hut"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "cage gobeline": {
+        "name": {
+            "fr": "Cage Gobeline",
+            "en": "Goblin Cage"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "canon": {
+        "name": {
+            "fr": "Canon",
+            "en": "Cannon"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "cavabeliere": {
+        "name": {
+            "fr": "Cavabelière",
+            "en": "Ram Rider"
+        },
+        "elixir": 5,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "charrette a canon": {
+        "name": {
+            "fr": "Charrette à Canon",
+            "en": "Cannon Cart"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "chasseur": {
+        "name": {
+            "fr": "Chasseur",
+            "en": "Hunter"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "chauves-souris": {
+        "name": {
+            "fr": "Chauves-Souris",
+            "en": "Bats"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "cheffe des voleuses": {
+        "name": {
+            "fr": "Cheffe des Voleuses",
+            "en": "Boss Bandit"
+        },
+        "elixir": 6,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "chevalier": {
+        "name": {
+            "fr": "Chevalier",
+            "en": "Knight"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": true,
+        "evolution": true
+    },
+    "chevalier d'or": {
+        "name": {
+            "fr": "Chevalier d'Or",
+            "en": "Golden Knight"
+        },
+        "elixir": 4,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "chevaucheur de cochon": {
+        "name": {
+            "fr": "Chevaucheur de Cochon",
+            "en": "Hog Rider"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "cimetiere": {
+        "name": {
+            "fr": "Cimetière",
+            "en": "Graveyard"
+        },
+        "elixir": 5,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "clonage": {
+        "name": {
+            "fr": "Clonage",
+            "en": "Clone Spell"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "cochon royaux": {
+        "name": {
+            "fr": "Cochons Royaux",
+            "en": "Royal Hogs"
+        },
+        "elixir": 5,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "colis royal": {
+        "name": {
+            "fr": "Colis Royal",
+            "en": "Royal Delivery"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "dragon de l'enfer": {
+        "name": {
+            "fr": "Dragon de l'Enfer",
+            "en": "Inferno Dragon"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "dragon squelettes": {
+        "name": {
+            "fr": "Dragons Squelettes",
+            "en": "Squeleton Dragons"
+        },
+        "elixir": 4,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "electro-dragon": {
+        "name": {
+            "fr": "Electro-Dragon",
+            "en": "Electro Dragon"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "electro-esprit": {
+        "name": {
+            "fr": "Electro-Esprit",
+            "en": "Electro Spirit"
+        },
+        "elixir": 1,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "electro-geant": {
+        "name": {
+            "fr": "Electro-Géant",
+            "en": "Electro Giant"
+        },
+        "elixir": 7,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "electro-sorcier": {
+        "name": {
+            "fr": "Electro-Sorcier",
+            "en": "Electro Wizard"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "electrocuteur": {
+        "name": {
+            "fr": "Electrocuteur",
+            "en": "Zappies"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "electrocution": {
+        "name": {
+            "fr": "Electrocution",
+            "en": "Zap"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "esprit de feu": {
+        "name": {
+            "fr": "Esprit de Feu",
+            "en": "Fire Spirit"
+        },
+        "elixir": 1,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "esprit de glace": {
+        "name": {
+            "fr": "Esprit de Glace",
+            "en": "Ice Spirit"
+        },
+        "elixir": 1,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "esprit de guerison": {
+        "name": {
+            "fr": "Esprit de Guérison",
+            "en": "Heal Spirit"
+        },
+        "elixir": 1,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "extracteur d elixir": {
+        "name": {
+            "fr": "Extracteur d'Elixir",
+            "en": "Elixir Collector"
+        },
+        "elixir": 6,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "fantome royal": {
+        "name": {
+            "fr": "Fantôme Royal",
+            "en": "Royal Ghost"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "fleche": {
+        "name": {
+            "fr": "Flèche",
+            "en": "Arrows"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "foreuse gobeline": {
+        "name": {
+            "fr": "Foreuse Gobeline",
+            "en": "Goblin Drill"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "foudre": {
+        "name": {
+            "fr": "Foudre",
+            "en": "Lightning"
+        },
+        "elixir": 6,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "fournaise": {
+        "name": {
+            "fr": "Fournaise",
+            "en": "Furnace"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "fripons": {
+        "name": {
+            "fr": "Fripons",
+            "en": "Rascals"
+        },
+        "elixir": 5,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "fut a barbare": {
+        "name": {
+            "fr": "Fût à Barbare",
+            "en": "Barbarian Barrel"
+        },
+        "elixir": 2,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "fut a gobelin": {
+        "name": {
+            "fr": "Fût à Gobelin",
+            "en": "Goblin Barrel"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "fut a squelettes": {
+        "name": {
+            "fr": "Fût à Squelettes",
+            "en": "Squeleton Barrel"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "gang de gobelin": {
+        "name": {
+            "fr": "Gang de Gobelin",
+            "en": "Goblin Gang"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gardes": {
+        "name": {
+            "fr": "Gardes",
+            "en": "Guards"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gargouille": {
+        "name": {
+            "fr": "Gargouilles",
+            "en": "Minions"
+        },
+        "elixir": 3,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "geant": {
+        "name": {
+            "fr": "Géant",
+            "en": "Giant"
+        },
+        "elixir": 5,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "geant royal": {
+        "name": {
+            "fr": "Géant Royal",
+            "en": "Royal Giant"
+        },
+        "elixir": 6,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "geante runique": {
+        "name": {
+            "fr": "Géante Runique",
+            "en": "Rune Giant"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gel": {
+        "name": {
+            "fr": "Gel",
+            "en": "Freeze"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gobelin a lance": {
+        "name": {
+            "fr": "Gobelin à Lance",
+            "en": "Spear Goblin"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gobelin a sarbacane": {
+        "name": {
+            "fr": "Gobelin à Sarbacane",
+            "en": "Dart Goblin"
+        },
+        "elixir": 3,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "gobelin explosif": {
+        "name": {
+            "fr": "Gobelin Explosif",
+            "en": "Goblin Demolisher"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gobelin geant": {
+        "name": {
+            "fr": "Gobelin Géant",
+            "en": "Goblin Giant"
+        },
+        "elixir": 6,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "gobelins": {
+        "name": {
+            "fr": "Gobelins",
+            "en": "Goblins"
+        },
+        "elixir": 2,
+        "rarity": "Common",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "gobelinstein": {
+        "name": {
+            "fr": "Gobelinstein",
+            "en": "Goblinstein"
+        },
+        "elixir": 5,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "golem": {
+        "name": {
+            "fr": "Golem",
+            "en": "Golem"
+        },
+        "elixir": 8,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "golem d'elixir": {
+        "name": {
+            "fr": "Golem d'Elixir",
+            "en": "Elixir Golem"
+        },
+        "elixir": 3,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "golem de glace": {
+        "name": {
+            "fr": "Golem de Glace",
+            "en": "Ice Golem"
+        },
+        "elixir": 2,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "guerrisseuse armee": {
+        "name": {
+            "fr": "Guérrisseuse Armée",
+            "en": "Battle Healer"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "horde de gargouille": {
+        "name": {
+            "fr": "Horde de Gargouilles",
+            "en": "Minion Horde"
+        },
+        "elixir": 5,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "imperatrice spirituelle": {
+        "name": {
+            "fr": "Impératrice Spirituelle",
+            "en": "Spirit Empress"
+        },
+        "elixir": 6,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "machine gobeline": {
+        "name": {
+            "fr": "Machine Gobeline",
+            "en": "Goblin Machine"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "machine volante": {
+        "name": {
+            "fr": "Machine Volante",
+            "en": "Flying Machine"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "maitre mineur": {
+        "name": {
+            "fr": "Maître Mineur",
+            "en": "Mighty Miner"
+        },
+        "elixir": 4,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "malediction gobeline": {
+        "name": {
+            "fr": "Malédiction Gobeline",
+            "en": "Goblin Curse"
+        },
+        "elixir": 2,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "mamie sorciere": {
+        "name": {
+            "fr": "Mamie Sorcière",
+            "en": "Mother Witch"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "mega chevalier": {
+        "name": {
+            "fr": "Méga Chevalier",
+            "en": "Mega Knight"
+        },
+        "elixir": 7,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "mega gargouille": {
+        "name": {
+            "fr": "Méga Gargouille",
+            "en": "Mega Minion"
+        },
+        "elixir": 3,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "mineur": {
+        "name": {
+            "fr": "Mineur",
+            "en": "Miner"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "mini p.e.k.k.a": {
+        "name": {
+            "fr": "Mini P.E.K.K.A",
+            "en": "Mini P.E.K.K.A"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "miroir": {
+        "name": {
+            "fr": "Miroir",
+            "en": "Mirror"
+        },
+        "elixir": 1,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "moine": {
+        "name": {
+            "fr": "Moine",
+            "en": "Monk"
+        },
+        "elixir": 5,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "molosse de lave": {
+        "name": {
+            "fr": "Molosse de Lave",
+            "en": "Lava Hound"
+        },
+        "elixir": 7,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "mortier": {
+        "name": {
+            "fr": "Mortier",
+            "en": "Mortar"
+        },
+        "elixir": 4,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "mousquetaire": {
+        "name": {
+            "fr": "Mousquetaire",
+            "en": "Musketeer"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": true
+    },
+    "neant": {
+        "name": {
+            "fr": "Néant",
+            "en": "Void"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "p.e.k.k.a": {
+        "name": {
+            "fr": "P.E.K.K.A",
+            "en": "P.E.K.K.A"
+        },
+        "elixir": 7,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "pecheur": {
+        "name": {
+            "fr": "Pêcheur",
+            "en": "Fisherman"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "petit prince": {
+        "name": {
+            "fr": "Petit Prince",
+            "en": "Little Prince"
+        },
+        "elixir": 3,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "phenix": {
+        "name": {
+            "fr": "Phénix",
+            "en": "Phoenix"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "pierre tombale": {
+        "name": {
+            "fr": "Pierre Tombale",
+            "en": "Tombstone"
+        },
+        "elixir": 3,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "poison": {
+        "name": {
+            "fr": "Poison",
+            "en": "Poison"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "prince": {
+        "name": {
+            "fr": "Prince",
+            "en": "Prince"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "prince tenebreux": {
+        "name": {
+            "fr": "Prince Ténébreux",
+            "en": "Dark Prince"
+        },
+        "elixir": 4,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": true,
+        "evolution": false
+    },
+    "princesse": {
+        "name": {
+            "fr": "Princesse",
+            "en": "Princess"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "rage": {
+        "name": {
+            "fr": "Rage",
+            "en": "Rage"
+        },
+        "elixir": 2,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "recrues royales": {
+        "name": {
+            "fr": "Recrues Royales",
+            "en": "Royal Recruits"
+        },
+        "elixir": 7,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "reine des archers": {
+        "name": {
+            "fr": "Reine des Archers",
+            "en": "Archer Queen"
+        },
+        "elixir": 5,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "roi squelette": {
+        "name": {
+            "fr": "Roi Squelette",
+            "en": "Skeleton King"
+        },
+        "elixir": 4,
+        "rarity": "Champion",
+        "champion": true,
+        "heros": false,
+        "evolution": false
+    },
+    "ronces": {
+        "name": {
+            "fr": "Ronces",
+            "en": "Vines"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "ronin": {
+        "name": {
+            "fr": "Ronin",
+            "en": "Ronin"
+        },
+        "elixir": 5,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "roquette": {
+        "name": {
+            "fr": "Roquette",
+            "en": "Rocket"
+        },
+        "elixir": 6,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "sapeurs": {
+        "name": {
+            "fr": "Sapeurs",
+            "en": "Wall Breakers"
+        },
+        "elixir": 2,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "seisme": {
+        "name": {
+            "fr": "Séisme",
+            "en": "Earthquake"
+        },
+        "elixir": 3,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "sorcier": {
+        "name": {
+            "fr": "Sorcier",
+            "en": "Wizard"
+        },
+        "elixir": 5,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": true
+    },
+    "sorcier de glace": {
+        "name": {
+            "fr": "Sorcier de Glace",
+            "en": "Ice Wizard"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "sorciere": {
+        "name": {
+            "fr": "Sorcière",
+            "en": "Witch"
+        },
+        "elixir": 5,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "sorciere de la nuit": {
+        "name": {
+            "fr": "Sorcière de la Nuit",
+            "en": "Night Witch"
+        },
+        "elixir": 4,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "squelette geant": {
+        "name": {
+            "fr": "Squelette Géant",
+            "en": "Giant Squeleton"
+        },
+        "elixir": 6,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "squelettes": {
+        "name": {
+            "fr": "Squelettes",
+            "en": "Skeletons"
+        },
+        "elixir": 1,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "tesla": {
+        "name": {
+            "fr": "Tesla",
+            "en": "Tesla"
+        },
+        "elixir": 4,
+        "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": true
+    },
+    "tornade": {
+        "name": {
+            "fr": "Tornade",
+            "en": "Tornado"
+        },
+        "elixir": 3,
+        "rarity": "Epic",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "tour a bombe": {
+        "name": {
+            "fr": "Tour à Bombe",
+            "en": "Bomb Tower"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "tour de l'enfer": {
+        "name": {
+            "fr": "Tour de l'Enfer",
+            "en": "Inferno Tower"
+        },
+        "elixir": 5,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "trois mousquettaires": {
+        "name": {
+            "fr": "Trois Mousquettaires",
+            "en": "Three Musketeers"
+        },
+        "elixir": 9,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "valkyrie": {
+        "name": {
+            "fr": "Valkyrie",
+            "en": "Valkyrie"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
+        "champion": false,
+        "heros": true,
+        "evolution": true
+    },
+    "voleuse": {
+        "name": {
+            "fr": "Voleuse",
+            "en": "Bandit"
+        },
+        "elixir": 3,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "zappy": {
+        "name": {
+            "fr": "Zappy",
+            "en": "Sparky"
+        },
+        "elixir": 6,
+        "rarity": "Legendary",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    }
+}

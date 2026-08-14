@@ -6,9 +6,9 @@ import json
 def save_bdd(collection, filename="static/base_de_donnee.csv"):
     with open(filename, "w", newline='', encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(["nom", "ratio", "heros", "elixir", "level"])
+        writer.writerow(["nom", "ratio", "level"])
         for carte in collection.collection:
-            writer.writerow([carte.nom, carte.ratio, str(carte.heros), carte.elixir, carte.level])
+            writer.writerow([carte.nom, carte.ratio, carte.level])
 
 def load_bdd(filename = "static/base_de_donnee.csv"):
     liste = []
@@ -16,10 +16,7 @@ def load_bdd(filename = "static/base_de_donnee.csv"):
         reader = csv.reader(csvfile)
         next(reader) 
         for row in reader:
-            if row[2] == "False":
-                liste.append([row[0],float(row[1]),False, int(row[3]), int(row[4])])
-            else:
-                liste.append([row[0],float(row[1]),True, int(row[3]), int(row[4])])
+            liste.append([row[0],float(row[1]), int(row[2])])
     return liste
 
 def save_synergy(synergies, filename="global/synergies.csv"):
@@ -43,10 +40,7 @@ def sync_preset(main, bdd):
         next(reader)
         for row in reader:
             if row[0] not in l:
-                if row[2] == "False":
-                    bdd.append([row[0],float(row[1]),False, int(row[3]), int(row[4])])
-                else:
-                    bdd.append([row[0],float(row[1]),True, int(row[3]), int(row[4])])
+                bdd.append([row[0],float(row[1]), int(row[2])])
     bdd = sorted(bdd)
     return bdd
 
