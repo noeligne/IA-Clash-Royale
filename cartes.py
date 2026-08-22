@@ -1,4 +1,4 @@
-from db_management import Config
+from config import Config
 CARDS_STATIC = Config("./static/cards.json")
 
 class Deck:
@@ -11,6 +11,11 @@ class Deck:
     
     def plein(self):
         return len(self.deck) == 8
+
+    def swap(self, first : int, second : int):
+        tmp = self.deck[first]
+        self.deck[first] = self.deck[second]
+        self.deck[second] = tmp
     
     def can_be_added(self, carte):
         if self.plein():
@@ -52,8 +57,8 @@ class Deck:
             return 0
         maxi = len(self.deck[0].nom)
         for carte in self.deck:
-            if len(carte.nom) > maxi:
-                maxi = len(carte.nom)
+            if len(CARDS_STATIC.data[carte.nom]["name"][self.setting.lang]) > maxi:
+                maxi = len(CARDS_STATIC.data[carte.nom]["name"][self.setting.lang])
         self.maxi = maxi
     
     def affiche(self):

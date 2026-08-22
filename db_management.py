@@ -1,7 +1,6 @@
 import csv
 from synergy import *
 from cartes import *
-import json
 
 def save_bdd(collection, filename="static/base_de_donnee.csv"):
     with open(filename, "w", newline='', encoding="utf-8") as csvfile:
@@ -43,15 +42,3 @@ def sync_preset(main, bdd):
                 bdd.append([row[0],float(row[1]), int(row[2])])
     bdd = sorted(bdd)
     return bdd
-
-class Config:
-    def __init__(self, filename):
-        self.filename = filename
-        self.data = {}
-
-        with open(filename, encoding="utf-8") as f:
-            self.data = json.load(f)
-
-    def save(self):
-        with open(self.filename, "w", encoding="utf-8") as f:
-            json.dump(self.data, f, indent=4)

@@ -6,6 +6,7 @@ from cartes import *
 from db_management import *
 from pull_deck import *
 from synergy import *
+from config import *
 
 if (input("Do you wish to enable online mode (y/n)").startswith("y")):
     print("this option is not yet available...")
@@ -57,6 +58,7 @@ class Main:
                 else:
                     deck = triple_draft_mode(self.collection, self.setting, self.synergy)
                 self.collection.reset_final_ratio()
+                auto_evo_hero(deck)
                 deck.affiche()
                 win = -1
                 loose = -1
@@ -66,10 +68,13 @@ class Main:
                         loose = int(input("How many of your towers got destroyed ? "))
                     except ValueError:
                         print("Please enter a number")
+                        win = -1
+                        loose = -1
                 if win - loose < 0:
                     score = win - (loose * (1 - 0.1 * win ))
                 else:
                     score = win - loose
+                TRIPLETS.deck_score(deck, score)
                 deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
                 deck.update_deck_synergy(score, self.synergy)
             elif menu == "3" :

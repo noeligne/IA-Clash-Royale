@@ -80,7 +80,7 @@ class Settings:
             print(CARDS_STATIC.data[carte.nom]["name"][self.lang])
         unban = input("Which card do you want to unban ?\n")
         for carte in range(len(self.banlist)):
-            if unban == self.banlist[carte].nom or unban == CARDS_STATIC.data[carte.nom]["name"][self.lang]:
+            if unban == self.banlist[carte].nom or unban == CARDS_STATIC.data[self.banlist[carte].nom]["name"][self.lang]:
                 self.banlist[carte].banned = False
                 del(self.banlist[carte])
                 print(f"{unban} Successfully unbanned")
