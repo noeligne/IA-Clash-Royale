@@ -21,7 +21,7 @@ def boost_elixir(deck, setting, collection):
         return {}
     for carte in collection.collection:
         ecart = abs(goal - carte.elixir)
-        elixir_dict[carte.nom] = max(0.1, 1 + (1 + accuracy) * (((nb_cards + 2) / 8) * (2 / (ecart + 1 + accuracy) - 1)))
+        elixir_dict[carte.nom] = max(0.1, 1 + (1 + accuracy) * (((nb_cards + 2) / 8) * (2 / (ecart + 1 + accuracy * 1.05) - 1)))
     return elixir_dict
 
 def apply_elixir_boost(collection, elixir_dict):
@@ -36,9 +36,17 @@ def delete_elixir_boost(collection, elixir_dict):
             carte.final_ratio = carte.final_ratio / elixir_dict[carte.nom]
     return
 
+def boost_under_estm_cards(collection):
+    avg = collection.avg_score()
+    for card in collection.collection:
+        gap = avg - card.ratio
+        if gap > 0:
+            card.final_ratio += gap / 1.5
+
 def tirage_aleatoire(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
+    boost_under_estm_cards(collection)
     elixir_dict = {}
     triplet_list = set()
     while not deck.plein():
@@ -57,6 +65,7 @@ def tirage_aleatoire(collection, setting, synergies):
 def triple_draft_mode(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
+    boost_under_estm_cards(collection)
     elixir_dict = {}
     while not deck.plein():
         card1 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]

@@ -47,7 +47,7 @@ class Deck:
                 ratio_percentage = (1 + ((avg_score - carte.ratio) / avg_score))
                 if ratio_percentage <= 0:
                     ratio_percentage = 0.01
-                coeff = score * ratio_percentage * 1.2 * (carte.level / 16)
+                coeff = score * ratio_percentage * 1.1 * (carte.level / 16)
             else :
                 coeff = score * (1 + ((carte.ratio - avg_score) / avg_score)) * 0.75 * (carte.level / 16)
             carte.ajoutescore(coeff)

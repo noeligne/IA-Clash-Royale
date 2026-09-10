@@ -452,7 +452,7 @@
     },
     "electrocuteur": {
         "name": {
-            "fr": "Electrocuteur",
+            "fr": "Electrocuteurs",
             "en": "Zappies"
         },
         "elixir": 4,
@@ -644,6 +644,17 @@
         },
         "elixir": 3,
         "rarity": "Common",
+        "champion": false,
+        "heros": false,
+        "evolution": false
+    },
+    "gargouille geante": {
+        "name": {
+            "fr": "Gargouille Géante",
+            "en": "Minion Giant"
+        },
+        "elixir": 4,
+        "rarity": "Rare",
         "champion": false,
         "heros": false,
         "evolution": false
@@ -1206,7 +1217,7 @@
         "elixir": 3,
         "rarity": "Legendary",
         "champion": false,
-        "heros": false,
+        "heros": true,
         "evolution": false
     },
     "sorciere": {

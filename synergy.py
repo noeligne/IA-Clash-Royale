@@ -48,7 +48,7 @@ class Synergy:
         total = self.win + self.lose
         defeat_factor = max(0.6, min(0.95, (total) / 20))
         bonus = (self.win - (self.lose * defeat_factor)) / (total) * math.log(total + 1)
-        return max(-0.9, min(2, bonus))
+        return max(-0.9, min(1.5, bonus))
     
     def is_card_in(self, card):
         if (card.nom == self.first.nom or card.nom == self.second.nom):
