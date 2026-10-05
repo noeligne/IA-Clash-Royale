@@ -1,6 +1,7 @@
 import random
 from cartes import *
 from synergy import *
+import time
 
 def boost_elixir(deck, setting, collection):
     elixir_dict = {}
@@ -43,6 +44,14 @@ def boost_under_estm_cards(collection):
         if gap > 0:
             card.final_ratio += gap / 1.5
 
+def boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list):
+    synergies.pull_boost(carte)
+    triplet_list = TRIPLETS.boost_triplets(deck, collection, triplet_list)
+    delete_elixir_boost(collection, elixir_dict)
+    elixir_dict = boost_elixir(deck, setting, collection)
+    apply_elixir_boost(collection, elixir_dict)
+    return elixir_dict, triplet_list
+
 def tirage_aleatoire(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
@@ -53,11 +62,7 @@ def tirage_aleatoire(collection, setting, synergies):
         carte = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
         deck.ajoute_carte(carte)
         if (deck.is_card_in_deck(carte.nom)):
-            synergies.pull_boost(carte)
-            triplet_list = TRIPLETS.boost_triplets(deck, collection, triplet_list)
-            delete_elixir_boost(collection, elixir_dict)
-            elixir_dict = boost_elixir(deck, setting, collection)
-            apply_elixir_boost(collection, elixir_dict)
+            elixir_dict, triplet_list = boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list)
         pool.remove(carte)
     #collection.reset_final_ratio()
     return deck
@@ -67,6 +72,7 @@ def triple_draft_mode(collection, setting, synergies):
     pool = collection.collection[:]
     boost_under_estm_cards(collection)
     elixir_dict = {}
+    triplet_list = set()
     while not deck.plein():
         card1 = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
         pool.remove(card1)
@@ -85,15 +91,47 @@ def triple_draft_mode(collection, setting, synergies):
             print(f"You took {carte.nom} ! That's an excellent choice !\n")
             if not deck.plein():
                 deck.affiche()
-            synergies.pull_boost(carte)
-            delete_elixir_boost(collection, elixir_dict)
-            elixir_dict = boost_elixir(deck, setting, collection)
-            apply_elixir_boost(collection, elixir_dict)
+            elixir_dict, triplet_list = boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list)
         for card in d.keys():
             if deck.can_be_added(d[card]) and d[card] not in deck.deck:
                 pool.append(d[card])
     print("Here is your deck:")
     #collection.reset_final_ratio()
+    return deck
+
+def suggest_deck(collection, setting, synergies):
+    deck = Deck(setting)
+    pool = collection.collection[:]
+    boost_under_estm_cards(collection)
+    elixir_dict = {}
+    triplet_list = set()
+    end = False
+    while not end and len(deck.deck) < 8:
+        for carte in collection.collection:
+            if carte not in setting.banlist + deck.deck:
+                print(f"{CARDS_STATIC.data[carte.nom]["name"][setting.lang]}")
+        print(f"Choose a card or validate your selection by writing \"validate\"\n")
+        answer = input("")
+        if answer == "validate":
+            end = True
+            continue
+        for carte in collection.collection:
+            if carte not in setting.banlist + deck.deck:
+                if carte.nom == answer or CARDS_STATIC.data[carte.nom]["name"][setting.lang] == answer:
+                    deck.ajoute_carte(carte)
+                    if not deck.plein():
+                        deck.affiche()
+                        time.sleep(3)
+                    elixir_dict, triplet_list = boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list)
+                    pool.remove(carte)
+                    break
+        print("Card not found")
+    while not deck.plein():
+        carte = random.choices(pool, weights = [c.final_ratio for c in pool], k=1)[0]
+        deck.ajoute_carte(carte)
+        if (deck.is_card_in_deck(carte.nom)):
+            elixir_dict, triplet_list = boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list)
+        pool.remove(carte)
     return deck
 
 def auto_evo_hero(deck):

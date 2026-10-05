@@ -437,7 +437,7 @@
         "rarity": "Epic",
         "champion": false,
         "heros": false,
-        "evolution": false
+        "evolution": true
     },
     "electro-sorcier": {
         "name": {
@@ -447,7 +447,7 @@
         "elixir": 4,
         "rarity": "Legendary",
         "champion": false,
-        "heros": false,
+        "heros": true,
         "evolution": false
     },
     "electrocuteur": {

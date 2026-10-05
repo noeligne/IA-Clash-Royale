@@ -51,12 +51,10 @@ class Main:
             bdd = sync_preset(self, bdd)
             self.collection.update(bdd)
             load_synergy(self.synergy, self.collection)
-            menu = input("Would you like to generate a deck, play triple draft mode or go to the settings ? (1, 2 or 3)\n")
-            if menu == "1" or menu == "2":
-                if menu == "1":
-                    deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
-                else:
-                    deck = triple_draft_mode(self.collection, self.setting, self.synergy)
+            modes = {"1" : tirage_aleatoire, "2" : triple_draft_mode, "3" : suggest_deck}
+            menu = input("Would you like to generate a deck, play triple draft mode, deck suggester or go to the settings ? (1, 2, 3 or 4)\n")
+            if menu in "123":
+                deck = modes[menu](self.collection, self.setting, self.synergy)
                 self.collection.reset_final_ratio()
                 auto_evo_hero(deck)
                 deck.affiche()
@@ -77,7 +75,7 @@ class Main:
                 TRIPLETS.deck_score(deck, score)
                 deck.gagne(score, self.collection.avg_score(), self.setting.m_elixir)
                 deck.update_deck_synergy(score, self.synergy)
-            elif menu == "3" :
+            elif menu == "4" :
                 self.setting.settings()
             save_bdd(self.collection, self.db)
             save_synergy(self.synergy)
@@ -154,7 +152,7 @@ class Collection:
         self.collection.append(Carte(nom, ratio, CARDS_STATIC.data[nom]["champion"], CARDS_STATIC.data[nom]["elixir"], level))
     
     def update(self, bdd):
-        bdd = sorted(bdd)
+        bdd = sorted(bdd, key=lambda x:x[0])
         for carte in bdd:
             self.ajoutecarte(carte[0], carte[1], carte[2])
         
