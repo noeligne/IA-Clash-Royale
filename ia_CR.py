@@ -78,19 +78,6 @@ class Main:
                 deck.update_deck_synergy(score, self.synergy)
             elif menu == "4" :
                 self.setting.settings()
-            elif menu == "5" :
-                decks = Config("./multiple_decks.json")
-                decks.data = {}
-                deck_nb = int(input("deck nb :\n"))
-                time_start = time.time()
-                for i in range(deck_nb):
-                    tps = time.time() - time_start
-                    print(f"Deck {i + 1}/{deck_nb} : {((i + 1) / deck_nb) * 100:.2f}% - temps écoulé {tps:.2f}s - temps restant {(tps / (i + 1)) * (deck_nb - (i + 1)):.2f}s", end="\r", flush=True)
-                    deck = tirage_aleatoire(self.collection, self.setting, self.synergy)
-                    decks.data[i] = {deck.deck[card_nb].nom : {"ratio" : deck.deck[card_nb].ratio, "final ratio" : deck.deck[card_nb].final_ratio} for card_nb in range(8)}
-                    self.collection.reset_final_ratio()
-                print()
-                decks.save()
             save_bdd(self.collection, self.db)
             save_synergy(self.synergy)
 
