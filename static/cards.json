@@ -595,7 +595,7 @@
     },
     "fut a gobelin": {
         "name": {
-            "fr": "Fût à Gobelin",
+            "fr": "Fût à Gobelins",
             "en": "Goblin Barrel"
         },
         "elixir": 3,
@@ -617,7 +617,7 @@
     },
     "gang de gobelin": {
         "name": {
-            "fr": "Gang de Gobelin",
+            "fr": "Gang de Gobelins",
             "en": "Goblin Gang"
         },
         "elixir": 3,
@@ -668,7 +668,7 @@
         "rarity": "Rare",
         "champion": false,
         "heros": true,
-        "evolution": false
+        "evolution": true
     },
     "geant royal": {
         "name": {
@@ -705,7 +705,7 @@
     },
     "gobelin a lance": {
         "name": {
-            "fr": "Gobelin à Lance",
+            "fr": "Gobelins à Lances",
             "en": "Spear Goblin"
         },
         "elixir": 2,
@@ -943,7 +943,7 @@
         "rarity": "Epic",
         "champion": false,
         "heros": false,
-        "evolution": false
+        "evolution": true
     },
     "moine": {
         "name": {

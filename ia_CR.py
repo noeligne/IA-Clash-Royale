@@ -51,6 +51,7 @@ class Main:
             bdd = sync_preset(self, bdd)
             self.collection.update(bdd)
             load_synergy(self.synergy, self.collection)
+            self.synergy.rebuild_index()
             modes = {"1" : tirage_aleatoire, "2" : triple_draft_mode, "3" : suggest_deck}
             menu = input("Would you like to generate a deck, play triple draft mode, deck suggester or go to the settings ? (1, 2, 3 or 4)\n")
             if menu in "123":

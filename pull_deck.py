@@ -42,7 +42,7 @@ def boost_under_estm_cards(collection):
     for card in collection.collection:
         gap = avg - card.ratio
         if gap > 0:
-            card.final_ratio += gap / 1.5
+            card.final_ratio += gap / 1.25
 
 def boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list):
     synergies.pull_boost(carte)
