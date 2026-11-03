@@ -1,0 +1,5 @@
+name,avg_elixir,db_name,banned_cards,heros_slot,player_tag
+noob,3.5,./databases/noob.csv,princesse;sorcier de glace;voleuse;tornade;clonage;neant;pecheur;petit prince;phenix;archer magique;mamie sorciere;roi squelette;chevalier d'or;maitre mineur;cimetiere;charrette a canon;reine des archers;moine;gobelinstein;imperatrice spirituelle;cheffe des voleuses;molosse de lave;,2.0,
+anatole,3.4,./databases/anatole.csv,roi squelette;,2,
+pipi,3.5,./databases/pipi.csv,,2
+pro,3.0,./databases/pro.csv,,2,#GLVCVRCJJ

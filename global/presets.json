@@ -1,0 +1,29 @@
+{
+    "noob": {
+        "avg_elixir": 3.1,
+        "db_name": "./databases/noob.csv",
+        "ban": [
+            "moine",
+            "gobelinstein"
+        ],
+        "heros_slots": 2.0,
+        "player_tag": "",
+        "language": "fr"
+    },
+    "anatole": {
+        "avg_elixir": 3.4,
+        "db_name": "./databases/anatole.csv",
+        "ban": [
+            "roi squelette"
+        ],
+        "heros_slots": 2,
+        "player_tag": ""
+    },
+    "pro": {
+        "avg_elixir": 3.0,
+        "db_name": "./databases/pro.csv",
+        "ban": [],
+        "heros_slots": 2,
+        "player_tag": "#GLVCVRCJJ"
+    }
+}
