@@ -2,6 +2,7 @@ import random
 from cartes import *
 from synergy import *
 import time
+from PySide6.QtWidgets import QInputDialog
 
 def boost_elixir(deck, setting, collection):
     elixir_dict = {}
@@ -99,6 +100,88 @@ def triple_draft_mode(collection, setting, synergies):
     #collection.reset_final_ratio()
     return deck
 
+def triple_draft_mode_app(collection, setting, synergies):
+
+    deck = Deck(setting)
+    pool = collection.collection[:]
+
+    boost_under_estm_cards(collection)
+
+    elixir_dict = {}
+    triplet_list = set()
+
+    while not deck.plein():
+
+        if not pool:
+            return None
+
+        # Tirage de trois cartes sans remise
+        drawn_cards = []
+
+        for _ in range(min(3, len(pool))):
+
+            card = random.choices(
+                pool,
+                weights=[c.final_ratio for c in pool],
+                k=1
+            )[0]
+
+            pool.remove(card)
+            drawn_cards.append(card)
+
+        # On conserve uniquement les cartes admissibles
+        choices = [
+            card for card in drawn_cards
+            if deck.can_be_added(card)
+        ]
+
+        if not choices:
+            continue
+
+        # Création des propositions
+        labels = [
+            f"{i + 1} - {card.nom} (lvl {card.level})"
+            for i, card in enumerate(choices)
+        ]
+
+        choice, confirmed = QInputDialog.getItem(
+            None,
+            "Triple Draft",
+            "Choose a card:",
+            labels,
+            0,
+            False
+        )
+
+        # Annulation du Triple Draft
+        if not confirmed:
+            return None
+
+        # Récupération de la carte sélectionnée
+        selected_index = labels.index(choice)
+        carte = choices[selected_index]
+
+        deck.ajoute_carte(carte)
+
+        # Mise à jour des ratios et des synergies
+        elixir_dict, triplet_list = boost_all(
+            synergies,
+            carte,
+            deck,
+            collection,
+            setting,
+            elixir_dict,
+            triplet_list
+        )
+
+        # Remise dans le pool des cartes non sélectionnées
+        for card in choices:
+
+            if card != carte and deck.can_be_added(card):
+                pool.append(card)
+
+    return deck
+
 def suggest_deck(collection, setting, synergies):
     deck = Deck(setting)
     pool = collection.collection[:]
@@ -132,6 +215,96 @@ def suggest_deck(collection, setting, synergies):
         if (deck.is_card_in_deck(carte.nom)):
             elixir_dict, triplet_list = boost_all(synergies, carte, deck, collection, setting, elixir_dict, triplet_list)
         pool.remove(carte)
+    return deck
+
+def suggest_deck_app(collection, setting, synergies):
+
+    from PySide6.QtWidgets import QInputDialog
+
+    deck = Deck(setting)
+    pool = collection.collection[:]
+
+    boost_under_estm_cards(collection)
+
+    elixir_dict = {}
+    triplet_list = set()
+    end = False
+
+    while not end and not deck.plein():
+
+        choices = [
+            carte for carte in collection.collection
+            if carte not in setting.banlist + deck.deck
+        ]
+
+        if not choices:
+            break
+
+        labels = [
+            CARDS_STATIC.data[carte.nom]["name"][setting.lang]
+            for carte in choices
+        ]
+
+        labels.append("Validate selection")
+
+        choice, confirmed = QInputDialog.getItem(
+            None,
+            "Deck Suggester",
+            "Choose a card:",
+            labels,
+            0,
+            False
+        )
+
+        if not confirmed:
+            return None
+
+        if choice == "Validate selection":
+            end = True
+            continue
+
+        carte = choices[labels.index(choice)]
+
+        deck.ajoute_carte(carte)
+
+        elixir_dict, triplet_list = boost_all(
+            synergies,
+            carte,
+            deck,
+            collection,
+            setting,
+            elixir_dict,
+            triplet_list
+        )
+
+        if carte in pool:
+            pool.remove(carte)
+
+    while not deck.plein():
+
+        if not pool:
+            return None
+
+        carte = random.choices(
+            pool,
+            weights=[c.final_ratio for c in pool],
+            k=1
+        )[0]
+
+        deck.ajoute_carte(carte)
+
+        elixir_dict, triplet_list = boost_all(
+            synergies,
+            carte,
+            deck,
+            collection,
+            setting,
+            elixir_dict,
+            triplet_list
+        )
+
+        pool.remove(carte)
+
     return deck
 
 def auto_evo_hero(deck):

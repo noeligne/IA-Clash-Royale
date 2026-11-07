@@ -33,7 +33,7 @@ class Main:
         self.battlelog = None
         self.preset = Config("./global/presets.json")
     
-    def start(self):
+    def start(self, mode="terminal"):
         if self.preset.data:
             menu = input("Would you like to load or create a preset ? (1 or 2)\n")
             if menu == "1":
@@ -43,7 +43,8 @@ class Main:
         else :
             print("No existing preset found\n")
             self.create_preset()
-        self.main_menu()
+        if mode == "terminal":
+            self.main_menu()
 
     def main_menu(self):
         while True:
@@ -108,7 +109,7 @@ class Main:
                     self.setting.set_player(True, self.preset.data[name]["player_tag"])
             except:
                 print("No player tag found...")
-        return self.main_menu()
+        #return self.main_menu()
 
     def create_preset(self):
         name = input("How would you like to call your new preset ?\n")
@@ -199,6 +200,7 @@ def format_original_db(main):
     co.update(db)
     save_bdd(co)
 
-input("Welcome to the Clash Royale smart deck draw ! (press enter)")
-app = Main()
-app.start()
+if __name__ == "__main__":
+    input("Welcome to the Clash Royale smart deck draw ! (press enter)")
+    app = Main()
+    app.start()

@@ -1,4 +1,7 @@
 .env
-.venv
+.venv*
 databases/*
 __pycache__/*
+multiple_decks.json
+global/presets.csv
+global/presets.json

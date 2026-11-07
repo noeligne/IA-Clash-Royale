@@ -280,9 +280,9 @@
         "total": 2
     },
     "fantome royal|gobelin a sarbacane|mini p.e.k.k.a": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "total": 2
+        "total": 3
     },
     "arc-x|gobelin a sarbacane|mini p.e.k.k.a": {
         "wins": 0,
@@ -295,9 +295,9 @@
         "total": 1
     },
     "bebe dragon|gobelin a sarbacane|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "gardes|gobelin a sarbacane|mini p.e.k.k.a": {
         "wins": 0,
@@ -320,9 +320,9 @@
         "total": 1
     },
     "bebe dragon|fantome royal|gobelin a sarbacane": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "fantome royal|gardes|gobelin a sarbacane": {
         "wins": 0,
@@ -395,9 +395,9 @@
         "total": 5
     },
     "bebe dragon|fantome royal|mini p.e.k.k.a": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "fantome royal|gardes|mini p.e.k.k.a": {
         "wins": 0,
@@ -590,14 +590,14 @@
         "total": 1
     },
     "electro-esprit|gobelin a lance|sorciere": {
-        "wins": 4,
+        "wins": 5,
         "losses": 0,
-        "total": 4
+        "total": 5
     },
     "cabane de barbares|gobelin a lance|sorciere": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "dragon squelettes|gobelin a lance|sorciere": {
         "wins": 1,
@@ -605,19 +605,19 @@
         "total": 1
     },
     "gobelin a lance|sorciere|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "cabane de barbares|electro-esprit|sorciere": {
-        "wins": 2,
+        "wins": 3,
         "losses": 1,
-        "total": 3
+        "total": 4
     },
     "electro-esprit|sorciere|tour de l'enfer": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
-        "total": 3
+        "total": 4
     },
     "cabane de barbares|dragon squelettes|sorciere": {
         "wins": 1,
@@ -625,9 +625,9 @@
         "total": 1
     },
     "cabane de barbares|sorciere|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "dragon squelettes|sorciere|tour de l'enfer": {
         "wins": 1,
@@ -740,9 +740,9 @@
         "total": 1
     },
     "cabane de barbares|electro-esprit|gobelin a lance": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "dragon squelettes|electro-esprit|gobelin a lance": {
         "wins": 1,
@@ -750,9 +750,9 @@
         "total": 1
     },
     "electro-esprit|gobelin a lance|tour de l'enfer": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
-        "total": 3
+        "total": 4
     },
     "cabane de barbares|dragon squelettes|gobelin a lance": {
         "wins": 2,
@@ -760,9 +760,9 @@
         "total": 2
     },
     "cabane de barbares|gobelin a lance|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "dragon squelettes|gobelin a lance|tour de l'enfer": {
         "wins": 2,
@@ -775,9 +775,9 @@
         "total": 1
     },
     "cabane de barbares|electro-esprit|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "dragon squelettes|electro-esprit|tour de l'enfer": {
         "wins": 1,
@@ -1220,9 +1220,9 @@
         "total": 4
     },
     "gobelin a lance|gobelin a sarbacane|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "chevalier d'or|gobelin a lance|mini p.e.k.k.a": {
         "wins": 2,
@@ -2830,9 +2830,9 @@
         "total": 1
     },
     "chevaucheur de cochon|mini p.e.k.k.a|roquette": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "chevalier d'or|geante runique|mini p.e.k.k.a": {
         "wins": 0,
@@ -3130,9 +3130,9 @@
         "total": 2
     },
     "electrocution|gang de gobelin|pierre tombale": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
-        "total": 3
+        "total": 4
     },
     "electro-sorcier|gang de gobelin|pierre tombale": {
         "wins": 2,
@@ -3405,9 +3405,9 @@
         "total": 5
     },
     "fantome royal|gang de gobelin|gardes": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
-        "total": 3
+        "total": 4
     },
     "fantome royal|gardes|mineur": {
         "wins": 3,
@@ -3466,8 +3466,8 @@
     },
     "bucheron|gang de gobelin|gardes": {
         "wins": 5,
-        "losses": 0,
-        "total": 5
+        "losses": 1,
+        "total": 6
     },
     "boule de feu|gardes|mineur": {
         "wins": 2,
@@ -4621,8 +4621,8 @@
     },
     "electro-sorcier|golem d'elixir|horde de gargouille": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "electro-sorcier|gang de gobelin|horde de gargouille": {
         "wins": 2,
@@ -4890,9 +4890,9 @@
         "total": 1
     },
     "boule de neige|gobelin a lance|gobelin a sarbacane": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "boule de neige|gobelin a sarbacane|prince": {
         "wins": 0,
@@ -5240,9 +5240,9 @@
         "total": 1
     },
     "bebe dragon|gobelin a lance|gobelin a sarbacane": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "bebe dragon|esprit de glace|gobelin a sarbacane": {
         "wins": 1,
@@ -5445,9 +5445,9 @@
         "total": 1
     },
     "boule de neige|gang de gobelin|gobelin a lance": {
-        "wins": 2,
+        "wins": 3,
         "losses": 2,
-        "total": 4
+        "total": 5
     },
     "boule de neige|cabane de barbares|gobelin a lance": {
         "wins": 0,
@@ -5485,9 +5485,9 @@
         "total": 2
     },
     "boule de neige|esprit de glace|prince": {
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
-        "total": 3
+        "total": 4
     },
     "geant|gobelin a lance|prince tenebreux": {
         "wins": 0,
@@ -5520,9 +5520,9 @@
         "total": 1
     },
     "cabane de barbares|geant|gobelin a lance": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "esprit de glace|geant|gobelin a lance": {
         "wins": 0,
@@ -7371,8 +7371,8 @@
     },
     "ballon|buche|gel": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "ballon|buche|gang de gobelin": {
         "wins": 2,
@@ -7680,19 +7680,19 @@
         "total": 5
     },
     "electrocution|gardes|gobelin a lance": {
-        "wins": 2,
+        "wins": 4,
         "losses": 0,
-        "total": 2
+        "total": 4
     },
     "electrocution|gang de gobelin|gobelin a lance": {
-        "wins": 3,
-        "losses": 0,
-        "total": 3
-    },
-    "gang de gobelin|gardes|gobelin a lance": {
         "wins": 5,
         "losses": 0,
         "total": 5
+    },
+    "gang de gobelin|gardes|gobelin a lance": {
+        "wins": 7,
+        "losses": 0,
+        "total": 7
     },
     "electrocution|gardes|prince tenebreux": {
         "wins": 3,
@@ -7700,9 +7700,9 @@
         "total": 4
     },
     "electrocution|gang de gobelin|gardes": {
-        "wins": 2,
+        "wins": 4,
         "losses": 0,
-        "total": 2
+        "total": 4
     },
     "bucheron|fantome royal|geant": {
         "wins": 1,
@@ -8951,8 +8951,8 @@
     },
     "artificiere|chevalier d'or|gobelin a sarbacane": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "bebe dragon|chauves-souris|mega gargouille": {
         "wins": 0,
@@ -9006,8 +9006,8 @@
     },
     "bebe dragon|chauves-souris|electrocution": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "chauves-souris|cimetiere|electro-sorcier": {
         "wins": 0,
@@ -9791,8 +9791,8 @@
     },
     "fournaise|mini p.e.k.k.a|tour a bombe": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "fantome royal|fournaise|mini p.e.k.k.a": {
         "wins": 3,
@@ -10701,8 +10701,8 @@
     },
     "bucheron|gang de gobelin|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "esprit de glace|geant|mini p.e.k.k.a": {
         "wins": 4,
@@ -10726,8 +10726,8 @@
     },
     "belier de combat|esprit de glace|mini p.e.k.k.a": {
         "wins": 11,
-        "losses": 0,
-        "total": 11
+        "losses": 1,
+        "total": 12
     },
     "bebe dragon|esprit de glace|mini p.e.k.k.a": {
         "wins": 5,
@@ -10755,9 +10755,9 @@
         "total": 4
     },
     "esprit de glace|machine volante|ronin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "esprit de glace|machine volante|prince tenebreux": {
         "wins": 1,
@@ -10995,14 +10995,14 @@
         "total": 1
     },
     "boule de neige|gobelin a lance|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "bebe dragon|boule de neige|mini p.e.k.k.a": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "total": 2
+        "total": 3
     },
     "boule de neige|bourreau|machine volante": {
         "wins": 0,
@@ -11070,9 +11070,9 @@
         "total": 1
     },
     "bebe dragon|boule de neige|gobelin a lance": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "bourreau|machine volante|mini p.e.k.k.a": {
         "wins": 0,
@@ -11120,9 +11120,9 @@
         "total": 3
     },
     "bebe dragon|gobelin a lance|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
-        "total": 3
+        "total": 4
     },
     "bourreau|machine volante|prince tenebreux": {
         "wins": 0,
@@ -11310,9 +11310,9 @@
         "total": 1
     },
     "berserker|boule de neige|gargouille": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "berserker|boule de neige|cabane de gobelin": {
         "wins": 1,
@@ -12901,8 +12901,8 @@
     },
     "esprit de glace|fut a barbare|mini p.e.k.k.a": {
         "wins": 2,
-        "losses": 0,
-        "total": 2
+        "losses": 1,
+        "total": 3
     },
     "esprit de glace|fut a barbare|squelette geant": {
         "wins": 2,
@@ -13426,8 +13426,8 @@
     },
     "bucheron|cavabeliere|gang de gobelin": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "bucheron|gang de gobelin|machine volante": {
         "wins": 1,
@@ -13926,8 +13926,8 @@
     },
     "esprit de glace|gang de gobelin|gardes": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "esprit de glace|gardes|tornade": {
         "wins": 0,
@@ -14255,9 +14255,9 @@
         "total": 2
     },
     "esprit de glace|fut a squelettes|ronin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "fut a squelettes|prince tenebreux|ronin": {
         "wins": 1,
@@ -14321,8 +14321,8 @@
     },
     "esprit de glace|mini p.e.k.k.a|tour a bombe": {
         "wins": 2,
-        "losses": 0,
-        "total": 2
+        "losses": 1,
+        "total": 3
     },
     "bebe dragon|chevalier|miroir": {
         "wins": 1,
@@ -14520,9 +14520,9 @@
         "total": 1
     },
     "machine volante|miroir|ronin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "gargouille|miroir|ronin": {
         "wins": 1,
@@ -14620,9 +14620,9 @@
         "total": 2
     },
     "electrocution|fantome royal|gobelin a lance": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "boule de feu|fantome royal|gobelin a lance": {
         "wins": 1,
@@ -14630,9 +14630,9 @@
         "total": 1
     },
     "fantome royal|gobelin a lance|mini p.e.k.k.a": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
-        "total": 5
+        "total": 6
     },
     "dragon squelettes|fantome royal|gobelin a lance": {
         "wins": 3,
@@ -15715,9 +15715,9 @@
         "total": 2
     },
     "electrocution|fantome royal|gang de gobelin": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "chevalier|gargouille|pierre tombale": {
         "wins": 1,
@@ -16646,8 +16646,8 @@
     },
     "belier de combat|esprit de glace|tour a bombe": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "fut a squelettes|gang de gobelin|mega gargouille": {
         "wins": 1,
@@ -18110,9 +18110,9 @@
         "total": 1
     },
     "arc-x|archeres|gang de gobelin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "arc-x|archeres|buche": {
         "wins": 1,
@@ -18450,9 +18450,9 @@
         "total": 2
     },
     "boule de neige|gang de gobelin|pierre tombale": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "boule de neige|cabane de barbares|pierre tombale": {
         "wins": 0,
@@ -19620,9 +19620,9 @@
         "total": 1
     },
     "arc-x|archeres|barbares d'elite": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "archeres|barbares d'elite|chevalier": {
         "wins": 0,
@@ -19635,9 +19635,9 @@
         "total": 1
     },
     "archeres|barbares d'elite|gang de gobelin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "canon|chevaucheur de cochon|pierre tombale": {
         "wins": 0,
@@ -19760,9 +19760,9 @@
         "total": 1
     },
     "arc-x|barbares d'elite|gang de gobelin": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "buche|chevalier|mini p.e.k.k.a": {
         "wins": 4,
@@ -20916,8 +20916,8 @@
     },
     "bucheron|esprit de glace|gang de gobelin": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "bucheron|malediction gobeline|sorciere": {
         "wins": 0,
@@ -21176,8 +21176,8 @@
     },
     "archeres|cage gobeline|squelettes": {
         "wins": 2,
-        "losses": 0,
-        "total": 2
+        "losses": 1,
+        "total": 3
     },
     "esprit de glace|geant|horde de gargouille": {
         "wins": 1,
@@ -21241,8 +21241,8 @@
     },
     "esprit de glace|fournaise|gargouille": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "bebe dragon|esprit de glace|gargouille": {
         "wins": 2,
@@ -21496,8 +21496,8 @@
     },
     "gang de gobelin|gardes|tour de l'enfer": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "gang de gobelin|gobelin a lance|tour de l'enfer": {
         "wins": 2,
@@ -22045,9 +22045,9 @@
         "total": 1
     },
     "boule de neige|fleche|gang de gobelin": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
-        "total": 2
+        "total": 3
     },
     "boule de neige|electro-sorcier|gang de gobelin": {
         "wins": 0,
@@ -24216,8 +24216,8 @@
     },
     "cage gobeline|chevalier d'or|esprit de glace": {
         "wins": 3,
-        "losses": 2,
-        "total": 5
+        "losses": 3,
+        "total": 6
     },
     "chevalier d'or|esprit de glace|tour a bombe": {
         "wins": 1,
@@ -24705,9 +24705,9 @@
         "total": 1
     },
     "fantome royal|gang de gobelin|gobelin a lance": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "belier de combat|foreuse gobeline|mini p.e.k.k.a": {
         "wins": 1,
@@ -25060,9 +25060,9 @@
         "total": 5
     },
     "archeres|fantome royal|gardes": {
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
-        "total": 5
+        "total": 6
     },
     "fantome royal|gardes|malediction gobeline": {
         "wins": 3,
@@ -25241,8 +25241,8 @@
     },
     "fut a barbare|gargouille|mini p.e.k.k.a": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "fut a barbare|gargouille|squelettes": {
         "wins": 0,
@@ -26410,9 +26410,9 @@
         "total": 1
     },
     "bucheron|esprit de glace|fut a squelettes": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "cabane de barbares|dragon squelettes|fut a squelettes": {
         "wins": 1,
@@ -26556,8 +26556,8 @@
     },
     "archeres|esprit de glace|gang de gobelin": {
         "wins": 5,
-        "losses": 1,
-        "total": 6
+        "losses": 2,
+        "total": 7
     },
     "archeres|esprit de glace|gargouille": {
         "wins": 1,
@@ -26576,8 +26576,8 @@
     },
     "esprit de glace|gargouille|mini p.e.k.k.a": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "archeres|cage gobeline|mini p.e.k.k.a": {
         "wins": 2,
@@ -26965,9 +26965,9 @@
         "total": 1
     },
     "electrocution|gardes|machine volante": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "electrocution|fut a squelettes|gobelin explosif": {
         "wins": 0,
@@ -26990,9 +26990,9 @@
         "total": 1
     },
     "fut a squelettes|gardes|machine volante": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "fut a squelettes|gardes|gobelin explosif": {
         "wins": 0,
@@ -28095,9 +28095,9 @@
         "total": 2
     },
     "berserker|electro-esprit|gobelin a lance": {
-        "wins": 2,
-        "losses": 0,
-        "total": 2
+        "wins": 3,
+        "losses": 1,
+        "total": 4
     },
     "gang de gobelin|geante runique|guerrisseuse armee": {
         "wins": 3,
@@ -28226,13 +28226,13 @@
     },
     "chevalier d'or|esprit de glace|gobelin a sarbacane": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "cage gobeline|chevalier d'or|gobelin a sarbacane": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "cage gobeline|chevalier d'or|fut a barbare": {
         "wins": 0,
@@ -28246,8 +28246,8 @@
     },
     "cage gobeline|esprit de glace|gobelin a sarbacane": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "esprit de glace|gobelin a sarbacane|prince tenebreux": {
         "wins": 0,
@@ -28510,9 +28510,9 @@
         "total": 1
     },
     "archeres|fantome royal|gang de gobelin": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "archeres|gang de gobelin|squelette geant": {
         "wins": 1,
@@ -29611,8 +29611,8 @@
     },
     "archeres|bucheron|gang de gobelin": {
         "wins": 3,
-        "losses": 1,
-        "total": 4
+        "losses": 2,
+        "total": 5
     },
     "archeres|bucheron|geante runique": {
         "wins": 2,
@@ -29736,8 +29736,8 @@
     },
     "archeres|gel|gobelin a lance": {
         "wins": 3,
-        "losses": 0,
-        "total": 3
+        "losses": 1,
+        "total": 4
     },
     "archeres|geante runique|gel": {
         "wins": 2,
@@ -29795,9 +29795,9 @@
         "total": 1
     },
     "archeres|gang de gobelin|gobelin a lance": {
-        "wins": 4,
+        "wins": 5,
         "losses": 0,
-        "total": 4
+        "total": 5
     },
     "archeres|buche|gobelin a lance": {
         "wins": 4,
@@ -30930,9 +30930,9 @@
         "total": 1
     },
     "berserker|boule de neige|geante runique": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "berserker|canon|geante runique": {
         "wins": 0,
@@ -31000,9 +31000,9 @@
         "total": 2
     },
     "boule de neige|canon|fut a squelettes": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "boule de neige|fut a squelettes|sorciere": {
         "wins": 0,
@@ -31010,9 +31010,9 @@
         "total": 2
     },
     "boule de neige|esprit de glace|fut a squelettes": {
-        "wins": 2,
+        "wins": 3,
         "losses": 2,
-        "total": 4
+        "total": 5
     },
     "canon|fut a squelettes|sorciere": {
         "wins": 0,
@@ -31020,9 +31020,9 @@
         "total": 1
     },
     "canon|esprit de glace|fut a squelettes": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "boule de neige|canon|geante runique": {
         "wins": 0,
@@ -31055,9 +31055,9 @@
         "total": 1
     },
     "boule de neige|canon|esprit de glace": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "boule de neige|esprit de glace|sorciere": {
         "wins": 0,
@@ -31256,8 +31256,8 @@
     },
     "archeres|gel|ronces": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "archeres|fleche|ronces": {
         "wins": 0,
@@ -31435,9 +31435,9 @@
         "total": 2
     },
     "berserker|chevalier|tour de l'enfer": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "berserker|chevalier|cimetiere": {
         "wins": 0,
@@ -32256,8 +32256,8 @@
     },
     "cage gobeline|gobelin a lance|squelettes": {
         "wins": 2,
-        "losses": 1,
-        "total": 3
+        "losses": 2,
+        "total": 4
     },
     "cage gobeline|chauves-souris|squelettes": {
         "wins": 1,
@@ -32796,8 +32796,8 @@
     },
     "archeres|bucheron|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "bucheron|colis royal|malediction gobeline": {
         "wins": 1,
@@ -33125,9 +33125,9 @@
         "total": 1
     },
     "bebe dragon|chauves-souris|fantome royal": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "bebe dragon|chauves-souris|squelettes": {
         "wins": 0,
@@ -35390,9 +35390,9 @@
         "total": 1
     },
     "esprit de glace|fut a squelettes|prince": {
-        "wins": 1,
+        "wins": 2,
         "losses": 2,
-        "total": 3
+        "total": 4
     },
     "esprit de glace|fut a squelettes|squelette geant": {
         "wins": 2,
@@ -35455,9 +35455,9 @@
         "total": 1
     },
     "boule de neige|fut a squelettes|prince": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "boule de neige|fut a squelettes|squelette geant": {
         "wins": 2,
@@ -36756,8 +36756,8 @@
     },
     "belier de combat|esprit de glace|foreuse gobeline": {
         "wins": 2,
-        "losses": 1,
-        "total": 3
+        "losses": 2,
+        "total": 4
     },
     "belier de combat|dragon squelettes|esprit de glace": {
         "wins": 1,
@@ -37231,8 +37231,8 @@
     },
     "archeres|gardes|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "archeres|gobelin explosif|mineur": {
         "wins": 1,
@@ -37241,13 +37241,13 @@
     },
     "archeres|gang de gobelin|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "archeres|gang de gobelin|gardes": {
-        "wins": 2,
-        "losses": 0,
-        "total": 2
+        "wins": 3,
+        "losses": 1,
+        "total": 4
     },
     "archeres|fantome royal|mineur": {
         "wins": 2,
@@ -37266,8 +37266,8 @@
     },
     "gang de gobelin|gardes|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "fantome royal|gobelin explosif|mineur": {
         "wins": 1,
@@ -37531,8 +37531,8 @@
     },
     "archeres|bucheron|gardes": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "archeres|chasseur|cimetiere": {
         "wins": 1,
@@ -38020,9 +38020,9 @@
         "total": 1
     },
     "archeres|electrocution|gang de gobelin": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "archeres|bucheron|electrocution": {
         "wins": 0,
@@ -38250,9 +38250,9 @@
         "total": 1
     },
     "gang de gobelin|gobelin a lance|pierre tombale": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "gobelin a lance|pierre tombale|squelette geant": {
         "wins": 1,
@@ -38855,9 +38855,9 @@
         "total": 1
     },
     "berserker|gobelin a lance|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "berserker|mini p.e.k.k.a|tour de l'enfer": {
         "wins": 0,
@@ -39436,8 +39436,8 @@
     },
     "electro-sorcier|golem d'elixir|mamie sorciere": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "buisson suspicieux|golem d'elixir|mamie sorciere": {
         "wins": 1,
@@ -39926,13 +39926,13 @@
     },
     "artificiere|chevalier d'or|esprit de glace": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "artificiere|belier de combat|chevalier d'or": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "artificiere|esprit de glace|fut a squelettes": {
         "wins": 2,
@@ -39971,8 +39971,8 @@
     },
     "artificiere|belier de combat|esprit de glace": {
         "wins": 3,
-        "losses": 0,
-        "total": 3
+        "losses": 1,
+        "total": 4
     },
     "artificiere|esprit de glace|squelette geant": {
         "wins": 1,
@@ -40006,8 +40006,8 @@
     },
     "belier de combat|chevalier d'or|esprit de glace": {
         "wins": 3,
-        "losses": 1,
-        "total": 4
+        "losses": 2,
+        "total": 5
     },
     "belier de combat|chevalier d'or|fut a barbare": {
         "wins": 1,
@@ -40046,8 +40046,8 @@
     },
     "belier de combat|esprit de glace|fut a barbare": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "belier de combat|esprit de glace|squelette geant": {
         "wins": 1,
@@ -40056,8 +40056,8 @@
     },
     "belier de combat|fut a barbare|mini p.e.k.k.a": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "belier de combat|fut a barbare|squelette geant": {
         "wins": 1,
@@ -40106,8 +40106,8 @@
     },
     "artificiere|esprit de glace|gobelin a sarbacane": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "artificiere|bebe dragon|fut a squelettes": {
         "wins": 1,
@@ -40131,8 +40131,8 @@
     },
     "artificiere|belier de combat|gobelin a sarbacane": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "artificiere|bebe dragon|gobelin a sarbacane": {
         "wins": 1,
@@ -40191,8 +40191,8 @@
     },
     "belier de combat|esprit de glace|gobelin a sarbacane": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "bebe dragon|fut a squelettes|mini p.e.k.k.a": {
         "wins": 1,
@@ -40855,9 +40855,9 @@
         "total": 1
     },
     "esprit de glace|fut a squelettes|gardes": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "bebe dragon|mega gargouille|mortier": {
         "wins": 0,
@@ -43010,9 +43010,9 @@
         "total": 1
     },
     "esprit de glace|fut a squelettes|miroir": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "fut a squelettes|gargouille|neant": {
         "wins": 1,
@@ -43230,9 +43230,9 @@
         "total": 1
     },
     "fut a squelettes|gardes|ronin": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "fut a squelettes|gardes|mini p.e.k.k.a": {
         "wins": 0,
@@ -45025,9 +45025,9 @@
         "total": 1
     },
     "boule de neige|electrocution|gang de gobelin": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
-        "total": 2
+        "total": 3
     },
     "fut a squelettes|molosse de lave|squelette geant": {
         "wins": 1,
@@ -45675,9 +45675,9 @@
         "total": 2
     },
     "boule de neige|chauves-souris|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "belier de combat|chauves-souris|mini p.e.k.k.a": {
         "wins": 1,
@@ -46176,8 +46176,8 @@
     },
     "fournaise|fut a barbare|mini p.e.k.k.a": {
         "wins": 3,
-        "losses": 0,
-        "total": 3
+        "losses": 1,
+        "total": 4
     },
     "bucheron|electro-esprit|golem": {
         "wins": 1,
@@ -47541,8 +47541,8 @@
     },
     "ballon|buche|fut a gobelin": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "ballon|fut a gobelin|gobelin a lance": {
         "wins": 2,
@@ -48870,9 +48870,9 @@
         "total": 1
     },
     "archeres|gardes|gobelin a lance": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "archeres|belier de combat|gardes": {
         "wins": 1,
@@ -48891,8 +48891,8 @@
     },
     "archeres|gobelin a lance|squelettes": {
         "wins": 7,
-        "losses": 0,
-        "total": 7
+        "losses": 1,
+        "total": 8
     },
     "archeres|fripons|gang de gobelin": {
         "wins": 1,
@@ -49951,13 +49951,13 @@
     },
     "archeres|gel|squelettes": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "gel|gobelin a lance|squelettes": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "chevalier d'or|mega gargouille|sorcier": {
         "wins": 0,
@@ -50250,9 +50250,9 @@
         "total": 3
     },
     "boule de neige|gobelin a lance|sorcier": {
-        "wins": 3,
+        "wins": 4,
         "losses": 0,
-        "total": 3
+        "total": 4
     },
     "boule de neige|p.e.k.k.a|sorcier": {
         "wins": 1,
@@ -50990,9 +50990,9 @@
         "total": 1
     },
     "boule de neige|electrocution|sorcier": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "boule de neige|mega chevalier|sorcier": {
         "wins": 1,
@@ -51005,9 +51005,9 @@
         "total": 1
     },
     "electrocution|gobelin a lance|sorcier": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "electrocution|prince tenebreux|sorcier": {
         "wins": 1,
@@ -51120,9 +51120,9 @@
         "total": 1
     },
     "boule de neige|electrocution|gobelin a lance": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "boule de neige|electrocution|prince tenebreux": {
         "wins": 1,
@@ -51411,8 +51411,8 @@
     },
     "archeres|gobelin a lance|ronces": {
         "wins": 2,
-        "losses": 0,
-        "total": 2
+        "losses": 1,
+        "total": 3
     },
     "buche|gobelin a lance|ronces": {
         "wins": 1,
@@ -52731,8 +52731,8 @@
     },
     "cheffe des voleuses|gobelin a lance|sorciere de la nuit": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "cheffe des voleuses|gobelin a lance|mineur": {
         "wins": 1,
@@ -54596,8 +54596,8 @@
     },
     "archeres|ronces|squelettes": {
         "wins": 2,
-        "losses": 1,
-        "total": 3
+        "losses": 2,
+        "total": 4
     },
     "berserker|buche|squelettes": {
         "wins": 1,
@@ -55890,9 +55890,9 @@
         "total": 1
     },
     "gardes|gobelin a lance|machine volante": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "gardes|machine volante|squelettes": {
         "wins": 0,
@@ -55990,9 +55990,9 @@
         "total": 1
     },
     "boule de neige|chauves-souris|fantome royal": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "chauves-souris|fantome royal|gang de gobelin": {
         "wins": 0,
@@ -56450,9 +56450,9 @@
         "total": 1
     },
     "cabane de barbares|chevalier|sorciere": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "cabane de barbares|fut a squelettes|sorciere": {
         "wins": 1,
@@ -56836,8 +56836,8 @@
     },
     "esprit de glace|foreuse gobeline|voleuse": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "esprit de glace|mini p.e.k.k.a|voleuse": {
         "wins": 2,
@@ -57291,8 +57291,8 @@
     },
     "belier de combat|foreuse gobeline|voleuse": {
         "wins": 0,
-        "losses": 1,
-        "total": 1
+        "losses": 2,
+        "total": 2
     },
     "dragon squelettes|foreuse gobeline|voleuse": {
         "wins": 0,
@@ -58536,8 +58536,8 @@
     },
     "archeres|cage gobeline|gobelin a lance": {
         "wins": 4,
-        "losses": 0,
-        "total": 4
+        "losses": 1,
+        "total": 5
     },
     "archeres|cage gobeline|malediction gobeline": {
         "wins": 1,
@@ -60096,8 +60096,8 @@
     },
     "bucheron|gardes|gobelin explosif": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "bucheron|electro-esprit|gobelin explosif": {
         "wins": 1,
@@ -61185,9 +61185,9 @@
         "total": 1
     },
     "fantome royal|gardes|gobelin a lance": {
-        "wins": 2,
+        "wins": 3,
         "losses": 1,
-        "total": 3
+        "total": 4
     },
     "dragon squelettes|fantome royal|gardes": {
         "wins": 1,
@@ -62135,9 +62135,9 @@
         "total": 1
     },
     "berserker|electro-esprit|tour de l'enfer": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "fantome royal|fournaise|valkyrie": {
         "wins": 0,
@@ -62856,8 +62856,8 @@
     },
     "belier de combat|chevalier d'or|foreuse gobeline": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "belier de combat|chevalier d'or|sapeurs": {
         "wins": 1,
@@ -63441,8 +63441,8 @@
     },
     "artificiere|chauves-souris|seisme": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "artificiere|chauves-souris|sorciere": {
         "wins": 1,
@@ -63480,9 +63480,9 @@
         "total": 1
     },
     "machine volante|maitre mineur|phenix": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "artificiere|maitre mineur|phenix": {
         "wins": 1,
@@ -65426,8 +65426,8 @@
     },
     "ballon|buche|ronces": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "ballon|dragon squelettes|ronces": {
         "wins": 1,
@@ -67075,9 +67075,9 @@
         "total": 1
     },
     "chauves-souris|fantome royal|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "arc-x|fournaise|fut a barbare": {
         "wins": 1,
@@ -67781,8 +67781,8 @@
     },
     "esprit de glace|gang de gobelin|tour de l'enfer": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "electro-esprit|malediction gobeline|tour de l'enfer": {
         "wins": 1,
@@ -68090,14 +68090,14 @@
         "total": 1
     },
     "gang de gobelin|gobelin a lance|maitre mineur": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "gang de gobelin|gardes|maitre mineur": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
-        "total": 2
+        "total": 3
     },
     "clonage|gang de gobelin|maitre mineur": {
         "wins": 1,
@@ -68110,9 +68110,9 @@
         "total": 1
     },
     "gardes|gobelin a lance|maitre mineur": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "clonage|gobelin a lance|maitre mineur": {
         "wins": 1,
@@ -68535,9 +68535,9 @@
         "total": 1
     },
     "fut a squelettes|machine volante|miroir": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "belier de combat|buche|mamie sorciere": {
         "wins": 1,
@@ -70575,9 +70575,9 @@
         "total": 1
     },
     "boule de neige|maitre mineur|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "belier de combat|boule de neige|maitre mineur": {
         "wins": 1,
@@ -71285,9 +71285,9 @@
         "total": 1
     },
     "boule de neige|canon|cimetiere": {
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
-        "total": 1
+        "total": 2
     },
     "boule de neige|canon|fut a gobelin": {
         "wins": 0,
@@ -71550,9 +71550,9 @@
         "total": 3
     },
     "fleche|gang de gobelin|pierre tombale": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "dragon squelettes|fleche|gang de gobelin": {
         "wins": 1,
@@ -72556,13 +72556,13 @@
     },
     "belier de combat|esprit de glace|gargouille": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "gargouille|geante runique|prince": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "geante runique|malediction gobeline|prince": {
         "wins": 1,
@@ -72715,9 +72715,9 @@
         "total": 1
     },
     "gobelin a lance|maitre mineur|mini p.e.k.k.a": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "cabane de barbares|gang de gobelin|maitre mineur": {
         "wins": 1,
@@ -73006,8 +73006,8 @@
     },
     "esprit de glace|fripons|mini p.e.k.k.a": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "fripons|gang de gobelin|mini p.e.k.k.a": {
         "wins": 1,
@@ -73701,8 +73701,8 @@
     },
     "gobelin a lance|ronces|squelettes": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "electrocution|foudre|mini p.e.k.k.a": {
         "wins": 1,
@@ -74550,9 +74550,9 @@
         "total": 1
     },
     "berserker|chevalier|electro-esprit": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "berserker|chevalier|malediction gobeline": {
         "wins": 1,
@@ -74775,9 +74775,9 @@
         "total": 1
     },
     "electrocution|gardes|maitre mineur": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "electrocution|maitre mineur|sorcier de glace": {
         "wins": 1,
@@ -75906,13 +75906,13 @@
     },
     "cage gobeline|gel|gobelin a lance": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "archeres|cage gobeline|gel": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "buche|cage gobeline|gel": {
         "wins": 1,
@@ -75936,8 +75936,8 @@
     },
     "fut a gobelin|gel|sapeurs": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "fut a gobelin|geante runique|sapeurs": {
         "wins": 1,
@@ -75956,8 +75956,8 @@
     },
     "buche|fut a gobelin|sapeurs": {
         "wins": 1,
-        "losses": 1,
-        "total": 2
+        "losses": 2,
+        "total": 3
     },
     "geante runique|gel|sapeurs": {
         "wins": 1,
@@ -75976,8 +75976,8 @@
     },
     "buche|gel|sapeurs": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "geante runique|gobelin a lance|sapeurs": {
         "wins": 1,
@@ -76016,8 +76016,8 @@
     },
     "buche|fut a gobelin|gel": {
         "wins": 1,
-        "losses": 0,
-        "total": 1
+        "losses": 1,
+        "total": 2
     },
     "buche|fut a gobelin|geante runique": {
         "wins": 1,
@@ -78125,9 +78125,9 @@
         "total": 1
     },
     "esprit de glace|gardes|maitre mineur": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "boule de feu|esprit de glace|maitre mineur": {
         "wins": 1,
@@ -78395,9 +78395,9 @@
         "total": 1
     },
     "boule de neige|chauves-souris|maitre mineur": {
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
-        "total": 1
+        "total": 2
     },
     "armee de squelettes|golem|maitre mineur": {
         "wins": 1,
@@ -79100,6 +79100,4186 @@
         "total": 1
     },
     "archeres|electrocuteur|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|fut a gobelin": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|fut a gobelin|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|fut a gobelin|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|fut a gobelin|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|fut a gobelin|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|buche|fut a gobelin": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|fut a gobelin|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|fut a gobelin|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|fut a gobelin|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|fut a gobelin|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|fut a gobelin|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|fut a gobelin|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a gobelin|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a gobelin|miroir|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a gobelin|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a gobelin|gel|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a gobelin|miroir|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|buche": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bourreau|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|buche|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|buche|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|miroir|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gel|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gel|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|miroir|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|buche|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|buche|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|buche|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|buche|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|miroir|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|gel|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|gel|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bourreau|miroir|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|miroir|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|gel|miroir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "buche|miroir|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|miroir|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "miroir|ronces|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|miroir|sapeurs": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|electrocution|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|fantome royal|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gardes|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gang de gobelin|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gobelin a lance|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electrocution|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electrocution|fantome royal": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electrocution|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electrocution|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|fantome royal|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gardes|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gang de gobelin|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gobelin a lance|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|fantome royal|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fantome royal|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gang de gobelin|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gobelin a lance|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|machine volante|maitre mineur": {
+        "wins": 2,
+        "losses": 0,
+        "total": 2
+    },
+    "gang de gobelin|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelin a lance|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gardes|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gang de gobelin|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gobelin a lance|maitre mineur": {
+        "wins": 2,
+        "losses": 0,
+        "total": 2
+    },
+    "electrocution|fantome royal|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gang de gobelin|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gobelin a lance|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fantome royal|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gardes|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gang de gobelin|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gobelin a lance|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gardes|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gobelin a lance|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelin a lance|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|pierre tombale|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fleche|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gang de gobelin|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gardes|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gang de gobelin|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gobelin a lance|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gardes|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fleche|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gobelin a lance|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gardes|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gang de gobelin|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|gobelin a lance|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gardes|sorcier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fleche|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gobelin a lance|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|gardes|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|electrocution|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gobelin a lance|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gardes|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fleche|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gardes|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|gobelin a lance|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gobelin a lance|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gardes|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fleche|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fleche|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electrocution|fleche|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|electrocution|fleche": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|electrocution|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gang de gobelin|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gang de gobelin|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fleche|gardes|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fleche|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fleche|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gang de gobelin|gardes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gardes|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "belier de combat|fournaise|fut a barbare": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fripons|fut a barbare": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fut a barbare|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fournaise|fut a barbare": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fut a barbare|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fournaise|fripons": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fournaise|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fournaise|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|esprit de glace|fournaise": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fournaise|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fripons|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fripons|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fournaise|fripons": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|fripons|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fournaise|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|gargouille|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fournaise|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fournaise|gargouille|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fripons|fut a barbare": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fut a barbare|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fut a barbare|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|fut a barbare|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|fut a barbare|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fripons|fut a barbare": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|fut a barbare|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a barbare|mini p.e.k.k.a|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fut a barbare|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fut a barbare|gargouille|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fut a barbare|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fripons|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fripons|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|esprit de glace|fripons": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|fripons|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|mini p.e.k.k.a|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|gargouille|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|gargouille|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|mini p.e.k.k.a|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fripons|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|gargouille|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "fripons|gargouille|mini p.e.k.k.a": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fripons|gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille|mini p.e.k.k.a|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gargouille|tour a bombe": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cavabeliere|esprit de glace": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|esprit de glace|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|esprit de glace|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|esprit de glace|gang de gobelin": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|cavabeliere|esprit de glace": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|esprit de glace|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|esprit de glace|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|esprit de glace|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|bucheron|esprit de glace": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|esprit de glace|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gang de gobelin|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|esprit de glace|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gardes|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|esprit de glace|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gardes|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|esprit de glace|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cavabeliere|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cavabeliere|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cavabeliere|gang de gobelin": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|bucheron|cavabeliere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cavabeliere|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gang de gobelin|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|cavabeliere|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gardes|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gang de gobelin|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|cavabeliere|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gardes|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cavabeliere|gang de gobelin|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|cavabeliere|gardes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gang de gobelin|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|bucheron|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gardes|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gang de gobelin|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gardes|gobelin explosif|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|gang de gobelin|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bucheron|gardes|tour de l'enfer": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|fut a squelettes|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|maitre mineur|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|gardes|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|maitre mineur|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|maitre mineur|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|fut a squelettes|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|fut a squelettes|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|machine volante|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|miroir|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|gardes|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|gardes|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|machine volante|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|miroir|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|maitre mineur|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|machine volante|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|maitre mineur|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|maitre mineur|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|maitre mineur|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "machine volante|maitre mineur|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "maitre mineur|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "maitre mineur|miroir|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|maitre mineur|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|maitre mineur|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "machine volante|maitre mineur|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "maitre mineur|miroir|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|gardes|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|miroir|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|gardes|machine volante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|gardes|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|gardes|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|machine volante|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|machine volante|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|miroir|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|machine volante|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|miroir|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "machine volante|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "miroir|phenix|ronin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|machine volante|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|machine volante|miroir": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gardes|miroir|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "machine volante|miroir|phenix": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier d'or|foreuse gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chevalier d'or|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|chevalier d'or|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|foreuse gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "foreuse gobeline|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|foreuse gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|foreuse gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|foreuse gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|cage gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|cage gobeline|gobelin a sarbacane": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "esprit de glace|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|gobelin a sarbacane|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chevalier d'or|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chevalier d'or|foreuse gobeline|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chevalier d'or|esprit de glace|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|chevalier d'or|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chevalier d'or|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|cage gobeline|chevalier d'or": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|cage gobeline|chevalier d'or": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chevalier d'or|esprit de glace|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|chevalier d'or|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|chevalier d'or|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|foreuse gobeline|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|esprit de glace|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|cage gobeline|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|cage gobeline|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|foreuse gobeline|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|esprit de glace|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|belier de combat|foreuse gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|esprit de glace|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|cage gobeline|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|cage gobeline|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|cage gobeline|esprit de glace": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|cage gobeline|esprit de glace": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|belier de combat|cage gobeline": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "belier de combat|esprit de glace|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|esprit de glace|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|belier de combat|voleuse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "canon|cimetiere|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|cimetiere|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|cimetiere|esprit de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|canon|cimetiere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|cimetiere|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|canon|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|canon|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|canon": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|esprit de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|canon|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|fut a squelettes|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|esprit de glace|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|canon|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "canon|fut a squelettes|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|canon|esprit de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|canon|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|cimetiere|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|cimetiere|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|cimetiere|esprit de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|cimetiere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|cimetiere|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|esprit de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|cimetiere|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|fut a squelettes|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|esprit de glace|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|cimetiere|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|fut a squelettes|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|cimetiere|esprit de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cimetiere|esprit de glace|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|cimetiere|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|esprit de glace|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fut a squelettes|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|esprit de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|bucheron|fut a squelettes": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fut a squelettes|guerrisseuse armee|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|esprit de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|fut a squelettes|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|esprit de glace|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de glace|fut a squelettes|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bucheron|fut a squelettes|guerrisseuse armee": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gargouille geante|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|gobelin a lance|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gargouille geante|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|gel|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|ronces|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gargouille geante|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|colis royal|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gobelin a lance|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gel|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|ronces|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|colis royal|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|ronces|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gel|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|ronces|squelettes": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gargouille geante|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|colis royal|gargouille geante": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gargouille geante|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|gargouille geante|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cage gobeline|gargouille geante": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gargouille geante|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|gel|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|gobelin a lance|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gargouille geante|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gargouille geante|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gargouille geante|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|colis royal|gargouille geante": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gargouille geante|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gargouille geante|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gargouille geante|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|colis royal|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|colis royal|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|colis royal|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cage gobeline|colis royal": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "archeres|cage gobeline|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gel|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gobelin a lance|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|colis royal|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|gobelin a lance|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gobelin a lance|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "colis royal|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|colis royal|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|colis royal|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gel|ronces": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|horde de gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|horde de gargouille|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|horde de gargouille|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|horde de gargouille|mamie sorciere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|horde de gargouille|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|horde de gargouille|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|horde de gargouille|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|horde de gargouille": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|horde de gargouille|mamie sorciere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|horde de gargouille|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|horde de gargouille|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|mamie sorciere|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|poison|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|horde de gargouille|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|mamie sorciere|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|poison|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|horde de gargouille|mamie sorciere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|horde de gargouille|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "horde de gargouille|mamie sorciere|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|mamie sorciere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electro-sorcier|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|golem d'elixir|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|mamie sorciere|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|poison|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|golem d'elixir|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|mamie sorciere|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|poison|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|golem d'elixir|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-sorcier|mamie sorciere|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|mamie sorciere|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|poison|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|mamie sorciere|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|poison|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|mamie sorciere": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|mamie sorciere|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "mamie sorciere|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "poison|roquette|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|mamie sorciere|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|poison|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "mamie sorciere|poison|zappy": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|mamie sorciere|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|poison|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "mamie sorciere|poison|roquette": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|mamie sorciere|poison": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|maitre mineur|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|gobelin a sarbacane|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|fantome royal|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|boule de neige|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|gobelin a lance|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|boule de neige|chauves-souris": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|boule de neige|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|boule de neige|fantome royal": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "bebe dragon|fantome royal|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|maitre mineur|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelin a sarbacane|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|fantome royal|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelin a lance|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelin a sarbacane|maitre mineur|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|maitre mineur|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gobelin a sarbacane|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gobelin a sarbacane|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelin a lance|gobelin a sarbacane|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fantome royal|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gobelin a lance|maitre mineur": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelin a sarbacane|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelin a lance|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|fantome royal|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|chauves-souris|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelin a lance|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|fantome royal|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|chauves-souris|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gobelin a sarbacane|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fantome royal|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fantome royal|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "fantome royal|gobelin a lance|gobelin a sarbacane": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|fantome royal|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|geant|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|sorciere|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|gobelin a lance|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|electro-esprit|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|chevalier|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|geant|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geant|sorciere|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geant|gobelin a lance|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-esprit|geant|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geant|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|sorciere|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|gobelin a lance|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|electro-esprit|sorciere": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|chevalier|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|geant|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|geant|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|electro-esprit|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|chevalier|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|chevalier|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|chevalier|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|chevalier|electro-esprit": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|chevalier": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|gobelin a lance|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|electro-esprit|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevalier|electro-esprit|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|chevalier|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|geant|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "cabane de barbares|electro-esprit|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geant|gobelin a lance|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-esprit|geant|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geant|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-esprit|geant|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geant|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|electro-esprit|geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|tour de l'enfer": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|gobelin a lance": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|cabane de barbares|electro-esprit": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|mini p.e.k.k.a|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chevaucheur de cochon|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|mini p.e.k.k.a|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|mini p.e.k.k.a|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|gobelins|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|chevaucheur de cochon": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chauves-souris|gobelins": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chevaucheur de cochon|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|pierre tombale|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|gobelins|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chevaucheur de cochon|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chevaucheur de cochon|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|chevaucheur de cochon|gobelins": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|pierre tombale|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|gobelins|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares|gobelins|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|mini p.e.k.k.a|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|chevaucheur de cochon|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|mini p.e.k.k.a|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|mini p.e.k.k.a|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelins|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|mini p.e.k.k.a|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "mini p.e.k.k.a|pierre tombale|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "mini p.e.k.k.a|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|mini p.e.k.k.a|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|mini p.e.k.k.a|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|gobelins|mini p.e.k.k.a": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "mini p.e.k.k.a|pierre tombale|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|mini p.e.k.k.a|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|mini p.e.k.k.a|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|chevaucheur de cochon|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|pierre tombale|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelins|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|chevaucheur de cochon|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|chevaucheur de cochon|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|chevaucheur de cochon|gobelins": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|pierre tombale|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelins|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chauves-souris|gobelins|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|pierre tombale|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|gobelins|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "pierre tombale|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|pierre tombale|rage": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|rage|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|pierre tombale|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|gobelins|pierre tombale": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "chevaucheur de cochon|gobelins|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gobelins|pierre tombale|roquette": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|boule de neige|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|boule de neige|colis royal": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|boule de neige|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|boule de neige|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|colis royal|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|geante runique|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|golem de glace|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gargouille|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|golem de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|colis royal|geante runique": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|colis royal|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|colis royal|gargouille": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|colis royal|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|geante runique|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gargouille|geante runique": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|geante runique|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gargouille|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "boule de neige|gargouille|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|colis royal|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geante runique|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|golem de glace|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|gargouille|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|golem de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|colis royal|geante runique": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|colis royal|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|colis royal|gargouille": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|colis royal|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geante runique|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|gargouille|geante runique": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|geante runique|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|gargouille|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "berserker|gargouille|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|geante runique|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|golem de glace|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|gargouille|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|golem de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geante runique|golem de glace|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gargouille|geante runique|golem de glace": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geante runique|golem de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gargouille|golem de glace|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "golem de glace|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gargouille|golem de glace|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|geante runique|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|gargouille|geante runique": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|geante runique|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|gargouille|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "colis royal|gargouille|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gargouille|geante runique|neant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "geante runique|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gargouille|neant|prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|electro-geant|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|esprit de guerison|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|barbares d'elite|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|barbares d'elite|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|gang de gobelin|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|electro-geant|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|barbares d'elite|electro-geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|electro-geant|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|barbares d'elite|electro-geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|electro-geant|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|barbares d'elite|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|esprit de guerison|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|barbares d'elite|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|esprit de guerison|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|barbares d'elite|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|barbares d'elite|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "barbares d'elite|gang de gobelin|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|esprit de guerison|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|electro-geant|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electro-geant|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|gang de gobelin|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|esprit de guerison|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de guerison|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|esprit de guerison|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de guerison|gang de gobelin|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|archeres|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|gang de gobelin|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "gang de gobelin|gargouille geante|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gang de gobelin|petit prince": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|electro-geant|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|esprit de guerison|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electro-geant|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|esprit de guerison|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|electro-geant|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|archeres|electro-geant": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|electro-geant|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electro-geant|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "electro-geant|gang de gobelin|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|electro-geant|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|esprit de guerison|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|archeres|esprit de guerison": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|esprit de guerison|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|esprit de guerison|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "esprit de guerison|gang de gobelin|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|esprit de guerison|gang de gobelin": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|archeres|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "arc-x|gang de gobelin|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "archeres|gang de gobelin|gargouille geante": {
+        "wins": 1,
+        "losses": 0,
+        "total": 1
+    },
+    "armee de squelettes|berserker|cheffe des voleuses": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|cheffe des voleuses|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|cheffe des voleuses|electro-esprit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|cheffe des voleuses|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|cheffe des voleuses|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|cheffe des voleuses|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|berserker|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|berserker|electro-esprit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|berserker|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|berserker|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|berserker|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|electro-esprit|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|gobelin explosif|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|gobelin a lance|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|electro-esprit|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|electro-esprit|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|electro-esprit|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|gobelin explosif|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|gobelin a lance|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "armee de squelettes|gobelin a lance|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|cheffe des voleuses|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|cheffe des voleuses|electro-esprit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|cheffe des voleuses|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|cheffe des voleuses|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|cheffe des voleuses|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|electro-esprit|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|gobelin explosif|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|electro-esprit|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|electro-esprit|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|electro-esprit|gobelin a lance": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|gobelin explosif|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|gobelin a lance|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cheffe des voleuses|gobelin a lance|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|electro-esprit|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|gobelin explosif|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|gobelin a lance|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|electro-esprit|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|electro-esprit|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|gobelin explosif|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|gobelin a lance|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "berserker|gobelin a lance|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|gobelin explosif|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|gobelin a lance|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin explosif|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin a lance|gobelin explosif|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin a lance|pecheur|sorciere de la nuit": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|gobelin explosif|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|gobelin a lance|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electro-esprit|gobelin a lance|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin a lance|gobelin explosif|pecheur": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|chauves-souris|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gobelin explosif|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|imperatrice spirituelle|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bouliste|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|chauves-souris|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|gobelin explosif|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|imperatrice spirituelle|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|bouliste|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gobelin explosif|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|imperatrice spirituelle|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|chauves-souris|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin explosif|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin explosif|imperatrice spirituelle|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|gobelin explosif|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "imperatrice spirituelle|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|princesse|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|imperatrice spirituelle|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|chauves-souris": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|ballon|bouliste": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|chauves-souris|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|chauves-souris|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|chauves-souris|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bouliste|chauves-souris": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gobelin explosif|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|gobelin explosif|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bouliste|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|imperatrice spirituelle|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bouliste|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "ballon|bouliste|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|chauves-souris|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|chauves-souris|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|bouliste|chauves-souris": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|gobelin explosif|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|gobelin explosif|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|bouliste|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|imperatrice spirituelle|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|bouliste|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "artificiere|bouliste|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gobelin explosif|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gobelin explosif|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|chauves-souris|gobelin explosif": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|imperatrice spirituelle|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|chauves-souris|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|chauves-souris|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gobelin explosif|imperatrice spirituelle|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|gobelin explosif|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|gobelin explosif|imperatrice spirituelle": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bouliste|imperatrice spirituelle|seisme": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chauves-souris|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gel|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|golem d'elixir|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electrocution|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|chauves-souris": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|chauves-souris|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chauves-souris|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gel|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electrocution|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chauves-souris|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chauves-souris|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|chauves-souris|electrocution": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|gel|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electrocution|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "chauves-souris|electrocution|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|golem d'elixir|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|gel|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|golem d'elixir|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|electrocution|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|golem d'elixir|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|golem d'elixir|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "golem d'elixir|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|golem d'elixir|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gel|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|golem d'elixir|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|electrocution|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|golem d'elixir|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|gel|golem d'elixir": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|golem d'elixir|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|gel|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|electrocution|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|cage gobeline|electrocution": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|gel|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|electrocution|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "bebe dragon|electrocution|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gel|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|electrocution|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "gel|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|gel|princesse": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|princesse|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|gel|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|electrocution|gel": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "cage gobeline|electrocution|tornade": {
+        "wins": 0,
+        "losses": 1,
+        "total": 1
+    },
+    "electrocution|gel|tornade": {
         "wins": 0,
         "losses": 1,
         "total": 1
