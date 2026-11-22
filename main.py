@@ -3,6 +3,8 @@ import sys
 
 from PySide6.QtWidgets import *
 from PySide6.QtCore import *
+from PySide6.QtGui import QPixmap
+from pathlib import Path
 
 from ia_CR import *
 from pull_deck import tirage_aleatoire
@@ -214,10 +216,7 @@ class MainWindow(QMainWindow):
 
         layout.addWidget(self.generate_button)
 
-        # =============================
-        # ONGLETS
-        # =============================
-
+        # Onglets
         self.generator_tabs = QTabWidget()
 
         self.result_tab = self.create_result_tab()
@@ -361,14 +360,10 @@ class MainWindow(QMainWindow):
             if i < len(self.current_deck.deck):
 
                 card = self.current_deck.deck[i]
-
-                label.setText(
-                    CARDS_STATIC.data[card.nom]["name"][
-                        self.main.setting.lang
-                    ]
-                )
+                self.display_card(label, card, i)
 
             else:
+                label.clear()
                 label.setText("Empty")
 
         # Réinitialisation des résultats
@@ -501,6 +496,56 @@ class MainWindow(QMainWindow):
     def show_multiple_decks(self):
 
         self.pages.setCurrentWidget(self.multiple_decks_page)
+
+    def display_card(self, label, card, index):
+
+        card_data = CARDS_STATIC.data[card.nom]
+
+        # Choix de l'image selon le type de carte
+        image_data = card_data.get("image", {})
+
+        if index == 0 and card_data.get("evolution", False):
+            image_path = image_data.get("evolution")
+        elif index == 1 and card_data.get("heros", False):
+            image_path = image_data.get("heros")
+        elif index == 2 and (card_data.get("evolution", False) or card_data.get("heros", False)):
+            if card_data.get("evolution", False) and card_data.get("heros", False):
+                image_path = image_data.get(random.choice(["evolution", "heros"]))
+            elif card_data.get("evolution", False):
+                image_path = image_data.get("evolution")
+            else:
+                image_path = image_data.get("heros")
+        else:
+            image_path = image_data.get("normal")
+
+        # Réinitialisation
+        label.clear()
+
+        # Tentative de chargement de l'image
+        if image_path:
+
+            # Chemin relatif au dossier du projet
+            base_path = Path(__file__).resolve().parent
+            image_path = (base_path / image_path).resolve()
+
+            pixmap = QPixmap(str(image_path))
+
+            if not pixmap.isNull():
+
+                label.setPixmap(
+                    pixmap.scaled(
+                        label.size(),
+                        Qt.KeepAspectRatio,
+                        Qt.SmoothTransformation
+                    )
+                )
+
+                return
+
+        # Image inexistante : affichage du nom
+        label.setText(
+            card_data["name"][self.main.setting.lang]
+        )
 
 if __name__ == "__main__":
 
